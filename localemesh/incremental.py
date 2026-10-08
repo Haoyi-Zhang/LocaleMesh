@@ -170,6 +170,8 @@ def check_owner(owner, read):
         resolve_or_report(owner, 'REDIRECT_TARGET', 'redirect')
         if sitemap is not None and not spec.get('sitemap', False):
             report('SITEMAP_REDIRECT', 'sitemap')
+        if spec.get('sitemap', False) and sitemap is None:
+            report('SITEMAP_MISSING', 'sitemap')
         return found
     if actual.get('redirect') or actual.get('status', 200) not in range(200, 300):
         report('ROUTE_STATE')

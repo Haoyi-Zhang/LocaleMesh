@@ -47,9 +47,13 @@ def table(columns, headings, rows):
 
 
 def main():
+    global PAPER
     parser = argparse.ArgumentParser()
     parser.add_argument("--plots", action="store_true")
+    parser.add_argument('--paper-dir', type=Path, default=PAPER)
+    parser.add_argument('--font-file', type=Path)
     args = parser.parse_args()
+    PAPER = args.paper_dir
 
     summaries = []
     memory = []
@@ -224,6 +228,14 @@ def main():
     if args.plots:
         import matplotlib
         matplotlib.use("Agg")
+        from matplotlib import font_manager
+        if args.font_file is not None:
+            font_manager.fontManager.addfont(str(args.font_file))
+            matplotlib.rcParams['font.family'] = font_manager.FontProperties(fname=str(args.font_file)).get_name()
+        else:
+            matplotlib.rcParams['font.family'] = 'serif'
+            matplotlib.rcParams['font.serif'] = ['Linux Libertine O', 'Liberation Serif', 'DejaVu Serif']
+        matplotlib.rcParams['pdf.fonttype'] = 42
         import matplotlib.pyplot as plt
 
         for kind, filename in (("global_link_policy", "sliced-policy"), ("hub_status", "sliced-status")):

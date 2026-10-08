@@ -11,7 +11,7 @@ Complete normalized snapshot difference plus validated transaction and complete 
 | Hub canonical | 214.92 | 0.10 | 0.07 | 87.45 | 2.46 | 1 |
 | Hub status | 218.67 | 761.25 | 225.40 | 292.55 | 0.75 | 10,005 |
 
-Twelve alternating paired updates per change and scale; rotating full/core execution order and alternating validated transaction order. Medians and inclusive IQRs are process observations, not independent-site estimates.
+Twelve alternating paired updates per change and scale; rotating full/core execution order; validated-engine repetition blocks rotate across change kinds. Medians and inclusive IQRs are process observations, not independent-site estimates.
 
 Recursive retained-object measurements include each cache's owned fact copy and use identity-deduplicated sys.getsizeof over cache roots; the caller's input, process RSS and browser memory are excluded.
 

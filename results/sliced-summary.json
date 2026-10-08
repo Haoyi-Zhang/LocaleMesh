@@ -2150,7 +2150,7 @@
     "StateSpaceStates": "5,120",
     "StateSpaceTransitions": "5,119"
   },
-  "uncertainty": "Twelve alternating paired updates per change and scale; rotating full/core execution order and alternating validated transaction order. Medians and inclusive IQRs are process observations, not independent-site estimates.",
+  "uncertainty": "Twelve alternating paired updates per change and scale; rotating full/core execution order; validated-engine repetition blocks rotate across change kinds. Medians and inclusive IQRs are process observations, not independent-site estimates.",
   "memory_scope": "Recursive retained-object measurements include each cache's owned fact copy and use identity-deduplicated sys.getsizeof over cache roots; the caller's input, process RSS and browser memory are excluded.",
   "measurement_scope": "Complete normalized snapshot difference plus validated transaction and complete issue materialization. HTML parsing, framework builds and event acquisition are excluded."
 }

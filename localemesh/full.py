@@ -90,6 +90,8 @@ def evaluate(facts: FactMap) -> set[Issue]:
             reachable(route, route, 'REDIRECT_TARGET', 'redirect')
             if sm_present and not m.get('sitemap', False):
                 emit('SITEMAP_REDIRECT', route, 'sitemap')
+            if m.get('sitemap', False) and not sm_present:
+                emit('SITEMAP_MISSING', route, 'sitemap')
             continue
         if o.get('redirect') or not 200 <= o.get('status', 200) < 300:
             emit('ROUTE_STATE', route)

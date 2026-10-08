@@ -130,6 +130,8 @@ def check_shard(owner: str, shard: str, read) -> set[Issue]:
             _resolve(read, cfg, found, owner, owner, "REDIRECT_TARGET", "redirect")
             if sitemap is not None and not spec.get("sitemap", False):
                 _report(found, owner, "SITEMAP_REDIRECT", "sitemap")
+            if spec.get("sitemap", False) and sitemap is None:
+                _report(found, owner, "SITEMAP_MISSING", "sitemap")
         return found
 
     context = _context(read, owner)
