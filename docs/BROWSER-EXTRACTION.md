@@ -6,7 +6,14 @@ Input strings are parsed inertly from an `about:blank` context and are never nav
 
 Because DOMParser uses its context's document URL, URL references are normalized against the explicitly supplied response URL and first eligible base. This also means the comparison is not an independent test of the common URI normalizer. The selected profile excludes template content, non-HTML namespace nodes and noscript descendants; noscript introduces a diagnostic rather than an invented scripting mode. It selects document language, content markers, head canonicals/alternates, anchors and supported zero-delay refreshes. It does not execute client hydration, Liquid, routing middleware or translation logic.
 
-The benchmark's 30 boundary cases include recovery, raw text, templates, foreign content, duplicate attributes, relative bases, qualified links and conflicting content markers. Five selected-fact differences from the lightweight parser are all diagnosed by that parser. Eighteen native results also have literal expected canonical outputs. All 53 retained Pandoc outputs agree on selected facts, and all 11 actual compiled release-gate results agree. These are correlated inputs, not additional independent sites.
+The retained native benchmark's 30 boundary cases include recovery, raw text, templates, foreign content, duplicate attributes, relative bases, qualified links and conflicting content markers. Selected facts match in 25/30 cases; the five differences from the lightweight parser are all diagnosed by that parser. Eighteen native results also have literal expected canonical outputs. All 53 retained Pandoc outputs agree on selected facts, and all 11 actual compiled release-gate results agree in that retained run. These are correlated inputs, not additional independent sites.
+
+The current offline projection in `results/local-validation/tree-projection.json`
+reports 26/30 matching boundary cases against retained browser-tree facts.
+The nested_raw_title case changes from a difference to a match; noscript remains
+a diagnostic boundary. The record explicitly says `new_browser_execution=false`
+and excludes the 53 compiled-output checks and 11 native-gate checks from
+reanalysis. This offline result is not a current-version Chromium regression run.
 
 To run the comparison after rebuilding the Pandoc cases:
 

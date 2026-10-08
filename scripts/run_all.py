@@ -62,7 +62,7 @@ stages.extend([
     ("sliced-analysis", [PYTHON, "scripts/analyze_sliced.py", "--plots"]),
     ("reference-audit", [PYTHON, "scripts/audit_references.py"]),
     ("result-audit", [PYTHON, "scripts/audit_results.py"]),
-    ("paper-build", ["bash", "../paper/build.sh"]),
+    ("paper-build", [PYTHON, "../paper/build.py"]),
     ("pdf-preflight", [PYTHON, "scripts/pdf_preflight.py"]),
 ])
 
