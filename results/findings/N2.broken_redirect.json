@@ -1,0 +1,26 @@
+{
+  "site": "N2",
+  "case": "broken_redirect",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://en.n2.test/item-0000/old/",
+      "channel": "redirect",
+      "detail": "https://en.n2.test/item-0000/old/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://en.n2.test/item-0000/old/",
+      "https://en.n2.test/item-0000/missing/"
+    ]
+  ],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

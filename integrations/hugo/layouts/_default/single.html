@@ -1,0 +1,4 @@
+<!doctype html><html lang="{{ .Language.Lang }}"><head><meta charset="utf-8">
+<title>{{ .Title }}</title><link rel="canonical" href="{{ .Permalink }}">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+</head><body><main data-content-key="{{ .Params.content_key }}"><h1>{{ .Title }}</h1>{{ .Content }}</main></body></html>

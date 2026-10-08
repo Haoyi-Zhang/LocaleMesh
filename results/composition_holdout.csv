@@ -1,0 +1,97 @@
+site,case,label,operations,agreement,projected_agreement,transaction_agreement,coalesced_agreement,coalesced_transaction_agreement,sliced_agreement,sliced_transaction_agreement,sliced_invalidated_readers,expected_outcome,release_findings,changed_facts,invalidated_owners,invalidation_ns,update_ns,dependency_edges
+A1,C01,clean,"[[""partial_coverage"", 6], [""route_alias_allowed"", 9], [""fallback_allowed"", 0]]",1,1,1,1,1,1,1,13,1,0,15,24,35162,649448,198
+A1,C02,defect,"[[""redirect_alias_allowed"", 3], [""route_alias_allowed"", 0], [""redirect_alias_allowed"", 9], [""wrong_html_locale"", 6]]",1,1,1,1,1,1,1,16,1,1,19,26,24486,658221,226
+A1,C03,clean,"[[""redirect_alias_allowed"", 6], [""fallback_allowed"", 3], [""partial_coverage"", 0]]",1,1,1,1,1,1,1,15,1,0,20,27,23024,943663,203
+A1,C04,defect,"[[""redirect_alias_allowed"", 6], [""fallback_allowed"", 3], [""cross_locale_canonical_allowed"", 0], [""key_reassigned"", 9]]",1,1,1,1,1,1,1,7,1,3,7,6,7211,194347,209
+A1,C05,clean,"[[""route_alias_allowed"", 6], [""route_alias_allowed"", 9], [""partial_coverage"", 0]]",1,1,1,1,1,1,1,20,1,0,23,25,21713,586496,210
+A1,C06,defect,"[[""route_alias_allowed"", 9], [""fallback_allowed"", 0], [""partial_coverage"", 6], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,15,1,3,16,24,17396,552706,198
+A1,C07,clean,"[[""missing_translation_allowed"", 9], [""partial_coverage"", 6], [""route_alias_allowed"", 0]]",1,1,1,1,1,1,1,20,1,0,18,24,21431,601587,197
+A1,C08,defect,"[[""partial_coverage"", 0], [""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 9], [""missing_required_alternate"", 6]]",1,1,1,1,1,1,1,14,1,2,18,24,18778,591894,207
+A1,C09,clean,"[[""cross_locale_canonical_allowed"", 0], [""missing_translation_allowed"", 6], [""fallback_allowed"", 3]]",1,1,1,1,1,1,1,22,1,0,21,24,26449,621227,191
+A1,C10,defect,"[[""route_alias_allowed"", 6], [""partial_coverage"", 9], [""optional_xdefault"", 0], [""removed_stale"", 3]]",1,1,1,1,1,1,1,15,1,2,18,23,17907,569170,199
+A1,C11,clean,"[[""fallback_allowed"", 3], [""cross_locale_canonical_allowed"", 0], [""redirect_alias_allowed"", 9]]",1,1,1,1,1,1,1,11,1,0,16,24,20650,570542,209
+A1,C12,defect,"[[""fallback_allowed"", 0], [""route_alias_allowed"", 6], [""fallback_allowed"", 3], [""missing_required_alternate"", 9]]",1,1,1,1,1,1,1,14,1,2,14,24,17325,513047,189
+A1,C13,clean,"[[""cross_locale_canonical_allowed"", 9], [""missing_translation_allowed"", 6], [""fallback_allowed"", 3]]",1,1,1,1,1,1,1,19,1,0,18,23,15012,484484,191
+A1,C14,defect,"[[""partial_coverage"", 9], [""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 0], [""removed_stale"", 6]]",1,1,1,1,1,1,1,16,1,2,18,23,17586,576591,199
+A1,C15,clean,"[[""route_alias_allowed"", 9], [""redirect_alias_allowed"", 0], [""redirect_alias_allowed"", 3]]",1,1,1,1,1,1,1,17,1,0,19,26,19098,589600,226
+A1,C16,defect,"[[""fallback_allowed"", 3], [""route_alias_allowed"", 0], [""partial_coverage"", 6], [""missing_route"", 9]]",1,1,1,1,1,1,1,18,1,4,22,26,23244,573947,192
+A2,C01,clean,"[[""optional_xdefault"", 3], [""optional_xdefault"", 6], [""missing_translation_allowed"", 9]]",1,1,1,1,1,1,1,27,1,0,16,13,30495,498756,465
+A2,C02,defect,"[[""cross_locale_canonical_allowed"", 6], [""missing_translation_allowed"", 0], [""redirect_alias_allowed"", 3], [""missing_route"", 9]]",1,1,1,1,1,1,1,35,1,5,26,19,35292,710568,462
+A2,C03,clean,"[[""fallback_allowed"", 0], [""route_alias_allowed"", 9], [""partial_coverage"", 3]]",1,1,1,1,1,1,1,26,1,0,20,48,62893,2045298,458
+A2,C04,defect,"[[""fallback_allowed"", 3], [""fallback_allowed"", 0], [""missing_translation_allowed"", 9], [""removed_stale"", 6]]",1,1,1,1,1,1,1,30,1,3,21,47,25548,1354909,424
+A2,C05,clean,"[[""redirect_alias_allowed"", 9], [""partial_coverage"", 6], [""missing_translation_allowed"", 3]]",1,1,1,1,1,1,1,39,1,0,29,19,27210,719862,462
+A2,C06,defect,"[[""fallback_allowed"", 9], [""partial_coverage"", 0], [""fallback_allowed"", 6], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,42,1,5,32,20,29703,1478551,444
+A2,C07,clean,"[[""fallback_allowed"", 3], [""fallback_allowed"", 6], [""fallback_allowed"", 9]]",1,1,1,1,1,1,1,19,1,0,14,9,25838,393361,438
+A2,C08,defect,"[[""partial_coverage"", 6], [""redirect_alias_allowed"", 0], [""redirect_alias_allowed"", 3], [""wrong_html_locale"", 9]]",1,1,1,1,1,1,1,35,1,1,28,17,32598,685471,482
+A2,C09,clean,"[[""partial_coverage"", 3], [""redirect_alias_allowed"", 9], [""missing_translation_allowed"", 6]]",1,1,1,1,1,1,1,19,1,0,18,14,17957,388243,462
+A2,C10,defect,"[[""partial_coverage"", 6], [""route_alias_allowed"", 0], [""route_alias_allowed"", 9], [""removed_stale"", 3]]",1,1,1,1,1,1,1,37,1,3,25,49,27340,1436309,459
+A2,C11,clean,"[[""missing_translation_allowed"", 9], [""cross_locale_canonical_allowed"", 0], [""fallback_allowed"", 6]]",1,1,1,1,1,1,1,40,1,0,27,48,32548,1408779,451
+A2,C12,defect,"[[""missing_translation_allowed"", 6], [""optional_xdefault"", 3], [""redirect_alias_allowed"", 9], [""wrong_html_locale"", 0]]",1,1,1,1,1,1,1,27,1,1,21,18,94740,909151,470
+A2,C13,clean,"[[""partial_coverage"", 6], [""missing_translation_allowed"", 3], [""fallback_allowed"", 0]]",1,1,1,1,1,1,1,30,1,0,23,15,37014,570872,443
+A2,C14,defect,"[[""partial_coverage"", 3], [""redirect_alias_allowed"", 0], [""missing_translation_allowed"", 6], [""wrong_html_locale"", 9]]",1,1,1,1,1,1,1,27,1,1,21,17,24216,597572,462
+A2,C15,clean,"[[""cross_locale_canonical_allowed"", 9], [""redirect_alias_allowed"", 6], [""route_alias_allowed"", 0]]",1,1,1,1,1,1,1,32,1,0,27,50,32819,1737844,485
+A2,C16,defect,"[[""redirect_alias_allowed"", 0], [""redirect_alias_allowed"", 3], [""route_alias_allowed"", 9], [""missing_required_alternate"", 6]]",1,1,1,1,1,1,1,25,1,3,19,51,23915,1588824,490
+H1,C01,clean,"[[""partial_coverage"", 9], [""cross_locale_canonical_allowed"", 0], [""fallback_allowed"", 6]]",1,1,1,1,1,1,1,23,1,0,17,14,34431,612865,1306
+H1,C02,defect,"[[""route_alias_allowed"", 0], [""fallback_allowed"", 6], [""partial_coverage"", 3], [""removed_stale"", 9]]",1,1,1,1,1,1,1,33,1,3,21,95,41852,2803537,1286
+H1,C03,clean,"[[""optional_xdefault"", 3], [""cross_locale_canonical_allowed"", 9], [""redirect_alias_allowed"", 0]]",1,1,1,1,1,1,1,42,1,0,26,97,36905,2601869,1349
+H1,C04,defect,"[[""route_alias_allowed"", 9], [""route_alias_allowed"", 3], [""redirect_alias_allowed"", 6], [""key_reassigned"", 0]]",1,1,1,1,1,1,1,28,1,5,18,98,32868,2656229,1349
+H1,C05,clean,"[[""redirect_alias_allowed"", 0], [""fallback_allowed"", 9], [""route_alias_allowed"", 6]]",1,1,1,1,1,1,1,40,1,0,25,98,42652,3696624,1327
+H1,C06,defect,"[[""route_alias_allowed"", 3], [""fallback_allowed"", 0], [""partial_coverage"", 9], [""wrong_html_locale"", 6]]",1,1,1,1,1,1,1,47,1,1,30,97,46709,2497044,1306
+H1,C07,clean,"[[""partial_coverage"", 9], [""cross_locale_canonical_allowed"", 6], [""missing_translation_allowed"", 0]]",1,1,1,1,1,1,1,19,1,0,13,95,34732,2480450,1305
+H1,C08,defect,"[[""route_alias_allowed"", 0], [""optional_xdefault"", 9], [""fallback_allowed"", 6], [""missing_required_alternate"", 3]]",1,1,1,1,1,1,1,40,1,2,26,96,40940,2475713,1318
+H1,C09,clean,"[[""cross_locale_canonical_allowed"", 9], [""optional_xdefault"", 6], [""partial_coverage"", 0]]",1,1,1,1,1,1,1,38,1,0,23,96,37565,2499228,1328
+H1,C10,defect,"[[""missing_translation_allowed"", 6], [""cross_locale_canonical_allowed"", 0], [""partial_coverage"", 9], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,38,1,5,26,18,31216,624872,1305
+H1,C11,clean,"[[""redirect_alias_allowed"", 6], [""redirect_alias_allowed"", 3], [""route_alias_allowed"", 9]]",1,1,1,1,1,1,1,31,1,0,26,98,43084,2608068,1354
+H1,C12,defect,"[[""fallback_allowed"", 0], [""cross_locale_canonical_allowed"", 3], [""cross_locale_canonical_allowed"", 9], [""key_reassigned"", 6]]",1,1,1,1,1,1,1,32,1,5,25,98,38046,2331790,1322
+H1,C13,clean,"[[""fallback_allowed"", 6], [""partial_coverage"", 0], [""route_alias_allowed"", 9]]",1,1,1,1,1,1,1,38,1,0,27,96,39138,2549292,1306
+H1,C14,defect,"[[""route_alias_allowed"", 0], [""route_alias_allowed"", 9], [""fallback_allowed"", 3], [""removed_stale"", 6]]",1,1,1,1,1,1,1,30,1,3,22,95,38376,2458818,1302
+H1,C15,clean,"[[""missing_translation_allowed"", 9], [""fallback_allowed"", 6], [""route_alias_allowed"", 3]]",1,1,1,1,1,1,1,43,1,0,28,95,42212,2435313,1299
+H1,C16,defect,"[[""fallback_allowed"", 9], [""optional_xdefault"", 6], [""route_alias_allowed"", 0], [""missing_route"", 3]]",1,1,1,1,1,1,1,38,1,5,24,95,41952,2836766,1307
+H2,C01,clean,"[[""redirect_alias_allowed"", 3], [""redirect_alias_allowed"", 0], [""partial_coverage"", 9]]",1,1,1,1,1,1,1,14,1,0,13,8,26779,415934,2094
+H2,C02,defect,"[[""redirect_alias_allowed"", 9], [""fallback_allowed"", 6], [""partial_coverage"", 3], [""key_reassigned"", 0]]",1,1,1,1,1,1,1,47,1,9,38,25,163772,1379746,2067
+H2,C03,clean,"[[""optional_xdefault"", 6], [""optional_xdefault"", 3], [""missing_translation_allowed"", 9]]",1,1,1,1,1,1,1,48,1,0,36,24,47170,1450490,2077
+H2,C04,defect,"[[""optional_xdefault"", 0], [""route_alias_allowed"", 9], [""optional_xdefault"", 3], [""key_reassigned"", 6]]",1,1,1,1,1,1,1,39,1,9,27,150,59357,8428517,2100
+H2,C05,clean,"[[""cross_locale_canonical_allowed"", 0], [""optional_xdefault"", 6], [""missing_translation_allowed"", 3]]",1,1,1,1,1,1,1,53,1,0,35,150,70764,7073368,2077
+H2,C06,defect,"[[""redirect_alias_allowed"", 0], [""optional_xdefault"", 6], [""route_alias_allowed"", 3], [""removed_stale"", 9]]",1,1,1,1,1,1,1,26,1,5,20,151,47890,7397425,2085
+H2,C07,clean,"[[""route_alias_allowed"", 0], [""missing_translation_allowed"", 9], [""cross_locale_canonical_allowed"", 3]]",1,1,1,1,1,1,1,49,1,0,31,150,65496,7042301,2077
+H2,C08,defect,"[[""partial_coverage"", 9], [""optional_xdefault"", 6], [""route_alias_allowed"", 0], [""wrong_canonical"", 3]]",1,1,1,1,1,1,1,21,1,1,14,16,26739,906878,2084
+H2,C09,clean,"[[""partial_coverage"", 3], [""route_alias_allowed"", 9], [""missing_translation_allowed"", 6]]",1,1,1,1,1,1,1,54,1,0,38,150,80799,9760333,2061
+H2,C10,defect,"[[""fallback_allowed"", 0], [""partial_coverage"", 9], [""redirect_alias_allowed"", 6], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,56,1,9,46,151,92547,7666943,2067
+H2,C11,clean,"[[""route_alias_allowed"", 3], [""redirect_alias_allowed"", 6], [""fallback_allowed"", 0]]",1,1,1,1,1,1,1,25,1,0,20,150,54851,7300013,2083
+H2,C12,defect,"[[""missing_translation_allowed"", 3], [""redirect_alias_allowed"", 0], [""missing_translation_allowed"", 9], [""missing_route"", 6]]",1,1,1,1,1,1,1,51,1,7,39,152,78495,7152794,2044
+H2,C13,clean,"[[""optional_xdefault"", 6], [""redirect_alias_allowed"", 0], [""missing_translation_allowed"", 9]]",1,1,1,1,1,1,1,30,1,0,17,13,36314,837235,2082
+H2,C14,defect,"[[""optional_xdefault"", 0], [""cross_locale_canonical_allowed"", 6], [""optional_xdefault"", 3], [""key_reassigned"", 9]]",1,1,1,1,1,1,1,53,1,9,32,26,56503,1719938,2100
+H2,C15,clean,"[[""cross_locale_canonical_allowed"", 9], [""cross_locale_canonical_allowed"", 0], [""partial_coverage"", 3]]",1,1,1,1,1,1,1,32,1,0,22,20,41742,1221873,2084
+H2,C16,defect,"[[""cross_locale_canonical_allowed"", 6], [""fallback_allowed"", 0], [""partial_coverage"", 3], [""wrong_canonical"", 9]]",1,1,1,1,1,1,1,18,1,1,16,16,32538,859368,2062
+N1,C01,clean,"[[""redirect_alias_allowed"", 3], [""missing_translation_allowed"", 0], [""route_alias_allowed"", 9]]",1,1,1,1,1,1,1,19,1,0,16,241,51706,11231834,2866
+N1,C02,defect,"[[""fallback_allowed"", 9], [""missing_translation_allowed"", 3], [""redirect_alias_allowed"", 0], [""missing_route"", 6]]",1,1,1,1,1,1,1,39,1,7,33,242,230751,12224989,2837
+N1,C03,clean,"[[""cross_locale_canonical_allowed"", 6], [""route_alias_allowed"", 9], [""optional_xdefault"", 3]]",1,1,1,1,1,1,1,32,1,0,23,241,72477,11062193,2880
+N1,C04,defect,"[[""cross_locale_canonical_allowed"", 0], [""optional_xdefault"", 6], [""missing_translation_allowed"", 9], [""wrong_html_locale"", 3]]",1,1,1,1,1,1,1,26,1,1,19,240,83493,10946602,2861
+N1,C05,clean,"[[""cross_locale_canonical_allowed"", 0], [""redirect_alias_allowed"", 6], [""route_alias_allowed"", 9]]",1,1,1,1,1,1,1,19,1,0,16,241,49764,10855999,2885
+N1,C06,defect,"[[""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 6], [""route_alias_allowed"", 0], [""removed_stale"", 9]]",1,1,1,1,1,1,1,28,1,5,21,241,81850,10796701,2864
+N1,C07,clean,"[[""route_alias_allowed"", 0], [""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 9]]",1,1,1,1,1,1,1,18,1,0,12,240,51085,10920524,2880
+N1,C08,defect,"[[""cross_locale_canonical_allowed"", 9], [""redirect_alias_allowed"", 3], [""cross_locale_canonical_allowed"", 0], [""wrong_canonical"", 6]]",1,1,1,1,1,1,1,19,1,1,16,241,60390,10914616,2885
+N1,C09,clean,"[[""missing_translation_allowed"", 6], [""optional_xdefault"", 3], [""cross_locale_canonical_allowed"", 0]]",1,1,1,1,1,1,1,20,1,0,16,18,39208,1018483,2861
+N1,C10,defect,"[[""fallback_allowed"", 0], [""optional_xdefault"", 9], [""missing_translation_allowed"", 3], [""wrong_canonical"", 6]]",1,1,1,1,1,1,1,40,1,1,30,27,68461,1488336,2843
+N1,C11,clean,"[[""missing_translation_allowed"", 6], [""cross_locale_canonical_allowed"", 9], [""optional_xdefault"", 0]]",1,1,1,1,1,1,1,41,1,0,31,27,73248,1508065,2861
+N1,C12,defect,"[[""optional_xdefault"", 3], [""cross_locale_canonical_allowed"", 6], [""fallback_allowed"", 0], [""key_reassigned"", 9]]",1,1,1,1,1,1,1,34,1,9,25,24,57295,1516889,2862
+N1,C13,clean,"[[""partial_coverage"", 9], [""route_alias_allowed"", 3], [""fallback_allowed"", 6]]",1,1,1,1,1,1,1,37,1,0,31,240,81190,11773373,2850
+N1,C14,defect,"[[""fallback_allowed"", 0], [""partial_coverage"", 9], [""fallback_allowed"", 6], [""missing_route"", 3]]",1,1,1,1,1,1,1,17,1,7,14,239,49963,10951720,2821
+N1,C15,clean,"[[""cross_locale_canonical_allowed"", 6], [""missing_translation_allowed"", 0], [""missing_translation_allowed"", 3]]",1,1,1,1,1,1,1,28,1,0,28,26,63003,1805404,2842
+N1,C16,defect,"[[""route_alias_allowed"", 6], [""fallback_allowed"", 3], [""fallback_allowed"", 9], [""missing_required_alternate"", 0]]",1,1,1,1,1,1,1,35,1,3,29,239,82221,11554259,2844
+N2,C01,clean,"[[""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 9], [""route_alias_allowed"", 6]]",1,1,1,1,1,1,1,9,1,0,11,360,56142,12196305,4320
+N2,C02,defect,"[[""route_alias_allowed"", 6], [""fallback_allowed"", 0], [""redirect_alias_allowed"", 9], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,20,1,5,20,361,92356,13560179,4307
+N2,C03,clean,"[[""optional_xdefault"", 3], [""missing_translation_allowed"", 0], [""partial_coverage"", 6]]",1,1,1,1,1,1,1,13,1,0,21,360,151354,12813527,4289
+N2,C04,defect,"[[""optional_xdefault"", 0], [""route_alias_allowed"", 3], [""optional_xdefault"", 9], [""removed_stale"", 6]]",1,1,1,1,1,1,1,25,1,3,25,360,103803,12837072,4304
+N2,C05,clean,"[[""partial_coverage"", 6], [""cross_locale_canonical_allowed"", 3], [""partial_coverage"", 9]]",1,1,1,1,1,1,1,20,1,0,23,360,93798,12159452,4296
+N2,C06,defect,"[[""missing_translation_allowed"", 9], [""optional_xdefault"", 3], [""redirect_alias_allowed"", 6], [""wrong_canonical"", 0]]",1,1,1,1,1,1,1,18,1,1,20,24,56824,1192160,4306
+N2,C07,clean,"[[""cross_locale_canonical_allowed"", 6], [""fallback_allowed"", 0], [""optional_xdefault"", 9]]",1,1,1,1,1,1,1,24,1,0,25,25,70214,1202915,4302
+N2,C08,defect,"[[""cross_locale_canonical_allowed"", 3], [""route_alias_allowed"", 9], [""partial_coverage"", 6], [""missing_required_alternate"", 0]]",1,1,1,1,1,1,1,18,1,2,22,360,102852,17815919,4305
+N2,C09,clean,"[[""optional_xdefault"", 3], [""route_alias_allowed"", 0], [""fallback_allowed"", 6]]",1,1,1,1,1,1,1,21,1,0,22,360,137042,15417740,4302
+N2,C10,defect,"[[""missing_translation_allowed"", 6], [""redirect_alias_allowed"", 9], [""route_alias_allowed"", 0], [""wrong_html_locale"", 3]]",1,1,1,1,1,1,1,8,1,1,10,13,54169,797907,4306
+N2,C11,clean,"[[""route_alias_allowed"", 3], [""missing_translation_allowed"", 0], [""route_alias_allowed"", 6]]",1,1,1,1,1,1,1,24,1,0,25,361,110483,16984106,4301
+N2,C12,defect,"[[""missing_translation_allowed"", 9], [""optional_xdefault"", 6], [""redirect_alias_allowed"", 0], [""key_reassigned"", 3]]",1,1,1,1,1,1,1,29,1,5,32,361,114680,15624495,4306
+N2,C13,clean,"[[""partial_coverage"", 9], [""route_alias_allowed"", 6], [""cross_locale_canonical_allowed"", 3]]",1,1,1,1,1,1,1,20,1,0,18,361,81751,13616232,4308
+N2,C14,defect,"[[""partial_coverage"", 6], [""route_alias_allowed"", 3], [""missing_translation_allowed"", 9], [""wrong_canonical"", 0]]",1,1,1,1,1,1,1,19,1,1,21,360,96352,13630512,4289
+N2,C15,clean,"[[""route_alias_allowed"", 0], [""partial_coverage"", 6], [""cross_locale_canonical_allowed"", 9]]",1,1,1,1,1,1,1,18,1,0,18,360,87338,12515417,4308
+N2,C16,defect,"[[""route_alias_allowed"", 0], [""route_alias_allowed"", 9], [""route_alias_allowed"", 6], [""wrong_html_locale"", 3]]",1,1,1,1,1,1,1,10,1,1,14,360,296518,12482158,4320

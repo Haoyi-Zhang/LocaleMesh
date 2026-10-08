@@ -1,0 +1,105 @@
+{
+  "dimensions": {
+    "target_manifest": [
+      "published",
+      "draft",
+      "removed",
+      "redirect",
+      "absent"
+    ],
+    "target_observation": [
+      "live",
+      "missing",
+      "unavailable",
+      "redirect"
+    ],
+    "source_canonical": [
+      "self",
+      "target",
+      "missing",
+      "external"
+    ],
+    "source_alternate": [
+      "target",
+      "self",
+      "missing",
+      "external"
+    ],
+    "required_target": [
+      false,
+      true
+    ],
+    "reciprocal": [
+      false,
+      true
+    ],
+    "source_sitemap": [
+      false,
+      true
+    ],
+    "check_links": [
+      false,
+      true
+    ]
+  },
+  "states": 5120,
+  "transitions": 5119,
+  "cold_reconstructions": 20,
+  "gray_adjacency": true,
+  "engines": [
+    "record",
+    "projected",
+    "coalesced",
+    "sliced"
+  ],
+  "all_issue_sets_equal": true,
+  "all_sliced_read_unions_equal_coalesced": true,
+  "unique_issue_sets": 350,
+  "states_with_release_issues": 5040,
+  "states_without_release_issues": 80,
+  "issue_code_state_occurrences": {
+    "CANONICAL_MISSING": 1280,
+    "CANONICAL_POLICY": 2560,
+    "CANONICAL_TARGET": 896,
+    "DISCOVERY_LOCALE": 1856,
+    "DISCOVERY_MISSING": 640,
+    "DISCOVERY_PUBLICATION": 192,
+    "DISCOVERY_TARGET": 896,
+    "LINK_TARGET": 1408,
+    "MISSING_ROUTE": 512,
+    "RECIPROCITY": 960,
+    "REDIRECT_POLICY": 512,
+    "REDIRECT_TARGET": 256,
+    "ROUTE_STATE": 512,
+    "SITEMAP_PUBLICATION": 2048,
+    "SITEMAP_REDIRECT": 768,
+    "SITEMAP_TARGET": 2560,
+    "TARGET_IDENTITY_UNKNOWN": 64,
+    "UNDECLARED_ROUTE": 1024,
+    "UNEXPECTED_PUBLICATION": 1536,
+    "UNMOUNTED_TARGET": 2240
+  },
+  "transition_changed_facts": {
+    "min": 1,
+    "median": 1,
+    "max": 2
+  },
+  "coalesced_invalidated_owners": {
+    "min": 1,
+    "median": 1,
+    "max": 2
+  },
+  "sliced_invalidated_owners": {
+    "min": 1,
+    "median": 1,
+    "max": 2
+  },
+  "sliced_invalidated_readers": {
+    "min": 1,
+    "median": 1,
+    "max": 9
+  },
+  "wall_s": 1.8983756919997177,
+  "maxrss_kib": 98592,
+  "scope": "Bounded two-locale state-space exploration over explicit manifest, observation, canonical, discovery, sitemap, reciprocity and link-policy dimensions. It checks implementation agreement and exact read preservation, not real-world prevalence or all possible Web states."
+}

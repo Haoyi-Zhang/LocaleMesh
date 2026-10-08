@@ -1,0 +1,72 @@
+{
+  "site": "A2",
+  "case": "identity_collision",
+  "label": "ambiguity",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "IDENTITY_COLLISION",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "",
+      "detail": "item-0000:en"
+    },
+    {
+      "category": "ambiguity",
+      "code": "IDENTITY_COLLISION",
+      "owner": "https://a2.test/en/item-0000/duplicate/",
+      "channel": "",
+      "detail": "item-0000:en"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "html",
+      "detail": "https://a2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "self"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/en/item-0000/duplicate/",
+      "sitemap",
+      "self"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

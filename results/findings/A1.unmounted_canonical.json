@@ -1,0 +1,26 @@
+{
+  "site": "A1",
+  "case": "unmounted_canonical",
+  "label": "ambiguity",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "UNMOUNTED_TARGET",
+      "owner": "https://a1.test/item-0000/",
+      "channel": "html",
+      "detail": "https://unmounted.invalid/selector/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [
+    [
+      "https://a1.test/item-0000/",
+      "cross-canonical"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

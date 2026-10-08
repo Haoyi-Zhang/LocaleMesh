@@ -1,0 +1,5 @@
+site,origin_kind,routes,locales,channel,release_cases,wall_s
+JH,independent-json-html-emitter,12,"en,de",html,10,0.18170245199962665
+TS,independent-toml-sitemap-emitter,15,"en,fr,de",sitemap,10,0.3059267929993439
+CH,independent-csv-header-emitter,18,"en,ja,de",http,10,0.3189577550001559
+PJ,public-source-adapted-jekyll-frontmatter,8,"en,de,es,fr",html,10,0.1748933750004653

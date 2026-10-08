@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "key": "intro",
+      "locale": "en",
+      "path": "intro",
+      "url": "https://hugo.localemesh.test/intro/",
+      "alternates": {
+        "en": "https://hugo.localemesh.test/intro/",
+        "de": "https://hugo.localemesh.test/de/intro/"
+      },
+      "title": "Intro (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "intro",
+      "locale": "de",
+      "path": "de/intro",
+      "url": "https://hugo.localemesh.test/de/intro/",
+      "alternates": {
+        "en": "https://hugo.localemesh.test/intro/",
+        "de": "https://hugo.localemesh.test/de/intro/"
+      },
+      "title": "Intro (de)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "en",
+      "path": "guide",
+      "url": "https://hugo.localemesh.test/guide/",
+      "alternates": {
+        "en": "https://hugo.localemesh.test/guide/",
+        "de": "https://hugo.localemesh.test/de/guide/"
+      },
+      "title": "Guide (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "de",
+      "path": "de/guide",
+      "url": "https://hugo.localemesh.test/de/guide/",
+      "alternates": {
+        "en": "https://hugo.localemesh.test/guide/",
+        "de": "https://hugo.localemesh.test/de/guide/"
+      },
+      "title": "Guide (de)",
+      "body": "Authored source kit. No industrial release claim."
+    }
+  ]
+}

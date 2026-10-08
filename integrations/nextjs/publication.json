@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "key": "intro",
+      "locale": "en",
+      "path": "en/intro",
+      "url": "https://next.localemesh.test/en/intro/",
+      "alternates": {
+        "en": "https://next.localemesh.test/en/intro/",
+        "de": "https://next.localemesh.test/de/intro/"
+      },
+      "title": "Intro (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "intro",
+      "locale": "de",
+      "path": "de/intro",
+      "url": "https://next.localemesh.test/de/intro/",
+      "alternates": {
+        "en": "https://next.localemesh.test/en/intro/",
+        "de": "https://next.localemesh.test/de/intro/"
+      },
+      "title": "Intro (de)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "en",
+      "path": "en/guide",
+      "url": "https://next.localemesh.test/en/guide/",
+      "alternates": {
+        "en": "https://next.localemesh.test/en/guide/",
+        "de": "https://next.localemesh.test/de/guide/"
+      },
+      "title": "Guide (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "de",
+      "path": "de/guide",
+      "url": "https://next.localemesh.test/de/guide/",
+      "alternates": {
+        "en": "https://next.localemesh.test/en/guide/",
+        "de": "https://next.localemesh.test/de/guide/"
+      },
+      "title": "Guide (de)",
+      "body": "Authored source kit. No industrial release claim."
+    }
+  ]
+}

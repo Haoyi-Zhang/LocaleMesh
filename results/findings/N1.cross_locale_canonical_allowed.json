@@ -1,0 +1,18 @@
+{
+  "site": "N1",
+  "case": "cross_locale_canonical_allowed",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [
+    [
+      "https://n1.test/ja/item-0000/",
+      "cross-canonical"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

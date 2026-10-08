@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "source_kind": "authored-unbuilt-integration",
+  "config": {
+    "origins": {
+      "https://astro.localemesh.test": "."
+    },
+    "locales": [
+      "en",
+      "de"
+    ],
+    "aliases": {},
+    "complete_manifest": false,
+    "check_links": true
+  },
+  "pages": {
+    "https://astro.localemesh.test/intro/": {
+      "key": "intro",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://astro.localemesh.test/intro/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://astro.localemesh.test/de/intro/": {
+      "key": "intro",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://astro.localemesh.test/de/intro/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://astro.localemesh.test/guide/": {
+      "key": "guide",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://astro.localemesh.test/guide/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://astro.localemesh.test/de/guide/": {
+      "key": "guide",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://astro.localemesh.test/de/guide/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    }
+  }
+}

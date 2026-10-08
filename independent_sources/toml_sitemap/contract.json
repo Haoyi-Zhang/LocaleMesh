@@ -1,0 +1,380 @@
+{
+  "schema": 1,
+  "fixture_id": "TS",
+  "origin_kind": "independent-toml-sitemap-emitter",
+  "config": {
+    "origins": {
+      "https://toml.localemesh.test": "."
+    },
+    "aliases": {},
+    "locales": [
+      "en",
+      "fr",
+      "de"
+    ],
+    "complete_manifest": true,
+    "check_links": true
+  },
+  "pages": {
+    "https://toml.localemesh.test/alpha/": {
+      "key": "alpha",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/alpha/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/fr/alpha/": {
+      "key": "alpha",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/fr/alpha/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/de/alpha/": {
+      "key": "alpha",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/de/alpha/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/beta/": {
+      "key": "beta",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/beta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/fr/beta/": {
+      "key": "beta",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/fr/beta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/de/beta/": {
+      "key": "beta",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/de/beta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/gamma/": {
+      "key": "gamma",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/gamma/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/fr/gamma/": {
+      "key": "gamma",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/fr/gamma/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/de/gamma/": {
+      "key": "gamma",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/de/gamma/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/delta/": {
+      "key": "delta",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/delta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/fr/delta/": {
+      "key": "delta",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/fr/delta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/de/delta/": {
+      "key": "delta",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/de/delta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/epsilon/": {
+      "key": "epsilon",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/epsilon/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/fr/epsilon/": {
+      "key": "epsilon",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/fr/epsilon/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://toml.localemesh.test/de/epsilon/": {
+      "key": "epsilon",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://toml.localemesh.test/de/epsilon/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "sitemap": {
+          "required": [
+            "en",
+            "fr",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    }
+  }
+}

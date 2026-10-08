@@ -1,0 +1,100 @@
+{
+  "site": "H1",
+  "case": "rename_stale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://h1.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://h1.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://h1.test/de/item-0031/",
+      "channel": "html",
+      "detail": "https://h1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://h1.test/de/item-0031/",
+      "https://h1.test/de/item-0000/"
+    ]
+  ],
+  "html": [],
+  "joint": [
+    [
+      "https://h1.test/de/item-0000-renamed/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://h1.test/de/item-0000-renamed/",
+      "sitemap",
+      "self"
+    ],
+    [
+      "https://h1.test/de/item-0000-renamed/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://h1.test/de/item-0031/",
+      "html",
+      "link"
+    ],
+    [
+      "https://h1.test/fr/item-0000/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "sitemap",
+      "target"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://h1.test/de/item-0031/",
+      "channel": "html",
+      "detail": "https://h1.test/de/item-0000/"
+    }
+  ]
+}

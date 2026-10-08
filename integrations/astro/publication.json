@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "key": "intro",
+      "locale": "en",
+      "path": "intro",
+      "url": "https://astro.localemesh.test/intro/",
+      "alternates": {
+        "en": "https://astro.localemesh.test/intro/",
+        "de": "https://astro.localemesh.test/de/intro/"
+      },
+      "title": "Intro (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "intro",
+      "locale": "de",
+      "path": "de/intro",
+      "url": "https://astro.localemesh.test/de/intro/",
+      "alternates": {
+        "en": "https://astro.localemesh.test/intro/",
+        "de": "https://astro.localemesh.test/de/intro/"
+      },
+      "title": "Intro (de)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "en",
+      "path": "guide",
+      "url": "https://astro.localemesh.test/guide/",
+      "alternates": {
+        "en": "https://astro.localemesh.test/guide/",
+        "de": "https://astro.localemesh.test/de/guide/"
+      },
+      "title": "Guide (en)",
+      "body": "Authored source kit. No industrial release claim."
+    },
+    {
+      "key": "guide",
+      "locale": "de",
+      "path": "de/guide",
+      "url": "https://astro.localemesh.test/de/guide/",
+      "alternates": {
+        "en": "https://astro.localemesh.test/guide/",
+        "de": "https://astro.localemesh.test/de/guide/"
+      },
+      "title": "Guide (de)",
+      "body": "Authored source kit. No industrial release claim."
+    }
+  ]
+}

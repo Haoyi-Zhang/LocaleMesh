@@ -1,0 +1,56 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "offline_only": true,
+  "probes": [
+    {
+      "command": [
+        "npm",
+        "install",
+        "--offline",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "npm error code ENOTCACHED\nnpm error request to https://registry.npmjs.org/astro failed: cache mode is 'only-if-cached' but no cached response is available.\nnpm error A complete log of this run can be found in: /home/oai/.npm/_logs/2026-10-08T07_42_54_273Z-debug-0.log\n",
+      "wall_s": 0.24606626100012363,
+      "family": "astro",
+      "mode": "offline package-resolution probe in an isolated temporary directory",
+      "native_status": "NOT_EXECUTED_DEPENDENCIES_UNAVAILABLE"
+    },
+    {
+      "command": [
+        "hugo",
+        "version"
+      ],
+      "error": "[Errno 2] No such file or directory: 'hugo'",
+      "wall_s": 0.0005657049996443675,
+      "family": "hugo",
+      "mode": "installed executable version probe",
+      "native_status": "NOT_EXECUTED_DEPENDENCIES_UNAVAILABLE"
+    },
+    {
+      "command": [
+        "npm",
+        "install",
+        "--offline",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "npm error code ENOTCACHED\nnpm error request to https://registry.npmjs.org/next failed: cache mode is 'only-if-cached' but no cached response is available.\nnpm error A complete log of this run can be found in: /home/oai/.npm/_logs/2026-10-08T07_42_54_521Z-debug-0.log\n",
+      "wall_s": 0.23788115799925436,
+      "family": "nextjs",
+      "mode": "offline package-resolution probe in an isolated temporary directory",
+      "native_status": "NOT_EXECUTED_DEPENDENCIES_UNAVAILABLE"
+    }
+  ],
+  "successful_native_builds": 0,
+  "scope": "Availability probe only. A source kit, cached dependency, or installed executable is not counted as a native build; successful build-and-check evidence must come from build_integration.py and is absent here."
+}

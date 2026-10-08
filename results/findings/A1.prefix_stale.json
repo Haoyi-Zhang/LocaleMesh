@@ -1,0 +1,989 @@
+{
+  "site": "A1",
+  "case": "prefix_stale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0001/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0001/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0002/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0002/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0003/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0003/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0004/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0004/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0005/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0005/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0006/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0006/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0007/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0007/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0008/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0008/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0009/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0009/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0010/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0010/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/de/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0011/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0001/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0001/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0002/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0002/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0003/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0003/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0004/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0004/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0005/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0005/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0006/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0006/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0007/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0007/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0008/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0008/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0009/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0009/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0010/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0010/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/default/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0011/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0001/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0001/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0002/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0002/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0003/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0003/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0004/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0004/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0005/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0005/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0006/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0006/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0007/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0007/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0008/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0008/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0009/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0009/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0010/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0010/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0011/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/default/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0001/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0001/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0002/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0002/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0003/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0003/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0004/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0004/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0005/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0005/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0006/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0006/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0007/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0007/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0008/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0008/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0009/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0009/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0010/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0010/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/default/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0011/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://a1.test/de/item-0000/",
+      "https://a1.test/item-0000/"
+    ],
+    [
+      "https://a1.test/de/item-0001/",
+      "https://a1.test/item-0001/"
+    ],
+    [
+      "https://a1.test/de/item-0002/",
+      "https://a1.test/item-0002/"
+    ],
+    [
+      "https://a1.test/de/item-0003/",
+      "https://a1.test/item-0003/"
+    ],
+    [
+      "https://a1.test/de/item-0004/",
+      "https://a1.test/item-0004/"
+    ],
+    [
+      "https://a1.test/de/item-0005/",
+      "https://a1.test/item-0005/"
+    ],
+    [
+      "https://a1.test/de/item-0006/",
+      "https://a1.test/item-0006/"
+    ],
+    [
+      "https://a1.test/de/item-0007/",
+      "https://a1.test/item-0007/"
+    ],
+    [
+      "https://a1.test/de/item-0008/",
+      "https://a1.test/item-0008/"
+    ],
+    [
+      "https://a1.test/de/item-0009/",
+      "https://a1.test/item-0009/"
+    ],
+    [
+      "https://a1.test/de/item-0010/",
+      "https://a1.test/item-0010/"
+    ],
+    [
+      "https://a1.test/de/item-0011/",
+      "https://a1.test/item-0011/"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "https://a1.test/item-0000/"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "https://a1.test/item-0001/"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "https://a1.test/item-0001/"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "https://a1.test/item-0002/"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "https://a1.test/item-0002/"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "https://a1.test/item-0003/"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "https://a1.test/item-0003/"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "https://a1.test/item-0004/"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "https://a1.test/item-0004/"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "https://a1.test/item-0005/"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "https://a1.test/item-0005/"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "https://a1.test/item-0006/"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "https://a1.test/item-0006/"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "https://a1.test/item-0007/"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "https://a1.test/item-0007/"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "https://a1.test/item-0008/"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "https://a1.test/item-0008/"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "https://a1.test/item-0009/"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "https://a1.test/item-0009/"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "https://a1.test/item-0010/"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "https://a1.test/item-0010/"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "https://a1.test/item-0011/"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "https://a1.test/item-0000/"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "https://a1.test/item-0011/"
+    ]
+  ],
+  "html": [
+    [
+      "https://a1.test/de/item-0000/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0001/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0002/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0003/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0004/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0005/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0006/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0007/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0008/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0009/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0010/",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0011/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "target"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a1.test/de/item-0000/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0001/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0002/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0003/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0004/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0005/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0006/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0007/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0008/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0009/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0010/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/de/item-0011/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0000/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0001/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0002/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0003/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0004/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0005/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0006/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0007/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0008/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0009/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0010/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a1.test/default/item-0011/",
+      "html",
+      "target"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

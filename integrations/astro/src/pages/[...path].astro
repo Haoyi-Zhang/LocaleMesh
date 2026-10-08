@@ -1,0 +1,11 @@
+---
+import publication from '../../publication.json';
+export function getStaticPaths() {
+  return publication.pages.map(page => ({params:{path:page.path},props:{page}}));
+}
+const {page}=Astro.props;
+---
+<!doctype html><html lang={page.locale}><head><meta charset="utf-8" />
+<title>{page.title}</title><link rel="canonical" href={page.url} />
+{Object.entries(page.alternates).map(([locale,url]) => <link rel="alternate" hreflang={locale} href={url} />)}
+</head><body><main data-content-key={page.key}><h1>{page.title}</h1><p>{page.body}</p></main></body></html>

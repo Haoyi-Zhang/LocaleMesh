@@ -1,0 +1,77 @@
+{
+  "site": "H2",
+  "case": "key_reassigned",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CONTENT_ID",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "html",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://fr.h2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://fr.h2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

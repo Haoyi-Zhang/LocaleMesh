@@ -1,0 +1,12 @@
+baseURL = 'https://hugo.localemesh.test/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableKinds = ['taxonomy', 'term', 'RSS']
+[languages.en]
+languageCode = 'en'
+contentDir = 'content/en'
+weight = 1
+[languages.de]
+languageCode = 'de'
+contentDir = 'content/de'
+weight = 2

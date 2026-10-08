@@ -1,0 +1,51 @@
+{
+  "release_snapshots_compared": 321,
+  "primary_named_releases": 174,
+  "primary_label_counts": {
+    "clean": 60,
+    "ambiguity": 18,
+    "defect": 96
+  },
+  "separate_emitter_or_adaptation_releases": 40,
+  "separate_emitter_or_adaptation_label_counts": {
+    "clean": 12,
+    "defect": 20,
+    "ambiguity": 8
+  },
+  "composition_regressions": 96,
+  "bounded_state_space_states": 5120,
+  "bounded_state_space_transitions": 5119,
+  "record_scale_updates": 144,
+  "fanout_updates": 144,
+  "field_projection_updates": 216,
+  "coalesced_updates": 216,
+  "obligation_sliced_updates": 216,
+  "pandoc_releases": 11,
+  "pandoc_native_writer_invocations": 53,
+  "external_page_invocations": 26634,
+  "external_response_requests": 72848,
+  "browser_differential_counts": {
+    "edge_cases": 30,
+    "same_selected_facts": 25,
+    "undiagnosed_differences": 0,
+    "native_gate_releases": 11,
+    "native_gate_agreement": 11,
+    "literal_expectations": 18,
+    "compiled_outputs": 53,
+    "compiled_agreement": 53,
+    "network_requests": 0
+  },
+  "contract_boundary_counts": {
+    "legacy_accepted_invalid": 13,
+    "strict_rejected": 13,
+    "atomic_rollback_checks": 2
+  },
+  "ingestion_regression_cases": 7,
+  "unit_test_methods": 73,
+  "unit_coverage_percent": 86.29764065335753,
+  "sliced_unit_coverage_percent": 94.80286738351255,
+  "native_integration_builds": 0,
+  "bibliography_entries": 70,
+  "doi_entries": 28,
+  "scope": "Internal bookkeeping audit. It verifies reproducibility relationships, not independent editorial truth, natural-fault prevalence, or field deployment."
+}

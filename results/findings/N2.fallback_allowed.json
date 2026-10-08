@@ -1,0 +1,33 @@
+{
+  "site": "N2",
+  "case": "fallback_allowed",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "http",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

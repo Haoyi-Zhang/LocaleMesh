@@ -1,0 +1,26 @@
+{
+  "site": "H1",
+  "case": "partial_coverage",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [
+    [
+      "https://h1.test/de/item-0000/",
+      "incomplete"
+    ],
+    [
+      "https://h1.test/fr/item-0000/",
+      "incomplete"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

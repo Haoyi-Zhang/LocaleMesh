@@ -1,0 +1,146 @@
+{
+  "https://en.csv.localemesh.test/item/alpha/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/alpha/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/alpha/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/alpha/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://en.csv.localemesh.test/item/beta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/beta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/beta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/beta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://en.csv.localemesh.test/item/delta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/delta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/delta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/delta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://en.csv.localemesh.test/item/epsilon/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/epsilon/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/epsilon/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/epsilon/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://en.csv.localemesh.test/item/gamma/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/gamma/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/gamma/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/gamma/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://en.csv.localemesh.test/item/zeta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://ja.csv.localemesh.test/item/zeta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  },
+  "https://de.csv.localemesh.test/item/zeta/": {
+    "status": 200,
+    "link": [
+      "<https://en.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"en\"",
+      "<https://ja.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"ja\"",
+      "<https://de.csv.localemesh.test/item/zeta/>; rel=\"alternate\"; hreflang=\"de\""
+    ]
+  }
+}

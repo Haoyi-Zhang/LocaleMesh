@@ -1,0 +1,37 @@
+{
+  "site": "A2",
+  "case": "redirect_cycle",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://a2.test/en/item-0000/old/",
+      "channel": "redirect",
+      "detail": "https://a2.test/en/item-0000/old/"
+    },
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://a2.test/en/item-0000/older/",
+      "channel": "redirect",
+      "detail": "https://a2.test/en/item-0000/older/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://a2.test/en/item-0000/old/",
+      "https://a2.test/en/item-0000/older/"
+    ],
+    [
+      "https://a2.test/en/item-0000/older/",
+      "https://a2.test/en/item-0000/old/"
+    ]
+  ],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

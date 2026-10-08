@@ -1,0 +1,12 @@
+{
+  "locales": [
+    "en",
+    "ja",
+    "de"
+  ],
+  "origins": {
+    "en": "https://en.csv.localemesh.test",
+    "ja": "https://ja.csv.localemesh.test",
+    "de": "https://de.csv.localemesh.test"
+  }
+}

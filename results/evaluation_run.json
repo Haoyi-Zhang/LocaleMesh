@@ -1,0 +1,10 @@
+{
+  "wall_s": 83.24791430699952,
+  "maxrss_kib": 172460,
+  "python": "3.13.5",
+  "named_releases": 174,
+  "composition_holdout": 96,
+  "unit_suite": "results/tests.log",
+  "corpus_kind": "authored fixtures; no public or industrial sites",
+  "rule_freeze_status": "The 96 compositions are regression cases reused during development, not a fresh holdout."
+}

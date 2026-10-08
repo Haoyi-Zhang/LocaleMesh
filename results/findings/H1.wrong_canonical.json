@@ -1,0 +1,26 @@
+{
+  "site": "H1",
+  "case": "wrong_canonical",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CANONICAL_POLICY",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "html",
+      "detail": "https://h1.test/item-0001/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [
+    [
+      "https://h1.test/item-0000/",
+      "cross-canonical"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

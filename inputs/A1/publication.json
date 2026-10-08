@@ -1,0 +1,654 @@
+{
+  "pages": {
+    "https://a1.test/item-0000/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0000",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0000/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0000/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0000/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0001/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 0, locale en."
+    },
+    "https://a1.test/de/item-0000/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0000",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0000/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0000/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0000/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0001/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 0, locale de."
+    },
+    "https://a1.test/item-0001/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0001",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0001/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0001/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0001/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0002/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 1, locale en."
+    },
+    "https://a1.test/de/item-0001/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0001",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0001/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0001/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0001/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0002/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 1, locale de."
+    },
+    "https://a1.test/item-0002/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0002",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0002/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0002/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0002/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0003/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 2, locale en."
+    },
+    "https://a1.test/de/item-0002/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0002",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0002/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0002/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0002/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0003/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 2, locale de."
+    },
+    "https://a1.test/item-0003/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0003",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0003/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0003/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0003/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0004/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 3, locale en."
+    },
+    "https://a1.test/de/item-0003/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0003",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0003/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0003/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0003/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0004/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 3, locale de."
+    },
+    "https://a1.test/item-0004/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0004",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0004/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0004/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0004/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0005/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 4, locale en."
+    },
+    "https://a1.test/de/item-0004/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0004",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0004/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0004/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0004/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0005/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 4, locale de."
+    },
+    "https://a1.test/item-0005/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0005",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0005/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0005/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0005/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0006/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 5, locale en."
+    },
+    "https://a1.test/de/item-0005/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0005",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0005/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0005/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0005/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0006/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 5, locale de."
+    },
+    "https://a1.test/item-0006/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0006",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0006/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0006/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0006/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0007/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 6, locale en."
+    },
+    "https://a1.test/de/item-0006/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0006",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0006/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0006/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0006/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0007/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 6, locale de."
+    },
+    "https://a1.test/item-0007/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0007",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0007/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0007/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0007/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0008/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 7, locale en."
+    },
+    "https://a1.test/de/item-0007/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0007",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0007/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0007/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0007/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0008/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 7, locale de."
+    },
+    "https://a1.test/item-0008/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0008",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0008/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0008/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0008/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0009/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 8, locale en."
+    },
+    "https://a1.test/de/item-0008/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0008",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0008/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0008/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0008/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0009/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 8, locale de."
+    },
+    "https://a1.test/item-0009/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0009",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0009/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0009/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0009/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0010/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 9, locale en."
+    },
+    "https://a1.test/de/item-0009/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0009",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0009/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0009/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0009/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0010/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 9, locale de."
+    },
+    "https://a1.test/item-0010/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0010",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0010/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0010/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0010/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0011/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 10, locale en."
+    },
+    "https://a1.test/de/item-0010/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0010",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0010/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0010/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0010/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0011/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 10, locale de."
+    },
+    "https://a1.test/item-0011/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0011",
+      "canonical": {
+        "html": [
+          "https://a1.test/item-0011/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0011/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0011/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/item-0000/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 11, locale en."
+    },
+    "https://a1.test/de/item-0011/": {
+      "status": 200,
+      "lang": "de",
+      "key": "item-0011",
+      "canonical": {
+        "html": [
+          "https://a1.test/de/item-0011/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a1.test/item-0011/"
+          ],
+          [
+            "de",
+            "https://a1.test/de/item-0011/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a1.test/de/item-0000/"
+      ],
+      "body": "Atlas manuals. Authored release fixture, content 11, locale de."
+    }
+  },
+  "sitemap": {
+    "https://a1.test/item-0000/": [],
+    "https://a1.test/de/item-0000/": [],
+    "https://a1.test/item-0001/": [],
+    "https://a1.test/de/item-0001/": [],
+    "https://a1.test/item-0002/": [],
+    "https://a1.test/de/item-0002/": [],
+    "https://a1.test/item-0003/": [],
+    "https://a1.test/de/item-0003/": [],
+    "https://a1.test/item-0004/": [],
+    "https://a1.test/de/item-0004/": [],
+    "https://a1.test/item-0005/": [],
+    "https://a1.test/de/item-0005/": [],
+    "https://a1.test/item-0006/": [],
+    "https://a1.test/de/item-0006/": [],
+    "https://a1.test/item-0007/": [],
+    "https://a1.test/de/item-0007/": [],
+    "https://a1.test/item-0008/": [],
+    "https://a1.test/de/item-0008/": [],
+    "https://a1.test/item-0009/": [],
+    "https://a1.test/de/item-0009/": [],
+    "https://a1.test/item-0010/": [],
+    "https://a1.test/de/item-0010/": [],
+    "https://a1.test/item-0011/": [],
+    "https://a1.test/de/item-0011/": []
+  }
+}

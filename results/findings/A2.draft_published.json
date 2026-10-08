@@ -1,0 +1,47 @@
+{
+  "site": "A2",
+  "case": "draft_published",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_PUBLICATION",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "UNEXPECTED_PUBLICATION",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "",
+      "detail": ""
+    }
+  ],
+  "manifest": [
+    [
+      "https://a2.test/fr/item-0000/",
+      "unexpected"
+    ]
+  ],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

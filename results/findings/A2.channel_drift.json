@@ -1,0 +1,32 @@
+{
+  "site": "A2",
+  "case": "channel_drift",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CHANNEL_CONFLICT",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html:sitemap",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/",
+      "html:sitemap",
+      "agreement"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

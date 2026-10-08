@@ -1,0 +1,685 @@
+[
+  {
+    "key": "xlinkit",
+    "kind": "article",
+    "author": "Christian Nentwich and Licia Capra and Wolfgang Emmerich and Anthony Finkelstein",
+    "title": "{xlinkit}: A Consistency Checking and Smart Link Generation Service",
+    "journal": "ACM Transactions on Internet Technology",
+    "year": "2002",
+    "volume": "2",
+    "number": "2",
+    "pages": "151--185",
+    "doi": "10.1145/514183.514186"
+  },
+  {
+    "key": "flexible",
+    "kind": "article",
+    "author": "Christian Nentwich and Wolfgang Emmerich and Anthony Finkelstein and Ernst Ellmer",
+    "title": "Flexible Consistency Checking",
+    "journal": "ACM Transactions on Software Engineering and Methodology",
+    "year": "2003",
+    "volume": "12",
+    "number": "1",
+    "pages": "28--63",
+    "doi": "10.1145/839268.839271"
+  },
+  {
+    "key": "despeyroux",
+    "kind": "inproceedings",
+    "author": "Thierry Despeyroux",
+    "title": "Practical Semantic Analysis of {Web} Sites and Documents",
+    "booktitle": "Proceedings of the International World Wide Web Conference (WWW)",
+    "year": "2004",
+    "doi": "10.1145/988672.988766",
+    "url": "https://who.rocq.inria.fr/Thierry.Despeyroux/papers/www2004/p354-despeyroux.html"
+  },
+  {
+    "key": "integrity",
+    "kind": "inproceedings",
+    "author": "Mary F. Fern{\\'a}ndez and Daniela Florescu and Alon Y. Levy and Dan Suciu",
+    "title": "Verifying Integrity Constraints on {Web} Sites",
+    "booktitle": "Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+    "year": "1999",
+    "pages": "614--619",
+    "url": "https://www.ijcai.org/Proceedings/99-1/Papers/088.pdf"
+  },
+  {
+    "key": "ruleweb",
+    "kind": "article",
+    "author": "Mar{\\'i}a Alpuente and Demis Ballis and Moreno Falaschi",
+    "title": "Rule-based Verification of {Web} Sites",
+    "journal": "International Journal on Software Tools for Technology Transfer",
+    "year": "2006",
+    "volume": "8",
+    "pages": "565--585",
+    "doi": "10.1007/s10009-006-0009-7"
+  },
+  {
+    "key": "veriweb",
+    "kind": "misc",
+    "author": "Juliana Freire and Michael Benedikt and Patrice Godefroid",
+    "title": "{VeriWeb}: Automatically Testing Dynamic {Web} Sites",
+    "howpublished": "WWW 2002 conference presentation by Juliana Freire",
+    "year": "2002",
+    "url": "https://archives.iw3c2.org/www2002/presentations/freire.pdf"
+  },
+  {
+    "key": "instant",
+    "kind": "inproceedings",
+    "author": "Alexander Egyed",
+    "title": "Instant Consistency Checking for the {UML}",
+    "booktitle": "Proceedings of the International Conference on Software Engineering (ICSE)",
+    "year": "2006",
+    "pages": "381--390",
+    "doi": "10.1145/1134285.1134339"
+  },
+  {
+    "key": "complex",
+    "kind": "inproceedings",
+    "author": "Alexander Reder and Alexander Egyed",
+    "title": "Incremental Consistency Checking for Complex Design Rules and Larger Model Changes",
+    "booktitle": "Model Driven Engineering Languages and Systems (MODELS)",
+    "year": "2012",
+    "pages": "202--218",
+    "doi": "10.1007/978-3-642-33666-9_14"
+  },
+  {
+    "key": "dynamic",
+    "kind": "inproceedings",
+    "author": "Iris Groher and Alexander Reder and Alexander Egyed",
+    "title": "Incremental Consistency Checking of Dynamic Constraints",
+    "booktitle": "Fundamental Approaches to Software Engineering (FASE)",
+    "year": "2010",
+    "pages": "203--217",
+    "doi": "10.1007/978-3-642-12029-9_15"
+  },
+  {
+    "key": "pluto",
+    "kind": "inproceedings",
+    "author": "Sebastian Erdweg and Moritz Lichter and Manuel Weiel",
+    "title": "A Sound and Optimal Incremental Build System with Dynamic Dependencies",
+    "booktitle": "Proceedings of the ACM International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)",
+    "year": "2015",
+    "pages": "89--106",
+    "doi": "10.1145/2814270.2814316"
+  },
+  {
+    "key": "alacarte",
+    "kind": "article",
+    "author": "Andrey Mokhov and Neil Mitchell and Simon Peyton Jones",
+    "title": "Build Systems {\\`a} la Carte",
+    "journal": "Proceedings of the ACM on Programming Languages",
+    "year": "2018",
+    "volume": "2",
+    "number": "ICFP",
+    "articleno": "79",
+    "numpages": "29",
+    "doi": "10.1145/3236774"
+  },
+  {
+    "key": "imperative",
+    "kind": "inproceedings",
+    "author": "Umut A. Acar and Amal Ahmed and Matthias Blume",
+    "title": "Imperative Self-Adjusting Computation",
+    "booktitle": "Proceedings of the ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)",
+    "year": "2008",
+    "pages": "309--322",
+    "doi": "10.1145/1328438.1328476"
+  },
+  {
+    "key": "adapton",
+    "kind": "inproceedings",
+    "author": "Matthew A. Hammer and Khoo, Yit Phang and Michael Hicks and Jeffrey S. Foster",
+    "title": "{Adapton}: Composable, Demand-driven Incremental Computation",
+    "booktitle": "Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+    "year": "2014",
+    "pages": "156--166",
+    "doi": "10.1145/2594291.2594324"
+  },
+  {
+    "key": "differential",
+    "kind": "inproceedings",
+    "author": "Frank McSherry and Derek G. Murray and Rebecca Isaacs and Michael Isard",
+    "title": "Differential Dataflow",
+    "booktitle": "Conference on Innovative Data Systems Research (CIDR)",
+    "year": "2013",
+    "url": "https://www.microsoft.com/en-us/research/publication/differential-dataflow/"
+  },
+  {
+    "key": "oracle",
+    "kind": "article",
+    "author": "Earl T. Barr and Mark Harman and Phil McMinn and Muzammil Shahbaz and Shin Yoo",
+    "title": "The Oracle Problem in Software Testing: A Survey",
+    "journal": "IEEE Transactions on Software Engineering",
+    "year": "2015",
+    "volume": "41",
+    "number": "5",
+    "pages": "507--525",
+    "doi": "10.1109/TSE.2014.2372785"
+  },
+  {
+    "key": "quickcheck",
+    "kind": "inproceedings",
+    "author": "Koen Claessen and John Hughes",
+    "title": "{QuickCheck}: A Lightweight Tool for Random Testing of {Haskell} Programs",
+    "booktitle": "Proceedings of the ACM SIGPLAN International Conference on Functional Programming (ICFP)",
+    "year": "2000",
+    "pages": "268--279",
+    "doi": "10.1145/351240.351266"
+  },
+  {
+    "key": "metamorphic",
+    "kind": "article",
+    "author": "Sergio Segura and Gordon Fraser and Ana B. S{\\'a}nchez and Antonio Ruiz-Cort{\\'e}s",
+    "title": "A Survey on Metamorphic Testing",
+    "journal": "IEEE Transactions on Software Engineering",
+    "year": "2016",
+    "volume": "42",
+    "number": "9",
+    "pages": "805--824",
+    "doi": "10.1109/TSE.2016.2532875"
+  },
+  {
+    "key": "mutation",
+    "kind": "article",
+    "author": "Yue Jia and Mark Harman",
+    "title": "An Analysis and Survey of the Development of Mutation Testing",
+    "journal": "IEEE Transactions on Software Engineering",
+    "year": "2011",
+    "volume": "37",
+    "number": "5",
+    "pages": "649--678",
+    "doi": "10.1109/TSE.2010.62"
+  },
+  {
+    "key": "benchmarking",
+    "kind": "inproceedings",
+    "author": "Tomas Kalibera and Richard Jones",
+    "title": "Rigorous Benchmarking in Reasonable Time",
+    "booktitle": "Proceedings of the International Symposium on Memory Management (ISMM)",
+    "year": "2013",
+    "pages": "63--74",
+    "doi": "10.1145/2464157.2464160"
+  },
+  {
+    "key": "rete",
+    "kind": "article",
+    "author": "Charles L. Forgy",
+    "title": "{Rete}: A Fast Algorithm for the Many Pattern/Many Object Pattern Match Problem",
+    "journal": "Artificial Intelligence",
+    "year": "1982",
+    "volume": "19",
+    "number": "1",
+    "pages": "17--37",
+    "doi": "10.1016/0004-3702(82)90020-0"
+  },
+  {
+    "key": "riccatonella2001",
+    "kind": "inproceedings",
+    "author": "Filippo Ricca and Paolo Tonella",
+    "title": "Analysis and Testing of {Web} Applications",
+    "booktitle": "Proceedings of the 23rd International Conference on Software Engineering (ICSE)",
+    "year": "2001",
+    "pages": "25--34",
+    "doi": "10.1109/ICSE.2001.919078"
+  },
+  {
+    "key": "tonellaetal2002",
+    "kind": "inproceedings",
+    "author": "Paolo Tonella and Filippo Ricca and Emanuele Pianta and Christian Girardi",
+    "title": "Restructuring Multilingual {Web} Sites",
+    "booktitle": "Proceedings of the International Conference on Software Maintenance (ICSM)",
+    "year": "2002",
+    "pages": "290--299",
+    "doi": "10.1109/ICSM.2002.1167784"
+  },
+  {
+    "key": "riccaetal2004",
+    "kind": "inproceedings",
+    "author": "Filippo Ricca and Paolo Tonella and Emanuele Pianta and Christian Girardi",
+    "title": "Experimental Results on the Alignment of Multilingual {Web} Sites",
+    "booktitle": "Proceedings of the European Conference on Software Maintenance and Reengineering (CSMR)",
+    "year": "2004",
+    "pages": "288--295",
+    "doi": "10.1109/CSMR.2004.1281431"
+  },
+  {
+    "key": "mesbahdeursen2009",
+    "kind": "inproceedings",
+    "author": "Ali Mesbah and Arie van Deursen",
+    "title": "Invariant-Based Automatic Testing of {AJAX} User Interfaces",
+    "booktitle": "Proceedings of the 31st International Conference on Software Engineering (ICSE)",
+    "year": "2009",
+    "pages": "210--220",
+    "doi": "10.1109/ICSE.2009.5070522"
+  },
+  {
+    "key": "uri",
+    "kind": "techreport",
+    "author": "Tim Berners-Lee and Roy Fielding and Larry Masinter",
+    "title": "Uniform Resource Identifier ({URI}): Generic Syntax",
+    "institution": "RFC Editor",
+    "number": "RFC 3986",
+    "year": "2005",
+    "doi": "10.17487/RFC3986",
+    "url": "https://www.rfc-editor.org/rfc/rfc3986"
+  },
+  {
+    "key": "bcp47",
+    "kind": "techreport",
+    "author": "Addison Phillips and Mark Davis",
+    "title": "Tags for Identifying Languages",
+    "institution": "RFC Editor",
+    "number": "RFC 5646",
+    "year": "2009",
+    "doi": "10.17487/RFC5646",
+    "url": "https://www.rfc-editor.org/rfc/rfc5646"
+  },
+  {
+    "key": "langmatch",
+    "kind": "techreport",
+    "author": "Addison Phillips and Mark Davis",
+    "title": "Matching of Language Tags",
+    "institution": "RFC Editor",
+    "number": "RFC 4647",
+    "year": "2006",
+    "doi": "10.17487/RFC4647",
+    "url": "https://www.rfc-editor.org/rfc/rfc4647"
+  },
+  {
+    "key": "weblinking",
+    "kind": "techreport",
+    "author": "Mark Nottingham",
+    "title": "Web Linking",
+    "institution": "RFC Editor",
+    "number": "RFC 8288",
+    "year": "2017",
+    "doi": "10.17487/RFC8288",
+    "url": "https://www.rfc-editor.org/rfc/rfc8288"
+  },
+  {
+    "key": "canonicalrfc",
+    "kind": "techreport",
+    "author": "Maile Ohye and Joachim Kupke",
+    "title": "The Canonical Link Relation",
+    "institution": "RFC Editor",
+    "number": "RFC 6596",
+    "year": "2012",
+    "doi": "10.17487/RFC6596",
+    "url": "https://www.rfc-editor.org/rfc/rfc6596"
+  },
+  {
+    "key": "http",
+    "kind": "techreport",
+    "author": "Roy Fielding and Mark Nottingham and Julian Reschke",
+    "title": "HTTP Semantics",
+    "institution": "RFC Editor",
+    "number": "RFC 9110",
+    "year": "2022",
+    "doi": "10.17487/RFC9110",
+    "url": "https://www.rfc-editor.org/rfc/rfc9110"
+  },
+  {
+    "key": "htmlalternate",
+    "kind": "misc",
+    "author": "{WHATWG}",
+    "title": "{HTML Living Standard: Link type alternate}",
+    "howpublished": "Online documentation",
+    "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-alternate",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "htmllang",
+    "kind": "misc",
+    "author": "{WHATWG}",
+    "title": "{HTML Living Standard: The lang and xml:lang attributes}",
+    "howpublished": "Online documentation",
+    "url": "https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "sitemaps",
+    "kind": "misc",
+    "author": "{Sitemaps.org}",
+    "title": "{Sitemaps XML format}",
+    "howpublished": "Online documentation",
+    "url": "https://www.sitemaps.org/protocol.html",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "w3clang",
+    "kind": "misc",
+    "author": "{W3C Internationalization}",
+    "title": "{Declaring language in HTML}",
+    "howpublished": "Online documentation",
+    "url": "https://www.w3.org/International/questions/qa-html-language-declarations",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "googlevariants",
+    "kind": "misc",
+    "author": "{Google Search Central}",
+    "title": "{Tell Google about localized versions of your page}",
+    "howpublished": "Online documentation",
+    "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "googlecanonical",
+    "kind": "misc",
+    "author": "{Google Search Central}",
+    "title": "{How to specify a canonical URL with rel=\"canonical\" and other methods}",
+    "howpublished": "Online documentation",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "googleregional",
+    "kind": "misc",
+    "author": "{Google Search Central}",
+    "title": "{Managing multi-regional and multilingual sites}",
+    "howpublished": "Online documentation",
+    "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "googleadaptive",
+    "kind": "misc",
+    "author": "{Google Search Central}",
+    "title": "{How Google crawls locale-adaptive pages}",
+    "howpublished": "Online documentation",
+    "url": "https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "googlesitemap",
+    "kind": "misc",
+    "author": "{Google Search Central}",
+    "title": "{Build and submit a sitemap}",
+    "howpublished": "Online documentation",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astroi18n",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Internationalization (i18n) routing}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/guides/internationalization/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astroapi",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Internationalization API Reference}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/reference/modules/astro-i18n/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astrorouting",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Routing}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/guides/routing/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astroconfig",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Configuration Reference}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/reference/configuration-reference/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astrocontent",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Content collections}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/guides/content-collections/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astroserver",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{On-demand rendering}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.astro.build/en/guides/on-demand-rendering/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "astrorelease",
+    "kind": "misc",
+    "author": "{Astro Contributors}",
+    "title": "{Release astro@5.13.2}",
+    "howpublished": "Online documentation",
+    "url": "https://github.com/withastro/astro/releases/tag/astro%405.13.2",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugoi18n",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{Multilingual mode}",
+    "howpublished": "Online documentation",
+    "url": "https://gohugo.io/content-management/multilingual/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugokey",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{TranslationKey}",
+    "howpublished": "Online documentation",
+    "url": "https://gohugo.io/methods/page/translationkey/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugoall",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{AllTranslations}",
+    "howpublished": "Online documentation",
+    "url": "https://gohugo.io/methods/page/alltranslations/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugositemap",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{Sitemap templates}",
+    "howpublished": "Online documentation",
+    "url": "https://gohugo.io/templates/sitemap/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugourls",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{URL management}",
+    "howpublished": "Online documentation",
+    "url": "https://gohugo.io/content-management/urls/",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "hugorelease",
+    "kind": "misc",
+    "author": "{Hugo Authors}",
+    "title": "{Release v0.147.9}",
+    "howpublished": "Online documentation",
+    "url": "https://github.com/gohugoio/hugo/releases/tag/v0.147.9",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nexti18n",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{Internationalization}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/docs/app/guides/internationalization",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextmetadata",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{generateMetadata}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextexport",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{Static Exports}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/docs/app/guides/static-exports",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextparams",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{generateStaticParams}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextredirects",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{redirects}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextrelease",
+    "kind": "misc",
+    "author": "{Vercel}",
+    "title": "{Next.js Security Update: December 11, 2025}",
+    "howpublished": "Online documentation",
+    "url": "https://nextjs.org/blog/security-update-2025-12-11",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "nextintl",
+    "kind": "misc",
+    "author": "{next-intl Contributors}",
+    "title": "{Routing configuration}",
+    "howpublished": "Online documentation",
+    "url": "https://next-intl.dev/docs/routing/configuration",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "crawlcontract",
+    "kind": "misc",
+    "author": "{crawlcontract Contributors}",
+    "title": "{crawlcontract: Deterministic CI for technical SEO}",
+    "howpublished": "Online documentation",
+    "url": "https://github.com/lame13/crawlcontract",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "lychee",
+    "kind": "misc",
+    "author": "{lychee Contributors}",
+    "title": "{lychee: A fast, async, stream-based link checker}",
+    "howpublished": "Online documentation",
+    "url": "https://github.com/lycheeverse/lychee",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "crawlcove",
+    "kind": "misc",
+    "author": "{CrawlCove}",
+    "title": "{crawlcove-hreflang-checker}",
+    "howpublished": "Online documentation",
+    "url": "https://github.com/CrawlCove/crawlcove-hreflang-checker",
+    "note": "Version 1.0.0, commit ffa29b71872755977068ad3246000f88450dec22; accessed 5 October 2026"
+  },
+  {
+    "key": "validator",
+    "kind": "misc",
+    "author": "{W3C}",
+    "title": "{Help for the W3C Markup Validation Service}",
+    "howpublished": "Online documentation",
+    "url": "https://validator.w3.org/docs/help.html",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "htmlparser",
+    "kind": "misc",
+    "author": "{Python Software Foundation}",
+    "title": "{html.parser: Simple HTML and XHTML parser (Python 3.13 documentation)}",
+    "howpublished": "Online documentation",
+    "url": "https://docs.python.org/3.13/library/html.parser.html",
+    "note": "Accessed 2 October 2026"
+  },
+  {
+    "key": "polyglot",
+    "kind": "misc",
+    "author": "{Jekyll Polyglot Contributors}",
+    "title": "{Polyglot: Straightforward i18n for Jekyll Blogs}",
+    "howpublished": "Open-source project repository",
+    "url": "https://github.com/untra/polyglot",
+    "note": "Pinned source facts from commit b8b944e21a2477bf0f5430565dfb4192f0283d22; accessed 3 October 2026"
+  },
+  {
+    "key": "htmlbase",
+    "kind": "misc",
+    "author": "{WHATWG}",
+    "title": "{HTML Living Standard: The base element}",
+    "howpublished": "Online documentation",
+    "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-base-element",
+    "note": "Accessed 5 October 2026"
+  },
+  {
+    "key": "htmltemplate",
+    "kind": "misc",
+    "author": "{WHATWG}",
+    "title": "{HTML Living Standard: The template element}",
+    "howpublished": "Online documentation",
+    "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+    "note": "Accessed 5 October 2026"
+  },
+  {
+    "key": "pandoc",
+    "kind": "misc",
+    "author": "{Pandoc Contributors}",
+    "title": "{Pandoc User's Guide}",
+    "howpublished": "Online documentation",
+    "url": "https://pandoc.org/MANUAL.html",
+    "note": "Accessed 5 October 2026; experiments execute Pandoc 3.1.11.1"
+  },
+  {
+    "key": "domparser",
+    "kind": "misc",
+    "author": "{WHATWG}",
+    "title": "{HTML Living Standard}: The {DOMParser} Interface",
+    "year": "2026",
+    "url": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-domparser-parsefromstring",
+    "note": "Accessed 2026-10-05"
+  },
+  {
+    "key": "lowmemory",
+    "kind": "article",
+    "author": "Jean-R\\'emy Falleri and Xavier Blanc and Reda Bendraou and Marcos Aur\\'elio Almeida da Silva and C\\'edric Teyton",
+    "title": "Incremental inconsistency detection with low memory overhead",
+    "journal": "Software: Practice and Experience",
+    "year": "2014",
+    "volume": "44",
+    "number": "5",
+    "pages": "621--641",
+    "doi": "10.1002/spe.2171"
+  }
+]

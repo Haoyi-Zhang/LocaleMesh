@@ -1,0 +1,147 @@
+{
+  "site": "A2",
+  "case": "rename_stale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a2.test/fr/item-0000-renamed/",
+      "channel": "html",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a2.test/fr/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a2.test/fr/item-0023/",
+      "channel": "html",
+      "detail": "https://a2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a2.test/fr/item-0000-renamed/",
+      "channel": "html",
+      "detail": "https://a2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a2.test/fr/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://a2.test/en/item-0000/",
+      "https://a2.test/fr/item-0000/"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "https://a2.test/fr/item-0000/"
+    ],
+    [
+      "https://a2.test/fr/item-0023/",
+      "https://a2.test/fr/item-0000/"
+    ]
+  ],
+  "html": [
+    [
+      "https://a2.test/en/item-0000/",
+      "target"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "self"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "target"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "html",
+      "target"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "sitemap",
+      "self"
+    ],
+    [
+      "https://a2.test/fr/item-0000-renamed/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://a2.test/fr/item-0023/",
+      "html",
+      "link"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a2.test/fr/item-0023/",
+      "channel": "html",
+      "detail": "https://a2.test/fr/item-0000/"
+    }
+  ]
+}

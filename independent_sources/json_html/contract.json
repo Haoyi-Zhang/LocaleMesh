@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "fixture_id": "JH",
+  "origin_kind": "independent-json-html-emitter",
+  "config": {
+    "origins": {
+      "https://json.localemesh.test": "."
+    },
+    "aliases": {},
+    "locales": [
+      "en",
+      "de"
+    ],
+    "complete_manifest": true,
+    "check_links": true
+  },
+  "pages": {
+    "https://json.localemesh.test/alpha/": {
+      "key": "alpha",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/alpha/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/alpha/": {
+      "key": "alpha",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/alpha/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/beta/": {
+      "key": "beta",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/beta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/beta/": {
+      "key": "beta",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/beta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/gamma/": {
+      "key": "gamma",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/gamma/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/gamma/": {
+      "key": "gamma",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/gamma/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/delta/": {
+      "key": "delta",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/delta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/delta/": {
+      "key": "delta",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/delta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/epsilon/": {
+      "key": "epsilon",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/epsilon/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/epsilon/": {
+      "key": "epsilon",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/epsilon/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/zeta/": {
+      "key": "zeta",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/zeta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://json.localemesh.test/de/zeta/": {
+      "key": "zeta",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://json.localemesh.test/de/zeta/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    }
+  }
+}

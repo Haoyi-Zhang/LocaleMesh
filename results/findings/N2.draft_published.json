@@ -1,0 +1,47 @@
+{
+  "site": "N2",
+  "case": "draft_published",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://de.n2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://en.n2.test/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_PUBLICATION",
+      "owner": "https://ja.n2.test/ja/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "UNEXPECTED_PUBLICATION",
+      "owner": "https://ja.n2.test/ja/item-0000/",
+      "channel": "",
+      "detail": ""
+    }
+  ],
+  "manifest": [
+    [
+      "https://ja.n2.test/ja/item-0000/",
+      "unexpected"
+    ]
+  ],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

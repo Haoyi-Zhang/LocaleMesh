@@ -1,0 +1,61 @@
+{
+  "site": "H2",
+  "case": "draft_published",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_PUBLICATION",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "UNEXPECTED_PUBLICATION",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "",
+      "detail": ""
+    }
+  ],
+  "manifest": [
+    [
+      "https://de.h2.test/de/item-0000/",
+      "unexpected"
+    ]
+  ],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

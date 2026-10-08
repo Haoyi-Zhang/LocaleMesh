@@ -1,0 +1,44 @@
+{
+  "site": "A1",
+  "case": "missing_required_alternate",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://a1.test/item-0000/",
+      "channel": "html",
+      "detail": "de"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a1.test/de/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://a1.test/de/item-0000/",
+      "reciprocity"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a1.test/de/item-0000/",
+      "html",
+      "reciprocity"
+    ]
+  ],
+  "blind": [
+    [
+      "https://a1.test/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

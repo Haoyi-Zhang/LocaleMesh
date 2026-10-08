@@ -1,0 +1,242 @@
+{
+  "analysis_kind": "offline_reanalysis_of_retained_tree_facts",
+  "new_browser_execution": false,
+  "scope": "30 retained edge cases only",
+  "not_reanalyzed": [
+    "53 compiled-output checks",
+    "11 native-gate checks"
+  ],
+  "cases": [
+    {
+      "case": "plain",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "first_base",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "late_base",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "two_bases",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "template",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "nested_template",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "template_body",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "script",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "style",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "comment",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "title",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "textarea",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "duplicate_attribute",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "duplicate_rel",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "entities",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "icon",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "alternate_stylesheet",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "anchors",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "refresh",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "conflict_markers",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [
+        "CONTENT_MARKER_CONFLICT"
+      ],
+      "browser_diagnostic_codes": [
+        "CONTENT_MARKER_CONFLICT"
+      ],
+      "static_changed": false
+    },
+    {
+      "case": "omitted_head",
+      "same_selected_facts": false,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "omitted_head_end",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "body_metadata",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "foreign_content",
+      "same_selected_facts": false,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "plaintext",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "noscript",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "static_changed": true
+    },
+    {
+      "case": "head_text",
+      "same_selected_facts": false,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "nested_raw_title",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": true
+    },
+    {
+      "case": "select_anchor",
+      "same_selected_facts": true,
+      "static_diagnostic_codes": [],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    },
+    {
+      "case": "head_image",
+      "same_selected_facts": false,
+      "static_diagnostic_codes": [
+        "HTML_PROFILE"
+      ],
+      "browser_diagnostic_codes": [],
+      "static_changed": false
+    }
+  ],
+  "same_selected_facts": 26
+}

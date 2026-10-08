@@ -1,0 +1,43 @@
+{
+  "anonymous_review": {
+    "pages": 10,
+    "references_start_page": 9,
+    "main_pages": 8,
+    "words_per_page": [
+      903,
+      1024,
+      993,
+      1019,
+      943,
+      906,
+      804,
+      737,
+      1295,
+      438
+    ],
+    "anonymous": true,
+    "no_overfull_hboxes": true,
+    "no_unresolved_references": true
+  },
+  "identified_author_copy": {
+    "pages": 10,
+    "references_start_page": 9,
+    "main_pages": 8,
+    "words_per_page": [
+      738,
+      904,
+      850,
+      906,
+      836,
+      815,
+      669,
+      724,
+      1179,
+      326
+    ],
+    "anonymous": false,
+    "no_overfull_hboxes": true,
+    "no_unresolved_references": true
+  },
+  "visual_inspection": "Not established by this script; rendered pages are inspected separately."
+}

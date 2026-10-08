@@ -1,0 +1,636 @@
+{
+  "started_utc": "2026-10-08T07:42:25.386834+00:00",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "cpu_quota": "400000 100000",
+  "memory_limit": "4294967296",
+  "disk_free_bytes": 31939125248,
+  "stages": [
+    {
+      "name": "coverage-reset",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "coverage",
+        "erase"
+      ],
+      "returncode": 0,
+      "wall_s": 0.6906930069999362,
+      "log": "results/coverage-reset.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "coverage",
+        "run",
+        "--source=localemesh",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "wall_s": 25.590188312000464,
+      "log": "results/tests.log"
+    },
+    {
+      "name": "coverage-json",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "coverage",
+        "json",
+        "-o",
+        "results/coverage.json"
+      ],
+      "returncode": 0,
+      "wall_s": 1.011247024000113,
+      "log": "results/coverage-json.log"
+    },
+    {
+      "name": "coverage-report",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "coverage",
+        "report",
+        "--fail-under=85"
+      ],
+      "returncode": 0,
+      "wall_s": 1.0578302860003532,
+      "log": "results/coverage-report.log"
+    },
+    {
+      "name": "integration-capability",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/probe_integrations.py"
+      ],
+      "returncode": 0,
+      "wall_s": 1.1775919939991581,
+      "log": "results/integration-capability.log"
+    },
+    {
+      "name": "evaluate",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate.py"
+      ],
+      "returncode": 0,
+      "wall_s": 84.0394604459998,
+      "log": "results/evaluate.log"
+    },
+    {
+      "name": "evaluate-independent",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_independent.py"
+      ],
+      "returncode": 0,
+      "wall_s": 1.7391402760003984,
+      "log": "results/evaluate-independent.log"
+    },
+    {
+      "name": "evaluate-state-space",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_state_space.py"
+      ],
+      "returncode": 0,
+      "wall_s": 2.583636381999895,
+      "log": "results/evaluate-state-space.log"
+    },
+    {
+      "name": "ingestion-replay",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_ingestion.py"
+      ],
+      "returncode": 0,
+      "wall_s": 0.6955857869997999,
+      "log": "results/ingestion-replay.log"
+    },
+    {
+      "name": "external-page",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_external.py"
+      ],
+      "returncode": 0,
+      "wall_s": 40.62704182899961,
+      "log": "results/external-page.log"
+    },
+    {
+      "name": "pandoc",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_pandoc.py"
+      ],
+      "returncode": 0,
+      "wall_s": 5.721269771999687,
+      "log": "results/pandoc.log"
+    },
+    {
+      "name": "contract-boundary",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_contract_boundary.py"
+      ],
+      "returncode": 0,
+      "wall_s": 0.6916929369999707,
+      "log": "results/contract-boundary.log"
+    },
+    {
+      "name": "browser-differential",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/evaluate_browser.py"
+      ],
+      "returncode": 0,
+      "wall_s": 1.1548684409999623,
+      "log": "results/browser-differential.log"
+    },
+    {
+      "name": "benchmark-100-local_canonical",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "100",
+        "--kind",
+        "local_canonical",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 1.008963154000412,
+      "log": "results/benchmark-100-local_canonical.log"
+    },
+    {
+      "name": "benchmark-100-deleted_page",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "100",
+        "--kind",
+        "deleted_page",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 0.8839842019997377,
+      "log": "results/benchmark-100-deleted_page.log"
+    },
+    {
+      "name": "benchmark-100-global_alias_policy",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "100",
+        "--kind",
+        "global_alias_policy",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 0.9804435129999547,
+      "log": "results/benchmark-100-global_alias_policy.log"
+    },
+    {
+      "name": "benchmark-100-hub_observation",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "100",
+        "--kind",
+        "hub_observation",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 1.0017794200002754,
+      "log": "results/benchmark-100-hub_observation.log"
+    },
+    {
+      "name": "benchmark-1000-local_canonical",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "1000",
+        "--kind",
+        "local_canonical",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 3.2936550119993626,
+      "log": "results/benchmark-1000-local_canonical.log"
+    },
+    {
+      "name": "benchmark-1000-deleted_page",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "1000",
+        "--kind",
+        "deleted_page",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 3.0299764840001444,
+      "log": "results/benchmark-1000-deleted_page.log"
+    },
+    {
+      "name": "benchmark-1000-global_alias_policy",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "1000",
+        "--kind",
+        "global_alias_policy",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 3.317601355000079,
+      "log": "results/benchmark-1000-global_alias_policy.log"
+    },
+    {
+      "name": "benchmark-1000-hub_observation",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "1000",
+        "--kind",
+        "hub_observation",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 3.346530705999612,
+      "log": "results/benchmark-1000-hub_observation.log"
+    },
+    {
+      "name": "benchmark-10000-local_canonical",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "10000",
+        "--kind",
+        "local_canonical",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 26.43934840700058,
+      "log": "results/benchmark-10000-local_canonical.log"
+    },
+    {
+      "name": "benchmark-10000-deleted_page",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "10000",
+        "--kind",
+        "deleted_page",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 27.879119042999264,
+      "log": "results/benchmark-10000-deleted_page.log"
+    },
+    {
+      "name": "benchmark-10000-global_alias_policy",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "10000",
+        "--kind",
+        "global_alias_policy",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 33.09594354000001,
+      "log": "results/benchmark-10000-global_alias_policy.log"
+    },
+    {
+      "name": "benchmark-10000-hub_observation",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark.py",
+        "--routes",
+        "10000",
+        "--kind",
+        "hub_observation",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 33.32336930400015,
+      "log": "results/benchmark-10000-hub_observation.log"
+    },
+    {
+      "name": "fanout-sweep",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/fanout_sweep.py"
+      ],
+      "returncode": 0,
+      "wall_s": 38.88830324100036,
+      "log": "results/fanout-sweep.log"
+    },
+    {
+      "name": "projected-100",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_faceted.py",
+        "--routes",
+        "100",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 1.8532232489997114,
+      "log": "results/projected-100.log"
+    },
+    {
+      "name": "projected-1000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_faceted.py",
+        "--routes",
+        "1000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 19.317977676999362,
+      "log": "results/projected-1000.log"
+    },
+    {
+      "name": "projected-10000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_faceted.py",
+        "--routes",
+        "10000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 237.92017083599967,
+      "log": "results/projected-10000.log"
+    },
+    {
+      "name": "coalesced-100",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_coalesced.py",
+        "--routes",
+        "100",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 2.716359289999673,
+      "log": "results/coalesced-100.log"
+    },
+    {
+      "name": "coalesced-1000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_coalesced.py",
+        "--routes",
+        "1000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 23.62404924799921,
+      "log": "results/coalesced-1000.log"
+    },
+    {
+      "name": "coalesced-10000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_coalesced.py",
+        "--routes",
+        "10000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 309.593142705,
+      "log": "results/coalesced-10000.log"
+    },
+    {
+      "name": "sliced-100",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_sliced.py",
+        "--routes",
+        "100",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 8.189433917000315,
+      "log": "results/sliced-100.log"
+    },
+    {
+      "name": "sliced-1000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_sliced.py",
+        "--routes",
+        "1000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 22.529660752999916,
+      "log": "results/sliced-1000.log"
+    },
+    {
+      "name": "sliced-10000",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/benchmark_sliced.py",
+        "--routes",
+        "10000",
+        "--repeats",
+        "12"
+      ],
+      "returncode": 0,
+      "wall_s": 206.50247098599993,
+      "log": "results/sliced-10000.log"
+    },
+    {
+      "name": "analysis",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/analyze.py",
+        "--plots"
+      ],
+      "returncode": 0,
+      "wall_s": 2.0378457779997916,
+      "log": "results/analysis.log"
+    },
+    {
+      "name": "field-analysis",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/analyze_revision.py",
+        "--plots"
+      ],
+      "returncode": 0,
+      "wall_s": 2.0873567729995557,
+      "log": "results/field-analysis.log"
+    },
+    {
+      "name": "coalesced-analysis",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/analyze_coalesced.py",
+        "--plots"
+      ],
+      "returncode": 0,
+      "wall_s": 1.980943933999697,
+      "log": "results/coalesced-analysis.log"
+    },
+    {
+      "name": "sliced-analysis",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/analyze_sliced.py",
+        "--plots"
+      ],
+      "returncode": 0,
+      "wall_s": 2.157014213000366,
+      "log": "results/sliced-analysis.log"
+    },
+    {
+      "name": "reference-audit",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/audit_references.py"
+      ],
+      "returncode": 0,
+      "wall_s": 0.6668204770003285,
+      "log": "results/reference-audit.log"
+    },
+    {
+      "name": "result-audit",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/audit_results.py"
+      ],
+      "returncode": 0,
+      "wall_s": 0.9984133959997052,
+      "log": "results/result-audit.log"
+    },
+    {
+      "name": "paper-build",
+      "command": [
+        "bash",
+        "../paper/build.sh"
+      ],
+      "returncode": 0,
+      "wall_s": 6.687608807000288,
+      "log": "results/paper-build.log"
+    },
+    {
+      "name": "pdf-preflight",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "scripts/pdf_preflight.py"
+      ],
+      "returncode": 0,
+      "wall_s": 1.0612774860001082,
+      "log": "results/pdf-preflight.log"
+    }
+  ],
+  "execution_mode": "fresh sequential; every stage executed; no checkpoint skips",
+  "hash_seed": "0",
+  "numeric_threads": 1,
+  "single_command_full_run_verified": true,
+  "complete": true,
+  "wall_s": 1193.2140434530002,
+  "finished_utc": "2026-10-08T08:02:18.600731+00:00",
+  "counts": {
+    "release_snapshots_compared": 321,
+    "primary_named_releases": 174,
+    "primary_label_counts": {
+      "clean": 60,
+      "ambiguity": 18,
+      "defect": 96
+    },
+    "separate_emitter_or_adaptation_releases": 40,
+    "separate_emitter_or_adaptation_label_counts": {
+      "clean": 12,
+      "defect": 20,
+      "ambiguity": 8
+    },
+    "composition_regressions": 96,
+    "bounded_state_space_states": 5120,
+    "bounded_state_space_transitions": 5119,
+    "record_scale_updates": 144,
+    "fanout_updates": 144,
+    "field_projection_updates": 216,
+    "coalesced_updates": 216,
+    "obligation_sliced_updates": 216,
+    "pandoc_releases": 11,
+    "pandoc_native_writer_invocations": 53,
+    "external_page_invocations": 26634,
+    "external_response_requests": 72848,
+    "browser_differential_counts": {
+      "edge_cases": 30,
+      "same_selected_facts": 25,
+      "undiagnosed_differences": 0,
+      "native_gate_releases": 11,
+      "native_gate_agreement": 11,
+      "literal_expectations": 18,
+      "compiled_outputs": 53,
+      "compiled_agreement": 53,
+      "network_requests": 0
+    },
+    "contract_boundary_counts": {
+      "legacy_accepted_invalid": 13,
+      "strict_rejected": 13,
+      "atomic_rollback_checks": 2
+    },
+    "ingestion_regression_cases": 7,
+    "unit_test_methods": 73,
+    "unit_coverage_percent": 86.29764065335753,
+    "sliced_unit_coverage_percent": 94.80286738351255,
+    "native_integration_builds": 0,
+    "bibliography_entries": 70,
+    "doi_entries": 28,
+    "scope": "Internal bookkeeping audit. It verifies reproducibility relationships, not independent editorial truth, natural-fault prevalence, or field deployment."
+  },
+  "scope": "Executed laboratory reproduction. Production deployment, independent human adjudication, and unavailable native i18n-framework builds are outside this run."
+}

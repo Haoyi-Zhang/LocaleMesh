@@ -1,0 +1,28 @@
+{
+  "site": "N2",
+  "case": "stale_sitemap",
+  "label": "defect",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "UNDECLARED_ROUTE",
+      "owner": "https://en.n2.test/item-0000/retired/",
+      "channel": "",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_TARGET",
+      "owner": "https://en.n2.test/item-0000/retired/",
+      "channel": "sitemap",
+      "detail": "https://en.n2.test/item-0000/retired/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

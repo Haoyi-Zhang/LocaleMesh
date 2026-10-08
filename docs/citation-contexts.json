@@ -1,0 +1,1146 @@
+{
+  "scope": "Mechanical location map plus separately maintained primary-source review. A citation occurrence alone does not establish claim support. Source access limitations remain in each record.",
+  "entries": [
+    {
+      "key": "xlinkit",
+      "title": "{xlinkit}: A Consistency Checking and Smart Link Generation Service",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "xlinkit",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://dl.acm.org/doi/10.1145/514183.514186",
+        "review_note": "Publisher record and indexed PDF; title, author list, venue, year, pages, DOI; full publisher PDF access restricted."
+      }
+    },
+    {
+      "key": "flexible",
+      "title": "Flexible Consistency Checking",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "flexible",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://dl.acm.org/doi/10.1145/839268.839271",
+        "review_note": "Publisher indexed record and authors' later bibliography; full text access restricted."
+      }
+    },
+    {
+      "key": "despeyroux",
+      "title": "Practical Semantic Analysis of {Web} Sites and Documents",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "despeyroux",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://who.rocq.inria.fr/Thierry.Despeyroux/papers/www2004/p354-despeyroux.html",
+        "review_note": "Full author-hosted paper; title, author, method, venue and identifier."
+      }
+    },
+    {
+      "key": "integrity",
+      "title": "Verifying Integrity Constraints on {Web} Sites",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "integrity",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://www.ijcai.org/Proceedings/99-1/Papers/088.pdf",
+        "review_note": "Official proceedings PDF and rendered first page; four authors, title and pages. Replaced indirect Strudel project URL. Paper 089 is unrelated and was excluded."
+      }
+    },
+    {
+      "key": "ruleweb",
+      "title": "Rule-based Verification of {Web} Sites",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "ruleweb",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://link.springer.com/article/10.1007/s10009-006-0009-7",
+        "review_note": "Publisher article record; three authors, title, year, volume, pages and scope."
+      }
+    },
+    {
+      "key": "veriweb",
+      "title": "{VeriWeb}: Automatically Testing Dynamic {Web} Sites",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "veriweb",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://archives.iw3c2.org/www2002/presentations/freire.pdf",
+        "review_note": "Official 27-page presentation, first page rendered: Freire, joint work with Benedikt and Godefroid. Cited as presentation, not invented proceedings article."
+      }
+    },
+    {
+      "key": "instant",
+      "title": "Instant Consistency Checking for the {UML}",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "instant",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://dl.acm.org/doi/10.1145/1134285.1134339",
+        "review_note": "Publisher indexed record plus Egyed author bibliography. Author bibliography has inconsistent conference ordinal; paper omits ordinal rather than copying it."
+      }
+    },
+    {
+      "key": "complex",
+      "title": "Incremental Consistency Checking for Complex Design Rules and Larger Model Changes",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        },
+        {
+          "tex_line": 120,
+          "paragraph": "Assume an owned immutable snapshot during evaluation; deterministic, read-only owner predicates; complete mediation of all observations, including missing lookups, iteration and membership; a complete normalized transaction; and correct maintenance of $U$ and $G$. An unaffected old owner has equal values for every observation in its old execution trace. If its new execution first diverged, the observation causing that first divergence would be one reached on the identical prefix, hence in the old trace, contradicting Equation~\\ref{eq:invalidate}. Its output can therefore be reused. Changed/new owners are evaluated on $F'$, removed owners are discarded, and the union equals reevaluation of $q$ on all new owners. This is an instance of established dependency reasoning, not a new general soundness theorem~\\cite{dynamic,complex,pluto}."
+        }
+      ],
+      "source_review": {
+        "key": "complex",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-642-33666-9_14",
+        "review_note": "Publisher chapter; explicitly acknowledges existing rule-part invalidation. Reder and Egyed, MODELS 2012, 202–218."
+      }
+    },
+    {
+      "key": "dynamic",
+      "title": "Incremental Consistency Checking of Dynamic Constraints",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        },
+        {
+          "tex_line": 120,
+          "paragraph": "Assume an owned immutable snapshot during evaluation; deterministic, read-only owner predicates; complete mediation of all observations, including missing lookups, iteration and membership; a complete normalized transaction; and correct maintenance of $U$ and $G$. An unaffected old owner has equal values for every observation in its old execution trace. If its new execution first diverged, the observation causing that first divergence would be one reached on the identical prefix, hence in the old trace, contradicting Equation~\\ref{eq:invalidate}. Its output can therefore be reused. Changed/new owners are evaluated on $F'$, removed owners are discarded, and the union equals reevaluation of $q$ on all new owners. This is an instance of established dependency reasoning, not a new general soundness theorem~\\cite{dynamic,complex,pluto}."
+        }
+      ],
+      "source_review": {
+        "key": "dynamic",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://link.springer.com/chapter/10.1007/978-3-642-12029-9_15",
+        "review_note": "Publisher chapter; Groher, Reder, Egyed, FASE 2010, 203–217."
+      }
+    },
+    {
+      "key": "pluto",
+      "title": "A Sound and Optimal Incremental Build System with Dynamic Dependencies",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        },
+        {
+          "tex_line": 120,
+          "paragraph": "Assume an owned immutable snapshot during evaluation; deterministic, read-only owner predicates; complete mediation of all observations, including missing lookups, iteration and membership; a complete normalized transaction; and correct maintenance of $U$ and $G$. An unaffected old owner has equal values for every observation in its old execution trace. If its new execution first diverged, the observation causing that first divergence would be one reached on the identical prefix, hence in the old trace, contradicting Equation~\\ref{eq:invalidate}. Its output can therefore be reused. Changed/new owners are evaluated on $F'$, removed owners are discarded, and the union equals reevaluation of $q$ on all new owners. This is an instance of established dependency reasoning, not a new general soundness theorem~\\cite{dynamic,complex,pluto}."
+        }
+      ],
+      "source_review": {
+        "key": "pluto",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://dl.acm.org/doi/10.1145/2814270.2814316",
+        "review_note": "Publisher indexed record and KIT author publication record; Erdweg/Lichter/Weiel, OOPSLA 2015, 89–106."
+      }
+    },
+    {
+      "key": "alacarte",
+      "title": "Build Systems {\\`a} la Carte",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "alacarte",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/build-systems.pdf",
+        "review_note": "Author-hosted paper and Microsoft research record; three authors, 2018, PACMPL ICFP article 79, 29 pages."
+      }
+    },
+    {
+      "key": "imperative",
+      "title": "Imperative Self-Adjusting Computation",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "imperative",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://www.umut-acar.org/research",
+        "review_note": "Author publication list plus publisher record; Acar/Ahmed/Blume, POPL 2008. Not the different 2007 semantics paper. Publisher indexed record confirms proceedings pages 309--322; publisher full-page fetch returned 403."
+      }
+    },
+    {
+      "key": "adapton",
+      "title": "{Adapton}: Composable, Demand-driven Incremental Computation",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "adapton",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://adapton.org/",
+        "review_note": "Author project bibliography; all four names, PLDI 2014, 156–166, DOI. Corrected BibTeX surname handling to Khoo, Yit Phang. Author-hosted project page displays Yit Phang Khoo; that displayed name ordering is retained rather than treating the final token Phang as the surname."
+      }
+    },
+    {
+      "key": "differential",
+      "title": "Differential Dataflow",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "differential",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://www.microsoft.com/en-us/research/publication/differential-dataflow/",
+        "review_note": "Primary author research publication record; McSherry/Murray/Isaacs/Isard, CIDR 2013."
+      }
+    },
+    {
+      "key": "oracle",
+      "title": "The Oracle Problem in Software Testing: A Survey",
+      "locations": [
+        {
+          "tex_line": 53,
+          "paragraph": "Implementation agreement is not an independent oracle~\\cite{oracle}. Stateful and restoration tests draw on property-based and metamorphic testing~\\cite{quickcheck,metamorphic}; perturbations remain controlled faults~\\cite{mutation}. Timings report dispersion, component boundaries and adverse cases~\\cite{benchmarking}."
+        }
+      ],
+      "source_review": {
+        "key": "oracle",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/6963470/",
+        "review_note": "Publisher indexed record and coauthor institutional record. Issue year 2015 distinguished from DOI/online year 2014."
+      }
+    },
+    {
+      "key": "quickcheck",
+      "title": "{QuickCheck}: A Lightweight Tool for Random Testing of {Haskell} Programs",
+      "locations": [
+        {
+          "tex_line": 53,
+          "paragraph": "Implementation agreement is not an independent oracle~\\cite{oracle}. Stateful and restoration tests draw on property-based and metamorphic testing~\\cite{quickcheck,metamorphic}; perturbations remain controlled faults~\\cite{mutation}. Timings report dispersion, component boundaries and adverse cases~\\cite{benchmarking}."
+        }
+      ],
+      "source_review": {
+        "key": "quickcheck",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://dl.acm.org/doi/10.1145/351240.351266",
+        "review_note": "Publisher indexed record; Claessen/Hughes, ICFP 2000, 268–279. Direct author manual access failed; no full-text-reading claim."
+      }
+    },
+    {
+      "key": "metamorphic",
+      "title": "A Survey on Metamorphic Testing",
+      "locations": [
+        {
+          "tex_line": 53,
+          "paragraph": "Implementation agreement is not an independent oracle~\\cite{oracle}. Stateful and restoration tests draw on property-based and metamorphic testing~\\cite{quickcheck,metamorphic}; perturbations remain controlled faults~\\cite{mutation}. Timings report dispersion, component boundaries and adverse cases~\\cite{benchmarking}."
+        }
+      ],
+      "source_review": {
+        "key": "metamorphic",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/7422146/",
+        "review_note": "Publisher indexed record and White Rose author deposit; four authors, TSE 42(9), 805–824, 2016."
+      }
+    },
+    {
+      "key": "mutation",
+      "title": "An Analysis and Survey of the Development of Mutation Testing",
+      "locations": [
+        {
+          "tex_line": 53,
+          "paragraph": "Implementation agreement is not an independent oracle~\\cite{oracle}. Stateful and restoration tests draw on property-based and metamorphic testing~\\cite{quickcheck,metamorphic}; perturbations remain controlled faults~\\cite{mutation}. Timings report dispersion, component boundaries and adverse cases~\\cite{benchmarking}."
+        }
+      ],
+      "source_review": {
+        "key": "mutation",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/5487526/",
+        "review_note": "Publisher issue record; Jia/Harman, TSE 37(5), 649–678, 2011. DOI year 2010 is not publication-issue year."
+      }
+    },
+    {
+      "key": "benchmarking",
+      "title": "Rigorous Benchmarking in Reasonable Time",
+      "locations": [
+        {
+          "tex_line": 53,
+          "paragraph": "Implementation agreement is not an independent oracle~\\cite{oracle}. Stateful and restoration tests draw on property-based and metamorphic testing~\\cite{quickcheck,metamorphic}; perturbations remain controlled faults~\\cite{mutation}. Timings report dispersion, component boundaries and adverse cases~\\cite{benchmarking}."
+        },
+        {
+          "tex_line": 177,
+          "paragraph": "We report full scan, cache core, validated transaction, complete snapshot difference and retained allocation separately. The public transaction includes normalization, identity-bucket maintenance, update and export. Combined times are computed per repetition before taking medians. Paired ratios and inclusive interquartile ranges describe within-process variation, not independent sites or hardware populations~\\cite{benchmarking}. Separate traced initializations measure live Python allocation including owned fact copies, excluding the caller's preexisting input. Their initialization times are not ordinary latency measurements. Browser and compiler measurements remain outside the cache comparison."
+        }
+      ],
+      "source_review": {
+        "key": "benchmarking",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://kar.kent.ac.uk/33611/45/p63-kaliber.pdf",
+        "review_note": "Full author-deposited paper and rendered first page; Kalibera/Jones, ISMM 2013, 63–74."
+      }
+    },
+    {
+      "key": "rete",
+      "title": "{Rete}: A Fast Algorithm for the Many Pattern/Many Object Pattern Match Problem",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "rete",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://www.sciencedirect.com/science/article/pii/0004370282900200",
+        "review_note": "Publisher indexed abstract/metadata; Forgy, Artificial Intelligence 19(1), 17–37, 1982. Full page opening failed."
+      }
+    },
+    {
+      "key": "riccatonella2001",
+      "title": "Analysis and Testing of {Web} Applications",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "riccatonella2001",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/919078/",
+        "review_note": "Publisher indexed record and author follow-up bibliography; Ricca/Tonella, ICSE 2001, 25–34."
+      }
+    },
+    {
+      "key": "tonellaetal2002",
+      "title": "Restructuring Multilingual {Web} Sites",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "tonellaetal2002",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/1167784/",
+        "review_note": "Publisher indexed PDF record plus author follow-up bibliography; all four names, ICSM 2002, 290–299."
+      }
+    },
+    {
+      "key": "riccaetal2004",
+      "title": "Experimental Results on the Alignment of Multilingual {Web} Sites",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "riccaetal2004",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://ieeexplore.ieee.org/document/1281431/",
+        "review_note": "Publisher indexed record and FBK author repository; four authors, CSMR 2004, 288–295. Full publisher PDF not available."
+      }
+    },
+    {
+      "key": "mesbahdeursen2009",
+      "title": "Invariant-Based Automatic Testing of {AJAX} User Interfaces",
+      "locations": [
+        {
+          "tex_line": 44,
+          "paragraph": "Ricca and Tonella's structural analysis and testing of Web applications~\\cite{riccatonella2001}, multilingual restructuring~\\cite{tonellaetal2002}, and experimental page alignment~\\cite{riccaetal2004} establish that language correspondence and coordinated evolution are longstanding concerns. \\LM{} does not infer translations from text or restructure a site. It assumes publisher-supplied identities and checks an emitted candidate against them. Web integrity constraints~\\cite{integrity}, practical semantic rules~\\cite{despeyroux}, rule-based verification~\\cite{ruleweb}, xlinkit~\\cite{xlinkit}, and Flexible Consistency Checking~\\cite{flexible} can express relationships more general than our fixed obligations. VeriWeb~\\cite{veriweb} and invariant-based AJAX testing~\\cite{mesbahdeursen2009} additionally exercise dynamic states that our offline model excludes."
+        }
+      ],
+      "source_review": {
+        "key": "mesbahdeursen2009",
+        "evidence_type": "primary paper / publisher or author metadata, access qualified below",
+        "source": "https://research.tudelft.nl/en/publications/invariant-based-automatic-testing-of-ajax-user-interfaces/",
+        "review_note": "Author institutional bibliographic record and indexed author paper; Mesbah/van Deursen, ICSE 2009, 210–220."
+      }
+    },
+    {
+      "key": "uri",
+      "title": "Uniform Resource Identifier ({URI}): Generic Syntax",
+      "locations": [
+        {
+          "tex_line": 66,
+          "paragraph": "Observations record status, redirects, declared document language, optional emitted content markers, canonical targets, alternate pairs by channel, ordinary local links, and ingestion diagnostics. A configured origin map associates public-looking origins with local directories. Resolution follows declared aliases and observed redirects until a local terminal is reached, a cycle or unavailable target is found, or evidence leaves the mounted scope. HTTP status and Location are interpreted together~\\cite{http}; a Location field on a 201 response is not treated as a redirect. URI handling resolves references, lowercases scheme/authority, and removes fragments while retaining path case, query strings, and slash distinctions~\\cite{uri}. It is a documented subset, not a complete browser URL implementation."
+        }
+      ],
+      "source_review": {
+        "key": "uri",
+        "evidence_type": "official standard",
+        "source": "https://www.rfc-editor.org/rfc/rfc3986",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "bcp47",
+      "title": "Tags for Identifying Languages",
+      "locations": [
+        {
+          "tex_line": 57,
+          "paragraph": "We distinguish Web representation semantics, discovery-service conventions, and application release policy. HTML's language and alternate-link semantics~\\cite{htmllang,htmlalternate} do not imply that every content item must exist in every locale. Language declaration also serves accessibility and processing purposes beyond search~\\cite{w3clang}. BCP~47 defines language tags and a separate specification defines matching~\\cite{bcp47,langmatch}; our implementation normalizes tag case but does not claim complete registry validation or general language-range negotiation."
+        }
+      ],
+      "source_review": {
+        "key": "bcp47",
+        "evidence_type": "official standard",
+        "source": "https://www.rfc-editor.org/rfc/rfc5646",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "langmatch",
+      "title": "Matching of Language Tags",
+      "locations": [
+        {
+          "tex_line": 57,
+          "paragraph": "We distinguish Web representation semantics, discovery-service conventions, and application release policy. HTML's language and alternate-link semantics~\\cite{htmllang,htmlalternate} do not imply that every content item must exist in every locale. Language declaration also serves accessibility and processing purposes beyond search~\\cite{w3clang}. BCP~47 defines language tags and a separate specification defines matching~\\cite{bcp47,langmatch}; our implementation normalizes tag case but does not claim complete registry validation or general language-range negotiation."
+        }
+      ],
+      "source_review": {
+        "key": "langmatch",
+        "evidence_type": "official standard",
+        "source": "https://www.rfc-editor.org/rfc/rfc4647",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "weblinking",
+      "title": "Web Linking",
+      "locations": [
+        {
+          "tex_line": 99,
+          "paragraph": "The HTTP Link reader respects delimiters inside quoted values. It retains repeated \\texttt{hreflang} parameters; only the first \\texttt{rel} parameter is used. Since the profile does not implement an alternate anchor context, it ignores the entire anchored link rather than attaching it to the response resource~\\cite{weblinking}. Duplicate JSON members and normalized route collisions are rejected. Local paths must remain inside their mounted directories. XML parsing rejects DTD/entity declarations and malformed input; it does not fetch external sitemap indexes. An optional Chromium adapter supplies a separately implemented HTML tree path. It parses local strings through inert \\texttt{DOMParser}, whose scripts are not evaluated~\\cite{domparser}, then selects active HTML-namespace metadata and anchors. Resource requests are blocked, input is never navigated, and a script sentinel remains unset. The response URL is supplied explicitly because the parser's document URL belongs to its surrounding context. Both paths use the same URL normalizer; the comparison therefore isolates tree construction and selection, not URL-standard conformance. Scripting-dependent \\texttt{noscript} content remains diagnostic."
+        }
+      ],
+      "source_review": {
+        "key": "weblinking",
+        "evidence_type": "official standard",
+        "source": "https://www.rfc-editor.org/rfc/rfc8288",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "canonicalrfc",
+      "title": "The Canonical Link Relation",
+      "locations": [
+        {
+          "tex_line": 61,
+          "paragraph": "The canonical relation names a preferred representation of duplicative content~\\cite{canonicalrfc}; search-service canonicalization also involves recommendations and interpretation~\\cite{googlecanonical}. The contract specifies permitted targets, required presence and inspected channels. A permitted cross-locale target or fallback expresses release policy, not a proof of content duplication, translation quality or search-engine acceptance."
+        }
+      ],
+      "source_review": {
+        "key": "canonicalrfc",
+        "evidence_type": "official standard",
+        "source": "https://www.rfc-editor.org/rfc/rfc6596",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "http",
+      "title": "HTTP Semantics",
+      "locations": [
+        {
+          "tex_line": 66,
+          "paragraph": "Observations record status, redirects, declared document language, optional emitted content markers, canonical targets, alternate pairs by channel, ordinary local links, and ingestion diagnostics. A configured origin map associates public-looking origins with local directories. Resolution follows declared aliases and observed redirects until a local terminal is reached, a cycle or unavailable target is found, or evidence leaves the mounted scope. HTTP status and Location are interpreted together~\\cite{http}; a Location field on a 201 response is not treated as a redirect. URI handling resolves references, lowercases scheme/authority, and removes fragments while retaining path case, query strings, and slash distinctions~\\cite{uri}. It is a documented subset, not a complete browser URL implementation."
+        }
+      ],
+      "source_review": {
+        "key": "http",
+        "evidence_type": "official standard",
+        "source": "https://datatracker.ietf.org/doc/html/rfc9110",
+        "review_note": "Official RFC text or RFC Editor information page: title, authors, number, year and DOI; semantic passages reviewed."
+      }
+    },
+    {
+      "key": "htmlalternate",
+      "title": "{HTML Living Standard: Link type alternate}",
+      "locations": [
+        {
+          "tex_line": 57,
+          "paragraph": "We distinguish Web representation semantics, discovery-service conventions, and application release policy. HTML's language and alternate-link semantics~\\cite{htmllang,htmlalternate} do not imply that every content item must exist in every locale. Language declaration also serves accessibility and processing purposes beyond search~\\cite{w3clang}. BCP~47 defines language tags and a separate specification defines matching~\\cite{bcp47,langmatch}; our implementation normalizes tag case but does not claim complete registry validation or general language-range negotiation."
+        }
+      ],
+      "source_review": {
+        "key": "htmlalternate",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://html.spec.whatwg.org/multipage/links.html#link-type-alternate",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "htmllang",
+      "title": "{HTML Living Standard: The lang and xml:lang attributes}",
+      "locations": [
+        {
+          "tex_line": 57,
+          "paragraph": "We distinguish Web representation semantics, discovery-service conventions, and application release policy. HTML's language and alternate-link semantics~\\cite{htmllang,htmlalternate} do not imply that every content item must exist in every locale. Language declaration also serves accessibility and processing purposes beyond search~\\cite{w3clang}. BCP~47 defines language tags and a separate specification defines matching~\\cite{bcp47,langmatch}; our implementation normalizes tag case but does not claim complete registry validation or general language-range negotiation."
+        }
+      ],
+      "source_review": {
+        "key": "htmllang",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://html.spec.whatwg.org/multipage/dom.html#the-lang-and-xml:lang-attributes",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "sitemaps",
+      "title": "{Sitemaps XML format}",
+      "locations": [
+        {
+          "tex_line": 59,
+          "paragraph": "Google documents HTML links, HTTP Link headers, and sitemap annotations as alternative mechanisms~\\cite{googlevariants}. Accordingly, a contract selects channels rather than requiring all three. A chosen channel can advertise a deliberate subset, omit optional \\texttt{x-default}, or permit fallback. Reciprocal checking applies only where that contract enables it. Sitemap membership and optional channel agreement are separate obligations, informed by the sitemap format and publication guidance~\\cite{sitemaps,googlesitemap}. The checker does not turn every recommendation into a mandatory Web-standard rule."
+        }
+      ],
+      "source_review": {
+        "key": "sitemaps",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://www.sitemaps.org/protocol.html",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "w3clang",
+      "title": "{Declaring language in HTML}",
+      "locations": [
+        {
+          "tex_line": 57,
+          "paragraph": "We distinguish Web representation semantics, discovery-service conventions, and application release policy. HTML's language and alternate-link semantics~\\cite{htmllang,htmlalternate} do not imply that every content item must exist in every locale. Language declaration also serves accessibility and processing purposes beyond search~\\cite{w3clang}. BCP~47 defines language tags and a separate specification defines matching~\\cite{bcp47,langmatch}; our implementation normalizes tag case but does not claim complete registry validation or general language-range negotiation."
+        }
+      ],
+      "source_review": {
+        "key": "w3clang",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://www.w3.org/International/questions/qa-html-language-declarations",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "googlevariants",
+      "title": "{Tell Google about localized versions of your page}",
+      "locations": [
+        {
+          "tex_line": 59,
+          "paragraph": "Google documents HTML links, HTTP Link headers, and sitemap annotations as alternative mechanisms~\\cite{googlevariants}. Accordingly, a contract selects channels rather than requiring all three. A chosen channel can advertise a deliberate subset, omit optional \\texttt{x-default}, or permit fallback. Reciprocal checking applies only where that contract enables it. Sitemap membership and optional channel agreement are separate obligations, informed by the sitemap format and publication guidance~\\cite{sitemaps,googlesitemap}. The checker does not turn every recommendation into a mandatory Web-standard rule."
+        }
+      ],
+      "source_review": {
+        "key": "googlevariants",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "googlecanonical",
+      "title": "{How to specify a canonical URL with rel=\"canonical\" and other methods}",
+      "locations": [
+        {
+          "tex_line": 61,
+          "paragraph": "The canonical relation names a preferred representation of duplicative content~\\cite{canonicalrfc}; search-service canonicalization also involves recommendations and interpretation~\\cite{googlecanonical}. The contract specifies permitted targets, required presence and inspected channels. A permitted cross-locale target or fallback expresses release policy, not a proof of content duplication, translation quality or search-engine acceptance."
+        }
+      ],
+      "source_review": {
+        "key": "googlecanonical",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "googleregional",
+      "title": "{Managing multi-regional and multilingual sites}",
+      "locations": [
+        {
+          "tex_line": 30,
+          "paragraph": "Publishing a multilingual site joins content availability, routes, aliases and discovery metadata. Separate locale URLs and locale-adaptive delivery have different discovery behavior~\\cite{googleregional,googleadaptive}. A successful build establishes neither that these decisions agree nor that a reachable alternate is the intended translation. Deletions, renamed routes and default-language prefix changes can invalidate metadata generated elsewhere."
+        }
+      ],
+      "source_review": {
+        "key": "googleregional",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "googleadaptive",
+      "title": "{How Google crawls locale-adaptive pages}",
+      "locations": [
+        {
+          "tex_line": 30,
+          "paragraph": "Publishing a multilingual site joins content availability, routes, aliases and discovery metadata. Separate locale URLs and locale-adaptive delivery have different discovery behavior~\\cite{googleregional,googleadaptive}. A successful build establishes neither that these decisions agree nor that a reachable alternate is the intended translation. Deletions, renamed routes and default-language prefix changes can invalidate metadata generated elsewhere."
+        }
+      ],
+      "source_review": {
+        "key": "googleadaptive",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "googlesitemap",
+      "title": "{Build and submit a sitemap}",
+      "locations": [
+        {
+          "tex_line": 59,
+          "paragraph": "Google documents HTML links, HTTP Link headers, and sitemap annotations as alternative mechanisms~\\cite{googlevariants}. Accordingly, a contract selects channels rather than requiring all three. A chosen channel can advertise a deliberate subset, omit optional \\texttt{x-default}, or permit fallback. Reciprocal checking applies only where that contract enables it. Sitemap membership and optional channel agreement are separate obligations, informed by the sitemap format and publication guidance~\\cite{sitemaps,googlesitemap}. The checker does not turn every recommendation into a mandatory Web-standard rule."
+        }
+      ],
+      "source_review": {
+        "key": "googlesitemap",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astroi18n",
+      "title": "{Internationalization (i18n) routing}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astroi18n",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/guides/internationalization/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astroapi",
+      "title": "{Internationalization API Reference}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astroapi",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/reference/modules/astro-i18n/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astrorouting",
+      "title": "{Routing}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astrorouting",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/guides/routing/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astroconfig",
+      "title": "{Configuration Reference}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astroconfig",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/reference/configuration-reference/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astrocontent",
+      "title": "{Content collections}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astrocontent",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/guides/content-collections/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astroserver",
+      "title": "{On-demand rendering}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astroserver",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.astro.build/en/guides/on-demand-rendering/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "astrorelease",
+      "title": "{Release astro@5.13.2}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "astrorelease",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://api.github.com/repos/withastro/astro/releases/tags/astro%405.13.2",
+        "review_note": "Official release API confirms name/tag and date. Existence of release does not establish a successful native build."
+      }
+    },
+    {
+      "key": "hugoi18n",
+      "title": "{Multilingual mode}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugoi18n",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://gohugo.io/content-management/multilingual/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "hugokey",
+      "title": "{TranslationKey}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugokey",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://gohugo.io/methods/page/translationkey/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "hugoall",
+      "title": "{AllTranslations}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugoall",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://gohugo.io/methods/page/alltranslations/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "hugositemap",
+      "title": "{Sitemap templates}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugositemap",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://gohugo.io/templates/sitemap/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "hugourls",
+      "title": "{URL management}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugourls",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://gohugo.io/content-management/urls/",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "hugorelease",
+      "title": "{Release v0.147.9}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "hugorelease",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://github.com/gohugoio/hugo/releases/tag/v0.147.9",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nexti18n",
+      "title": "{Internationalization}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nexti18n",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/docs/app/guides/internationalization",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextmetadata",
+      "title": "{generateMetadata}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextmetadata",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextexport",
+      "title": "{Static Exports}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextexport",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/docs/app/guides/static-exports",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextparams",
+      "title": "{generateStaticParams}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextparams",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextredirects",
+      "title": "{redirects}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextredirects",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextrelease",
+      "title": "{Next.js Security Update: December 11, 2025}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextrelease",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://nextjs.org/blog/security-update-2025-12-11",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "nextintl",
+      "title": "{Routing configuration}",
+      "locations": [
+        {
+          "tex_line": 161,
+          "paragraph": "Dependency acquisition failed for the candidate native Astro, Hugo, Next.js and Jekyll builds; their proposals are excluded from measured integrations. The official interfaces nevertheless identify adapter boundaries. Astro separates i18n helpers~\\cite{astroi18n,astroapi}, routes and configuration~\\cite{astrorouting,astroconfig}, content and on-demand output~\\cite{astrocontent,astroserver}. Hugo exposes translation grouping~\\cite{hugoi18n,hugokey,hugoall}, sitemap generation and aliases~\\cite{hugositemap,hugourls}. Next.js separates locale routing~\\cite{nexti18n}, metadata~\\cite{nextmetadata}, static parameters/export~\\cite{nextparams,nextexport} and redirects~\\cite{nextredirects}; next-intl adds routing policy~\\cite{nextintl}. Recorded candidate releases~\\cite{astrorelease,hugorelease,nextrelease} identify proposed dependencies, not verified support. The executed compiler evidence is Pandoc; Chromium independently exercises ingestion, not any framework's locale builder."
+        }
+      ],
+      "source_review": {
+        "key": "nextintl",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://next-intl.dev/docs/routing/configuration",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "crawlcontract",
+      "title": "{crawlcontract: Deterministic CI for technical SEO}",
+      "locations": [
+        {
+          "tex_line": 47,
+          "paragraph": "crawlcontract explicitly combines sitemaps, canonicals, redirects, links, hreflang, and indexability~\\cite{crawlcontract}; joint discovery checking alone is therefore not our novelty claim. Crawl Cove provides page and sitemap hreflang checks~\\cite{crawlcove}. We execute its pinned page API, retaining its error/warning distinction, and compare only interpretable cohorts. Lychee's link checker~\\cite{lychee} and W3C markup validation~\\cite{validator} address other layers; neither is represented by a homemade program carrying its name. Our route, reachability, HTML-only, and joint-output controls are explicitly authored scope controls. The comparison isolates whether a checker receives independent content identities, rather than treating additional contract information as superior link analysis."
+        }
+      ],
+      "source_review": {
+        "key": "crawlcontract",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://github.com/lame13/crawlcontract",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "lychee",
+      "title": "{lychee: A fast, async, stream-based link checker}",
+      "locations": [
+        {
+          "tex_line": 47,
+          "paragraph": "crawlcontract explicitly combines sitemaps, canonicals, redirects, links, hreflang, and indexability~\\cite{crawlcontract}; joint discovery checking alone is therefore not our novelty claim. Crawl Cove provides page and sitemap hreflang checks~\\cite{crawlcove}. We execute its pinned page API, retaining its error/warning distinction, and compare only interpretable cohorts. Lychee's link checker~\\cite{lychee} and W3C markup validation~\\cite{validator} address other layers; neither is represented by a homemade program carrying its name. Our route, reachability, HTML-only, and joint-output controls are explicitly authored scope controls. The comparison isolates whether a checker receives independent content identities, rather than treating additional contract information as superior link analysis."
+        }
+      ],
+      "source_review": {
+        "key": "lychee",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://github.com/lycheeverse/lychee",
+        "review_note": "Official repository README reviewed; offline guide URL failed. Tool not executed and not reported as an experimental comparator."
+      }
+    },
+    {
+      "key": "crawlcove",
+      "title": "{crawlcove-hreflang-checker}",
+      "locations": [
+        {
+          "tex_line": 47,
+          "paragraph": "crawlcontract explicitly combines sitemaps, canonicals, redirects, links, hreflang, and indexability~\\cite{crawlcontract}; joint discovery checking alone is therefore not our novelty claim. Crawl Cove provides page and sitemap hreflang checks~\\cite{crawlcove}. We execute its pinned page API, retaining its error/warning distinction, and compare only interpretable cohorts. Lychee's link checker~\\cite{lychee} and W3C markup validation~\\cite{validator} address other layers; neither is represented by a homemade program carrying its name. Our route, reachability, HTML-only, and joint-output controls are explicitly authored scope controls. The comparison isolates whether a checker receives independent content identities, rather than treating additional contract information as superior link analysis."
+        },
+        {
+          "tex_line": 166,
+          "paragraph": "For an external comparison, we retain Crawl Cove 1.0.0's full source at a pinned commit and its MIT license~\\cite{crawlcove}. The unavailable XML dependency is removed together with sitemap-only initialization and functions; the page-checking functions are unchanged. A reproducible preparation script records this transformation. The page API receives an injected local-response fetch function; global network fetch is disabled. Each relevant local page is supplied with its recorded HTML, status, and headers, and the alternate limit is raised to avoid truncation. We executed \\ExternalPages{} page calls and \\ExternalFetches{} local fetches over the primary release candidates. This is dependency-pruned page-API execution, not installation of the full CLI, sitemap mode, or desktop product."
+        }
+      ],
+      "source_review": {
+        "key": "crawlcove",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://github.com/CrawlCove/crawlcove-hreflang-checker",
+        "review_note": "Pinned full JavaScript source and MIT license read via GitHub connector; Git blob bytes verified locally. Page API actually run after dependency pruning; XML/CLI not run."
+      }
+    },
+    {
+      "key": "validator",
+      "title": "{Help for the W3C Markup Validation Service}",
+      "locations": [
+        {
+          "tex_line": 47,
+          "paragraph": "crawlcontract explicitly combines sitemaps, canonicals, redirects, links, hreflang, and indexability~\\cite{crawlcontract}; joint discovery checking alone is therefore not our novelty claim. Crawl Cove provides page and sitemap hreflang checks~\\cite{crawlcove}. We execute its pinned page API, retaining its error/warning distinction, and compare only interpretable cohorts. Lychee's link checker~\\cite{lychee} and W3C markup validation~\\cite{validator} address other layers; neither is represented by a homemade program carrying its name. Our route, reachability, HTML-only, and joint-output controls are explicitly authored scope controls. The comparison isolates whether a checker receives independent content identities, rather than treating additional contract information as superior link analysis."
+        }
+      ],
+      "source_review": {
+        "key": "validator",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://validator.w3.org/docs/help.html",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "htmlparser",
+      "title": "{html.parser: Simple HTML and XHTML parser (Python 3.13 documentation)}",
+      "locations": [
+        {
+          "tex_line": 97,
+          "paragraph": "Two evaluators can agree on the wrong extracted facts. We therefore replay literal HTML and header inputs against both the previous and revised ingestion code. The revised parser implements an explicit static profile on Python's event parser~\\cite{htmlparser}, not a browser engine. It requires an explicit head, ignores inert template content~\\cite{htmltemplate}, and declines constructs needing unsupported recovery or foreign-content interpretation. A first active base element governs HTML references~\\cite{htmlbase}, whereas relative HTTP Link targets use the response URL. Nonzero refresh delays, qualified alternate links outside the profile, and conflicting content markers remain diagnostics rather than silently selected values."
+        }
+      ],
+      "source_review": {
+        "key": "htmlparser",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://docs.python.org/3.13/library/html.parser.html",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "polyglot",
+      "title": "{Polyglot: Straightforward i18n for Jekyll Blogs}",
+      "locations": [
+        {
+          "tex_line": 155,
+          "paragraph": "The MIT-licensed Polyglot adaptation preserves locale, permalink and explicit content-key facts~\\cite{polyglot}. Other emitters, contracts, perturbations and labels are authored here. The \\HeldoutCases{} compositions have been reused during development and are regression tests, not an untouched holdout or independent site sample."
+        }
+      ],
+      "source_review": {
+        "key": "polyglot",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://github.com/untra/polyglot",
+        "review_note": "Pinned repository source and MIT license reviewed; five complete Markdown files byte-verified. Source adaptation and Pandoc compilation are not native Jekyll execution."
+      }
+    },
+    {
+      "key": "htmlbase",
+      "title": "{HTML Living Standard: The base element}",
+      "locations": [
+        {
+          "tex_line": 97,
+          "paragraph": "Two evaluators can agree on the wrong extracted facts. We therefore replay literal HTML and header inputs against both the previous and revised ingestion code. The revised parser implements an explicit static profile on Python's event parser~\\cite{htmlparser}, not a browser engine. It requires an explicit head, ignores inert template content~\\cite{htmltemplate}, and declines constructs needing unsupported recovery or foreign-content interpretation. A first active base element governs HTML references~\\cite{htmlbase}, whereas relative HTTP Link targets use the response URL. Nonzero refresh delays, qualified alternate links outside the profile, and conflicting content markers remain diagnostics rather than silently selected values."
+        }
+      ],
+      "source_review": {
+        "key": "htmlbase",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://html.spec.whatwg.org/multipage/semantics.html#the-base-element",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "htmltemplate",
+      "title": "{HTML Living Standard: The template element}",
+      "locations": [
+        {
+          "tex_line": 97,
+          "paragraph": "Two evaluators can agree on the wrong extracted facts. We therefore replay literal HTML and header inputs against both the previous and revised ingestion code. The revised parser implements an explicit static profile on Python's event parser~\\cite{htmlparser}, not a browser engine. It requires an explicit head, ignores inert template content~\\cite{htmltemplate}, and declines constructs needing unsupported recovery or foreign-content interpretation. A first active base element governs HTML references~\\cite{htmlbase}, whereas relative HTTP Link targets use the response URL. Nonzero refresh delays, qualified alternate links outside the profile, and conflicting content markers remain diagnostics rather than silently selected values."
+        }
+      ],
+      "source_review": {
+        "key": "htmltemplate",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "pandoc",
+      "title": "{Pandoc User's Guide}",
+      "locations": [
+        {
+          "tex_line": 158,
+          "paragraph": "A further pipeline executes Pandoc 3.1.11.1, using its Markdown reader, HTML writer, template and metadata facilities~\\cite{pandoc}. Five complete Markdown sources from the same pinned Polyglot repository are retained without body edits: the English about page and four language versions of a custom-permalink example. Pandoc reads source metadata; a separately retained source-index record defines the contract. The authored header/template integration passes the source-derived content key, language, canonical, and alternate links to the compiler. The \\PandocReleases{} releases require \\PandocCalls{} native HTML compilation calls plus five metadata-reader calls. Ordinary body-link checking is disabled because these five excerpts do not include the entire site's target universe. Jekyll Liquid is not executed. This is an authored Pandoc publication pipeline over public sources, not rebuilding the upstream Jekyll site or adding an independent source repository."
+        }
+      ],
+      "source_review": {
+        "key": "pandoc",
+        "evidence_type": "official documentation or maintained source",
+        "source": "https://pandoc.org/MANUAL.html",
+        "review_note": "Official project or documentation page opened and relevant interface/semantics reviewed. Live documentation is not asserted to be the exact documentation of an unexecuted version."
+      }
+    },
+    {
+      "key": "domparser",
+      "title": "{HTML Living Standard}: The {DOMParser} Interface",
+      "locations": [
+        {
+          "tex_line": 99,
+          "paragraph": "The HTTP Link reader respects delimiters inside quoted values. It retains repeated \\texttt{hreflang} parameters; only the first \\texttt{rel} parameter is used. Since the profile does not implement an alternate anchor context, it ignores the entire anchored link rather than attaching it to the response resource~\\cite{weblinking}. Duplicate JSON members and normalized route collisions are rejected. Local paths must remain inside their mounted directories. XML parsing rejects DTD/entity declarations and malformed input; it does not fetch external sitemap indexes. An optional Chromium adapter supplies a separately implemented HTML tree path. It parses local strings through inert \\texttt{DOMParser}, whose scripts are not evaluated~\\cite{domparser}, then selects active HTML-namespace metadata and anchors. Resource requests are blocked, input is never navigated, and a script sentinel remains unset. The response URL is supplied explicitly because the parser's document URL belongs to its surrounding context. Both paths use the same URL normalizer; the comparison therefore isolates tree construction and selection, not URL-standard conformance. Scripting-dependent \\texttt{noscript} content remains diagnostic."
+        }
+      ],
+      "source_review": {
+        "key": "domparser",
+        "evidence_type": "official normative specification read",
+        "source": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-domparser-parsefromstring",
+        "review_note": "Read DOMParser algorithm and script/encoding/context-URL notes on 2026-10-05. This supports inert parser use, not a live-page rendering guarantee."
+      }
+    },
+    {
+      "key": "lowmemory",
+      "title": "Incremental inconsistency detection with low memory overhead",
+      "locations": [
+        {
+          "tex_line": 50,
+          "paragraph": "Instant checking~\\cite{instant}, dynamic constraints~\\cite{dynamic}, and incremental handling of complex rules~\\cite{complex} directly overlap dependency-based invalidation, including finer rule parts. Work on incremental builds addresses dependency validity~\\cite{pluto}; the Build Systems \\`a la Carte framework separates scheduling and rebuilding~\\cite{alacarte}. More general models include imperative self-adjusting computation~\\cite{imperative}, Adapton~\\cite{adapton}, Differential Dataflow~\\cite{differential}, and Rete~\\cite{rete}. Falleri et al. reduce memory through statically derived, pre-instantiated impact lists rather than a model-sized read cache~\\cite{lowmemory}. We instead retain the exact dynamic read set and factor repeated owner/fact footprints. This preserves the field index's invalidation set but remains data-dependent in space. The measured comparison is among our representations, not an executed performance comparison with these general consistency systems."
+        }
+      ],
+      "source_review": {
+        "key": "lowmemory",
+        "evidence_type": "author-hosted full preprint and author institutional publication records",
+        "source": "https://www.labri.fr/perso/xblanc/data/papers/SPE13.pdf",
+        "metadata_source": "https://cv.hal.science/jrfaller",
+        "review_note": "Read full preprint, rendered pages 1 and 7. Preprint title has plural inconsistencies and placeholder year; final publication uses singular inconsistency. Final title, five authors, 44(5),621-641,2014 and DOI10.1002/spe.2171 confirmed by author HAL CV and LIP6 institutional list. Publisher direct page and HAL single-record fetch unavailable; no false claim of reading final publisher PDF. Static pre-instantiated impact lists rather than dynamic exact footprint retention; no execution comparison."
+      }
+    }
+  ]
+}

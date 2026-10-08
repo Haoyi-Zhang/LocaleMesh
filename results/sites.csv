@@ -1,0 +1,7 @@
+site,origin_kind,routes,content_keys,locales,channels,origins,release_cases,wall_s
+A1,authored-fixture,24,12,"en,de",html,1,29,1.19761390199983
+A2,authored-fixture,48,24,"en,fr","html,sitemap",1,29,2.912610491000123
+H1,authored-fixture,96,32,"en,fr,de",sitemap,1,29,5.611620043000585
+H2,authored-fixture,150,50,"en,fr,de","sitemap,http",3,29,13.414534018999802
+N1,authored-fixture,240,80,"en,fr,ja","html,http",1,29,21.981013900000107
+N2,authored-fixture,360,120,"en,de,ja",http,3,29,30.442073889999847

@@ -1,0 +1,43 @@
+{
+  "site": "H2",
+  "case": "fallback_allowed",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://en.h2.test/en/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "sitemap",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://en.h2.test/en/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

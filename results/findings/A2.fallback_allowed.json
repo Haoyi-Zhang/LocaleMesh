@@ -1,0 +1,34 @@
+{
+  "site": "A2",
+  "case": "fallback_allowed",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://a2.test/en/item-0000/",
+      "locale"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "sitemap",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://a2.test/en/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

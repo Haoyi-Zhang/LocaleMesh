@@ -1,0 +1,21 @@
+{
+  "site": "N1",
+  "case": "missing_required_sitemap",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "SITEMAP_MISSING",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "source_kind": "authored-unbuilt-integration",
+  "config": {
+    "origins": {
+      "https://hugo.localemesh.test": "."
+    },
+    "locales": [
+      "en",
+      "de"
+    ],
+    "aliases": {},
+    "complete_manifest": false,
+    "check_links": true
+  },
+  "pages": {
+    "https://hugo.localemesh.test/intro/": {
+      "key": "intro",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://hugo.localemesh.test/intro/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://hugo.localemesh.test/de/intro/": {
+      "key": "intro",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://hugo.localemesh.test/de/intro/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://hugo.localemesh.test/guide/": {
+      "key": "guide",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://hugo.localemesh.test/guide/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://hugo.localemesh.test/de/guide/": {
+      "key": "guide",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://hugo.localemesh.test/de/guide/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      }
+    }
+  }
+}

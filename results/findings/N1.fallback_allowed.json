@@ -1,0 +1,52 @@
+{
+  "site": "N1",
+  "case": "fallback_allowed",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://n1.test/en/item-0000/",
+      "locale"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "locale"
+    ]
+  ],
+  "joint": [
+    [
+      "https://n1.test/en/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "http",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://n1.test/en/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

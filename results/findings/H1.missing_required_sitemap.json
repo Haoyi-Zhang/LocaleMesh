@@ -1,0 +1,82 @@
+{
+  "site": "H1",
+  "case": "missing_required_sitemap",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": "de"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": "en"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": "fr"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_MISSING",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://h1.test/de/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://h1.test/fr/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://h1.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    }
+  ]
+}

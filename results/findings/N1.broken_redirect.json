@@ -1,0 +1,26 @@
+{
+  "site": "N1",
+  "case": "broken_redirect",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://n1.test/en/item-0000/old/",
+      "channel": "redirect",
+      "detail": "https://n1.test/en/item-0000/old/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://n1.test/en/item-0000/old/",
+      "https://n1.test/en/item-0000/missing/"
+    ]
+  ],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

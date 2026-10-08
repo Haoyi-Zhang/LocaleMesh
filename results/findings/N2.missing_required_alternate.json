@@ -1,0 +1,39 @@
+{
+  "site": "N2",
+  "case": "missing_required_alternate",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://en.n2.test/item-0000/",
+      "channel": "http",
+      "detail": "ja"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://ja.n2.test/ja/item-0000/",
+      "channel": "http",
+      "detail": "https://en.n2.test/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://ja.n2.test/ja/item-0000/",
+      "http",
+      "reciprocity"
+    ]
+  ],
+  "blind": [
+    [
+      "https://en.n2.test/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

@@ -1,0 +1,2 @@
+Gamma en
+Authored local emitter source.

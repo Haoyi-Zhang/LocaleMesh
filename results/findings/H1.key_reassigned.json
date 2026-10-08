@@ -1,0 +1,49 @@
+{
+  "site": "H1",
+  "case": "key_reassigned",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CONTENT_ID",
+      "owner": "https://h1.test/de/item-0000/",
+      "channel": "html",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://h1.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://h1.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://h1.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_ID",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://h1.test/de/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

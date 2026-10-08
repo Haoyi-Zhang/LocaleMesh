@@ -1,0 +1,105 @@
+{
+  "site": "N2",
+  "case": "missing_route",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://de.n2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://en.n2.test/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://ja.n2.test/ja/item-0119/",
+      "channel": "html",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "MISSING_ROUTE",
+      "owner": "https://ja.n2.test/ja/item-0000/",
+      "channel": "",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_TARGET",
+      "owner": "https://ja.n2.test/ja/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    }
+  ],
+  "manifest": [
+    [
+      "https://ja.n2.test/ja/item-0000/",
+      "missing"
+    ]
+  ],
+  "deadlink": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "https://ja.n2.test/ja/item-0000/"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "https://ja.n2.test/ja/item-0000/"
+    ],
+    [
+      "https://ja.n2.test/ja/item-0119/",
+      "https://ja.n2.test/ja/item-0000/"
+    ]
+  ],
+  "html": [],
+  "joint": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://ja.n2.test/ja/item-0119/",
+      "html",
+      "link"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://de.n2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://en.n2.test/item-0000/",
+      "channel": "http",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://ja.n2.test/ja/item-0119/",
+      "channel": "html",
+      "detail": "https://ja.n2.test/ja/item-0000/"
+    }
+  ]
+}

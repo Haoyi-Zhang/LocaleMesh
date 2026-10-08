@@ -1,0 +1,56 @@
+{
+  "site": "A2",
+  "case": "missing_required_sitemap",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "en"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "fr"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_MISSING",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://a2.test/fr/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/en/item-0000/"
+    }
+  ]
+}

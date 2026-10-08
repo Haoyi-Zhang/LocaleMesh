@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "config": {
+    "origins": {
+      "https://pandoc.localemesh.test": "main"
+    },
+    "check_links": false
+  },
+  "pages": {
+    "https://pandoc.localemesh.test/about/": {
+      "key": "about",
+      "locale": "en",
+      "canonical_allowed": [
+        "https://pandoc.localemesh.test/about/"
+      ],
+      "canonical_required": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://pandoc.localemesh.test/a-really-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "en",
+      "canonical_allowed": [
+        "https://pandoc.localemesh.test/a-really-long/permalink/"
+      ],
+      "canonical_required": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://pandoc.localemesh.test/de/eine-wirklich-lange/permalink/": {
+      "key": "complex-permalink",
+      "locale": "de",
+      "canonical_allowed": [
+        "https://pandoc.localemesh.test/de/eine-wirklich-lange/permalink/"
+      ],
+      "canonical_required": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://pandoc.localemesh.test/es/una-muy-larga/permalink/": {
+      "key": "complex-permalink",
+      "locale": "es",
+      "canonical_allowed": [
+        "https://pandoc.localemesh.test/es/una-muy-larga/permalink/"
+      ],
+      "canonical_required": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://pandoc.localemesh.test/fr/un-tres-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "fr",
+      "canonical_allowed": [
+        "https://pandoc.localemesh.test/fr/un-tres-long/permalink/"
+      ],
+      "canonical_required": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    }
+  }
+}

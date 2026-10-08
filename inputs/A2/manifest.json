@@ -1,0 +1,1603 @@
+{
+  "schema": 1,
+  "fixture_id": "A2",
+  "origin_kind": "authored-fixture",
+  "config": {
+    "origins": {
+      "https://a2.test": "main"
+    },
+    "aliases": {},
+    "locales": [
+      "en",
+      "fr"
+    ],
+    "complete_manifest": true,
+    "check_links": true
+  },
+  "pages": {
+    "https://a2.test/en/item-0000/": {
+      "key": "item-0000",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0000/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0000/": {
+      "key": "item-0000",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0000/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0001/": {
+      "key": "item-0001",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0001/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0001/": {
+      "key": "item-0001",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0001/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0002/": {
+      "key": "item-0002",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0002/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0002/": {
+      "key": "item-0002",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0002/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0003/": {
+      "key": "item-0003",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0003/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0003/": {
+      "key": "item-0003",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0003/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0004/": {
+      "key": "item-0004",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0004/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0004/": {
+      "key": "item-0004",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0004/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0005/": {
+      "key": "item-0005",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0005/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0005/": {
+      "key": "item-0005",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0005/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0006/": {
+      "key": "item-0006",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0006/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0006/": {
+      "key": "item-0006",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0006/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0007/": {
+      "key": "item-0007",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0007/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0007/": {
+      "key": "item-0007",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0007/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0008/": {
+      "key": "item-0008",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0008/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0008/": {
+      "key": "item-0008",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0008/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0009/": {
+      "key": "item-0009",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0009/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0009/": {
+      "key": "item-0009",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0009/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0010/": {
+      "key": "item-0010",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0010/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0010/": {
+      "key": "item-0010",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0010/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0011/": {
+      "key": "item-0011",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0011/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0011/": {
+      "key": "item-0011",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0011/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0012/": {
+      "key": "item-0012",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0012/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0012/": {
+      "key": "item-0012",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0012/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0013/": {
+      "key": "item-0013",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0013/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0013/": {
+      "key": "item-0013",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0013/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0014/": {
+      "key": "item-0014",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0014/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0014/": {
+      "key": "item-0014",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0014/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0015/": {
+      "key": "item-0015",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0015/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0015/": {
+      "key": "item-0015",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0015/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0016/": {
+      "key": "item-0016",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0016/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0016/": {
+      "key": "item-0016",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0016/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0017/": {
+      "key": "item-0017",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0017/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0017/": {
+      "key": "item-0017",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0017/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0018/": {
+      "key": "item-0018",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0018/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0018/": {
+      "key": "item-0018",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0018/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0019/": {
+      "key": "item-0019",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0019/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0019/": {
+      "key": "item-0019",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0019/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0020/": {
+      "key": "item-0020",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0020/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0020/": {
+      "key": "item-0020",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0020/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0021/": {
+      "key": "item-0021",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0021/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0021/": {
+      "key": "item-0021",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0021/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0022/": {
+      "key": "item-0022",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0022/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0022/": {
+      "key": "item-0022",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0022/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/en/item-0023/": {
+      "key": "item-0023",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/en/item-0023/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    },
+    "https://a2.test/fr/item-0023/": {
+      "key": "item-0023",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a2.test/fr/item-0023/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        },
+        "sitemap": {
+          "required": [
+            "en",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html",
+        "sitemap"
+      ],
+      "fallbacks": {}
+    }
+  }
+}

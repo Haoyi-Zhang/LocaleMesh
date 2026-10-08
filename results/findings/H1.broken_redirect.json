@@ -1,0 +1,26 @@
+{
+  "site": "H1",
+  "case": "broken_redirect",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://h1.test/item-0000/old/",
+      "channel": "redirect",
+      "detail": "https://h1.test/item-0000/old/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://h1.test/item-0000/old/",
+      "https://h1.test/item-0000/missing/"
+    ]
+  ],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

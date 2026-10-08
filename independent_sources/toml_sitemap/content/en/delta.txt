@@ -1,0 +1,2 @@
+Delta en
+Authored local emitter source.

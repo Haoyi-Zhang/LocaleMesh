@@ -1,0 +1,13 @@
+{
+  "site": "H1",
+  "case": "no_optional_channels",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

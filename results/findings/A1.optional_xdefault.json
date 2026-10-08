@@ -1,0 +1,13 @@
+{
+  "site": "A1",
+  "case": "optional_xdefault",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

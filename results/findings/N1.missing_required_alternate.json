@@ -1,0 +1,56 @@
+{
+  "site": "N1",
+  "case": "missing_required_alternate",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CHANNEL_CONFLICT",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "html:http",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "html",
+      "detail": "ja"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://n1.test/ja/item-0000/",
+      "channel": "html",
+      "detail": "https://n1.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://n1.test/ja/item-0000/",
+      "reciprocity"
+    ]
+  ],
+  "joint": [
+    [
+      "https://n1.test/en/item-0000/",
+      "html:http",
+      "agreement"
+    ],
+    [
+      "https://n1.test/ja/item-0000/",
+      "html",
+      "reciprocity"
+    ]
+  ],
+  "blind": [
+    [
+      "https://n1.test/en/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

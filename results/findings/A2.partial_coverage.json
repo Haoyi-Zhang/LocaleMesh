@@ -1,0 +1,22 @@
+{
+  "site": "A2",
+  "case": "partial_coverage",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [
+    [
+      "https://a2.test/en/item-0000/",
+      "incomplete"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

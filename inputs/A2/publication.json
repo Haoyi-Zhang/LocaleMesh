@@ -1,0 +1,1734 @@
+{
+  "pages": {
+    "https://a2.test/en/item-0000/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0000",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0000/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0000/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0000/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0001/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 0, locale en."
+    },
+    "https://a2.test/fr/item-0000/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0000",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0000/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0000/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0000/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0001/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 0, locale fr."
+    },
+    "https://a2.test/en/item-0001/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0001",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0001/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0001/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0001/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0002/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 1, locale en."
+    },
+    "https://a2.test/fr/item-0001/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0001",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0001/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0001/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0001/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0002/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 1, locale fr."
+    },
+    "https://a2.test/en/item-0002/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0002",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0002/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0002/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0002/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0003/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 2, locale en."
+    },
+    "https://a2.test/fr/item-0002/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0002",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0002/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0002/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0002/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0003/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 2, locale fr."
+    },
+    "https://a2.test/en/item-0003/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0003",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0003/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0003/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0003/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0004/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 3, locale en."
+    },
+    "https://a2.test/fr/item-0003/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0003",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0003/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0003/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0003/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0004/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 3, locale fr."
+    },
+    "https://a2.test/en/item-0004/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0004",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0004/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0004/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0004/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0005/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 4, locale en."
+    },
+    "https://a2.test/fr/item-0004/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0004",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0004/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0004/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0004/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0005/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 4, locale fr."
+    },
+    "https://a2.test/en/item-0005/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0005",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0005/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0005/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0005/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0006/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 5, locale en."
+    },
+    "https://a2.test/fr/item-0005/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0005",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0005/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0005/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0005/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0006/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 5, locale fr."
+    },
+    "https://a2.test/en/item-0006/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0006",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0006/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0006/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0006/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0007/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 6, locale en."
+    },
+    "https://a2.test/fr/item-0006/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0006",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0006/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0006/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0006/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0007/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 6, locale fr."
+    },
+    "https://a2.test/en/item-0007/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0007",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0007/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0007/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0007/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0008/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 7, locale en."
+    },
+    "https://a2.test/fr/item-0007/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0007",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0007/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0007/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0007/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0008/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 7, locale fr."
+    },
+    "https://a2.test/en/item-0008/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0008",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0008/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0008/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0008/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0009/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 8, locale en."
+    },
+    "https://a2.test/fr/item-0008/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0008",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0008/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0008/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0008/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0009/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 8, locale fr."
+    },
+    "https://a2.test/en/item-0009/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0009",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0009/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0009/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0009/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0010/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 9, locale en."
+    },
+    "https://a2.test/fr/item-0009/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0009",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0009/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0009/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0009/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0010/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 9, locale fr."
+    },
+    "https://a2.test/en/item-0010/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0010",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0010/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0010/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0010/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0011/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 10, locale en."
+    },
+    "https://a2.test/fr/item-0010/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0010",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0010/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0010/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0010/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0011/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 10, locale fr."
+    },
+    "https://a2.test/en/item-0011/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0011",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0011/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0011/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0011/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0012/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 11, locale en."
+    },
+    "https://a2.test/fr/item-0011/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0011",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0011/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0011/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0011/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0012/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 11, locale fr."
+    },
+    "https://a2.test/en/item-0012/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0012",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0012/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0012/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0012/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0013/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 12, locale en."
+    },
+    "https://a2.test/fr/item-0012/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0012",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0012/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0012/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0012/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0013/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 12, locale fr."
+    },
+    "https://a2.test/en/item-0013/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0013",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0013/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0013/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0013/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0014/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 13, locale en."
+    },
+    "https://a2.test/fr/item-0013/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0013",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0013/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0013/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0013/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0014/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 13, locale fr."
+    },
+    "https://a2.test/en/item-0014/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0014",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0014/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0014/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0014/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0015/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 14, locale en."
+    },
+    "https://a2.test/fr/item-0014/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0014",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0014/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0014/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0014/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0015/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 14, locale fr."
+    },
+    "https://a2.test/en/item-0015/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0015",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0015/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0015/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0015/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0016/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 15, locale en."
+    },
+    "https://a2.test/fr/item-0015/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0015",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0015/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0015/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0015/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0016/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 15, locale fr."
+    },
+    "https://a2.test/en/item-0016/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0016",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0016/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0016/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0016/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0017/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 16, locale en."
+    },
+    "https://a2.test/fr/item-0016/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0016",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0016/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0016/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0016/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0017/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 16, locale fr."
+    },
+    "https://a2.test/en/item-0017/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0017",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0017/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0017/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0017/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0018/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 17, locale en."
+    },
+    "https://a2.test/fr/item-0017/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0017",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0017/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0017/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0017/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0018/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 17, locale fr."
+    },
+    "https://a2.test/en/item-0018/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0018",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0018/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0018/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0018/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0019/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 18, locale en."
+    },
+    "https://a2.test/fr/item-0018/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0018",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0018/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0018/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0018/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0019/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 18, locale fr."
+    },
+    "https://a2.test/en/item-0019/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0019",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0019/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0019/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0019/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0020/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 19, locale en."
+    },
+    "https://a2.test/fr/item-0019/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0019",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0019/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0019/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0019/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0020/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 19, locale fr."
+    },
+    "https://a2.test/en/item-0020/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0020",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0020/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0020/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0020/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0021/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 20, locale en."
+    },
+    "https://a2.test/fr/item-0020/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0020",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0020/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0020/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0020/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0021/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 20, locale fr."
+    },
+    "https://a2.test/en/item-0021/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0021",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0021/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0021/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0021/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0022/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 21, locale en."
+    },
+    "https://a2.test/fr/item-0021/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0021",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0021/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0021/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0021/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0022/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 21, locale fr."
+    },
+    "https://a2.test/en/item-0022/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0022",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0022/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0022/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0022/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0023/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 22, locale en."
+    },
+    "https://a2.test/fr/item-0022/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0022",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0022/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0022/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0022/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0023/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 22, locale fr."
+    },
+    "https://a2.test/en/item-0023/": {
+      "status": 200,
+      "lang": "en",
+      "key": "item-0023",
+      "canonical": {
+        "html": [
+          "https://a2.test/en/item-0023/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0023/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0023/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/en/item-0000/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 23, locale en."
+    },
+    "https://a2.test/fr/item-0023/": {
+      "status": 200,
+      "lang": "fr",
+      "key": "item-0023",
+      "canonical": {
+        "html": [
+          "https://a2.test/fr/item-0023/"
+        ]
+      },
+      "alternates": {
+        "html": [
+          [
+            "en",
+            "https://a2.test/en/item-0023/"
+          ],
+          [
+            "fr",
+            "https://a2.test/fr/item-0023/"
+          ]
+        ]
+      },
+      "links": [
+        "https://a2.test/fr/item-0000/"
+      ],
+      "body": "Atlas reference. Authored release fixture, content 23, locale fr."
+    }
+  },
+  "sitemap": {
+    "https://a2.test/en/item-0000/": [
+      [
+        "en",
+        "https://a2.test/en/item-0000/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0000/"
+      ]
+    ],
+    "https://a2.test/fr/item-0000/": [
+      [
+        "en",
+        "https://a2.test/en/item-0000/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0000/"
+      ]
+    ],
+    "https://a2.test/en/item-0001/": [
+      [
+        "en",
+        "https://a2.test/en/item-0001/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0001/"
+      ]
+    ],
+    "https://a2.test/fr/item-0001/": [
+      [
+        "en",
+        "https://a2.test/en/item-0001/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0001/"
+      ]
+    ],
+    "https://a2.test/en/item-0002/": [
+      [
+        "en",
+        "https://a2.test/en/item-0002/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0002/"
+      ]
+    ],
+    "https://a2.test/fr/item-0002/": [
+      [
+        "en",
+        "https://a2.test/en/item-0002/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0002/"
+      ]
+    ],
+    "https://a2.test/en/item-0003/": [
+      [
+        "en",
+        "https://a2.test/en/item-0003/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0003/"
+      ]
+    ],
+    "https://a2.test/fr/item-0003/": [
+      [
+        "en",
+        "https://a2.test/en/item-0003/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0003/"
+      ]
+    ],
+    "https://a2.test/en/item-0004/": [
+      [
+        "en",
+        "https://a2.test/en/item-0004/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0004/"
+      ]
+    ],
+    "https://a2.test/fr/item-0004/": [
+      [
+        "en",
+        "https://a2.test/en/item-0004/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0004/"
+      ]
+    ],
+    "https://a2.test/en/item-0005/": [
+      [
+        "en",
+        "https://a2.test/en/item-0005/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0005/"
+      ]
+    ],
+    "https://a2.test/fr/item-0005/": [
+      [
+        "en",
+        "https://a2.test/en/item-0005/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0005/"
+      ]
+    ],
+    "https://a2.test/en/item-0006/": [
+      [
+        "en",
+        "https://a2.test/en/item-0006/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0006/"
+      ]
+    ],
+    "https://a2.test/fr/item-0006/": [
+      [
+        "en",
+        "https://a2.test/en/item-0006/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0006/"
+      ]
+    ],
+    "https://a2.test/en/item-0007/": [
+      [
+        "en",
+        "https://a2.test/en/item-0007/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0007/"
+      ]
+    ],
+    "https://a2.test/fr/item-0007/": [
+      [
+        "en",
+        "https://a2.test/en/item-0007/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0007/"
+      ]
+    ],
+    "https://a2.test/en/item-0008/": [
+      [
+        "en",
+        "https://a2.test/en/item-0008/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0008/"
+      ]
+    ],
+    "https://a2.test/fr/item-0008/": [
+      [
+        "en",
+        "https://a2.test/en/item-0008/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0008/"
+      ]
+    ],
+    "https://a2.test/en/item-0009/": [
+      [
+        "en",
+        "https://a2.test/en/item-0009/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0009/"
+      ]
+    ],
+    "https://a2.test/fr/item-0009/": [
+      [
+        "en",
+        "https://a2.test/en/item-0009/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0009/"
+      ]
+    ],
+    "https://a2.test/en/item-0010/": [
+      [
+        "en",
+        "https://a2.test/en/item-0010/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0010/"
+      ]
+    ],
+    "https://a2.test/fr/item-0010/": [
+      [
+        "en",
+        "https://a2.test/en/item-0010/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0010/"
+      ]
+    ],
+    "https://a2.test/en/item-0011/": [
+      [
+        "en",
+        "https://a2.test/en/item-0011/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0011/"
+      ]
+    ],
+    "https://a2.test/fr/item-0011/": [
+      [
+        "en",
+        "https://a2.test/en/item-0011/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0011/"
+      ]
+    ],
+    "https://a2.test/en/item-0012/": [
+      [
+        "en",
+        "https://a2.test/en/item-0012/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0012/"
+      ]
+    ],
+    "https://a2.test/fr/item-0012/": [
+      [
+        "en",
+        "https://a2.test/en/item-0012/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0012/"
+      ]
+    ],
+    "https://a2.test/en/item-0013/": [
+      [
+        "en",
+        "https://a2.test/en/item-0013/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0013/"
+      ]
+    ],
+    "https://a2.test/fr/item-0013/": [
+      [
+        "en",
+        "https://a2.test/en/item-0013/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0013/"
+      ]
+    ],
+    "https://a2.test/en/item-0014/": [
+      [
+        "en",
+        "https://a2.test/en/item-0014/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0014/"
+      ]
+    ],
+    "https://a2.test/fr/item-0014/": [
+      [
+        "en",
+        "https://a2.test/en/item-0014/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0014/"
+      ]
+    ],
+    "https://a2.test/en/item-0015/": [
+      [
+        "en",
+        "https://a2.test/en/item-0015/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0015/"
+      ]
+    ],
+    "https://a2.test/fr/item-0015/": [
+      [
+        "en",
+        "https://a2.test/en/item-0015/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0015/"
+      ]
+    ],
+    "https://a2.test/en/item-0016/": [
+      [
+        "en",
+        "https://a2.test/en/item-0016/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0016/"
+      ]
+    ],
+    "https://a2.test/fr/item-0016/": [
+      [
+        "en",
+        "https://a2.test/en/item-0016/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0016/"
+      ]
+    ],
+    "https://a2.test/en/item-0017/": [
+      [
+        "en",
+        "https://a2.test/en/item-0017/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0017/"
+      ]
+    ],
+    "https://a2.test/fr/item-0017/": [
+      [
+        "en",
+        "https://a2.test/en/item-0017/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0017/"
+      ]
+    ],
+    "https://a2.test/en/item-0018/": [
+      [
+        "en",
+        "https://a2.test/en/item-0018/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0018/"
+      ]
+    ],
+    "https://a2.test/fr/item-0018/": [
+      [
+        "en",
+        "https://a2.test/en/item-0018/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0018/"
+      ]
+    ],
+    "https://a2.test/en/item-0019/": [
+      [
+        "en",
+        "https://a2.test/en/item-0019/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0019/"
+      ]
+    ],
+    "https://a2.test/fr/item-0019/": [
+      [
+        "en",
+        "https://a2.test/en/item-0019/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0019/"
+      ]
+    ],
+    "https://a2.test/en/item-0020/": [
+      [
+        "en",
+        "https://a2.test/en/item-0020/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0020/"
+      ]
+    ],
+    "https://a2.test/fr/item-0020/": [
+      [
+        "en",
+        "https://a2.test/en/item-0020/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0020/"
+      ]
+    ],
+    "https://a2.test/en/item-0021/": [
+      [
+        "en",
+        "https://a2.test/en/item-0021/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0021/"
+      ]
+    ],
+    "https://a2.test/fr/item-0021/": [
+      [
+        "en",
+        "https://a2.test/en/item-0021/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0021/"
+      ]
+    ],
+    "https://a2.test/en/item-0022/": [
+      [
+        "en",
+        "https://a2.test/en/item-0022/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0022/"
+      ]
+    ],
+    "https://a2.test/fr/item-0022/": [
+      [
+        "en",
+        "https://a2.test/en/item-0022/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0022/"
+      ]
+    ],
+    "https://a2.test/en/item-0023/": [
+      [
+        "en",
+        "https://a2.test/en/item-0023/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0023/"
+      ]
+    ],
+    "https://a2.test/fr/item-0023/": [
+      [
+        "en",
+        "https://a2.test/en/item-0023/"
+      ],
+      [
+        "fr",
+        "https://a2.test/fr/item-0023/"
+      ]
+    ]
+  }
+}

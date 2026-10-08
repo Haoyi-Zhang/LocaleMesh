@@ -1,0 +1,81 @@
+{
+  "origin": "https://json.localemesh.test",
+  "locales": [
+    "en",
+    "de"
+  ],
+  "pages": [
+    {
+      "key": "alpha",
+      "locale": "en",
+      "title": "Alpha en",
+      "url": "https://json.localemesh.test/alpha/"
+    },
+    {
+      "key": "alpha",
+      "locale": "de",
+      "title": "Alpha de",
+      "url": "https://json.localemesh.test/de/alpha/"
+    },
+    {
+      "key": "beta",
+      "locale": "en",
+      "title": "Beta en",
+      "url": "https://json.localemesh.test/beta/"
+    },
+    {
+      "key": "beta",
+      "locale": "de",
+      "title": "Beta de",
+      "url": "https://json.localemesh.test/de/beta/"
+    },
+    {
+      "key": "gamma",
+      "locale": "en",
+      "title": "Gamma en",
+      "url": "https://json.localemesh.test/gamma/"
+    },
+    {
+      "key": "gamma",
+      "locale": "de",
+      "title": "Gamma de",
+      "url": "https://json.localemesh.test/de/gamma/"
+    },
+    {
+      "key": "delta",
+      "locale": "en",
+      "title": "Delta en",
+      "url": "https://json.localemesh.test/delta/"
+    },
+    {
+      "key": "delta",
+      "locale": "de",
+      "title": "Delta de",
+      "url": "https://json.localemesh.test/de/delta/"
+    },
+    {
+      "key": "epsilon",
+      "locale": "en",
+      "title": "Epsilon en",
+      "url": "https://json.localemesh.test/epsilon/"
+    },
+    {
+      "key": "epsilon",
+      "locale": "de",
+      "title": "Epsilon de",
+      "url": "https://json.localemesh.test/de/epsilon/"
+    },
+    {
+      "key": "zeta",
+      "locale": "en",
+      "title": "Zeta en",
+      "url": "https://json.localemesh.test/zeta/"
+    },
+    {
+      "key": "zeta",
+      "locale": "de",
+      "title": "Zeta de",
+      "url": "https://json.localemesh.test/de/zeta/"
+    }
+  ]
+}

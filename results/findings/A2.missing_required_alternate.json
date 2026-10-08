@@ -1,0 +1,56 @@
+{
+  "site": "A2",
+  "case": "missing_required_alternate",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "CHANNEL_CONFLICT",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html:sitemap",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_MISSING",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html",
+      "detail": "fr"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "html",
+      "detail": "https://a2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://a2.test/fr/item-0000/",
+      "reciprocity"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/",
+      "html:sitemap",
+      "agreement"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "html",
+      "reciprocity"
+    ]
+  ],
+  "blind": [
+    [
+      "https://a2.test/en/item-0000/",
+      "incomplete"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

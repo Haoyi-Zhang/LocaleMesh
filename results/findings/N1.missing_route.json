@@ -1,0 +1,152 @@
+{
+  "site": "N1",
+  "case": "missing_route",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "http",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/fr/item-0000/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://n1.test/ja/item-0079/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "MISSING_ROUTE",
+      "owner": "https://n1.test/ja/item-0000/",
+      "channel": "",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_TARGET",
+      "owner": "https://n1.test/ja/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://n1.test/ja/item-0000/"
+    }
+  ],
+  "manifest": [
+    [
+      "https://n1.test/ja/item-0000/",
+      "missing"
+    ]
+  ],
+  "deadlink": [
+    [
+      "https://n1.test/en/item-0000/",
+      "https://n1.test/ja/item-0000/"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "https://n1.test/ja/item-0000/"
+    ],
+    [
+      "https://n1.test/ja/item-0079/",
+      "https://n1.test/ja/item-0000/"
+    ]
+  ],
+  "html": [
+    [
+      "https://n1.test/en/item-0000/",
+      "target"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "target"
+    ]
+  ],
+  "joint": [
+    [
+      "https://n1.test/en/item-0000/",
+      "html",
+      "target"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "html",
+      "target"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://n1.test/ja/item-0079/",
+      "html",
+      "link"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "http",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/fr/item-0000/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://n1.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://n1.test/ja/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://n1.test/ja/item-0079/",
+      "channel": "html",
+      "detail": "https://n1.test/ja/item-0000/"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "site": "N2",
+  "case": "redirect_cycle",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://en.n2.test/item-0000/old/",
+      "channel": "redirect",
+      "detail": "https://en.n2.test/item-0000/old/"
+    },
+    {
+      "category": "release",
+      "code": "REDIRECT_TARGET",
+      "owner": "https://en.n2.test/item-0000/older/",
+      "channel": "redirect",
+      "detail": "https://en.n2.test/item-0000/older/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://en.n2.test/item-0000/old/",
+      "https://en.n2.test/item-0000/older/"
+    ],
+    [
+      "https://en.n2.test/item-0000/older/",
+      "https://en.n2.test/item-0000/old/"
+    ]
+  ],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

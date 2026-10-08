@@ -1,0 +1,84 @@
+{
+  "site": "A2",
+  "case": "wrong_html_locale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "LANGUAGE",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "html",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://a2.test/en/item-0000/",
+      "locale"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "locale"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a2.test/en/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "html",
+      "self"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://a2.test/en/item-0000/",
+      "sitemap",
+      "self"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "sitemap",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://a2.test/en/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://a2.test/fr/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

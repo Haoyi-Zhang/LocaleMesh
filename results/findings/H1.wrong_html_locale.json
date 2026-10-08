@@ -1,0 +1,60 @@
+{
+  "site": "H1",
+  "case": "wrong_html_locale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "LANGUAGE",
+      "owner": "https://h1.test/item-0000/",
+      "channel": "html",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://h1.test/de/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://h1.test/fr/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "sitemap",
+      "self"
+    ]
+  ],
+  "blind": [
+    [
+      "https://h1.test/de/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://h1.test/fr/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://h1.test/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

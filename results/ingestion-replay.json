@@ -1,0 +1,406 @@
+{
+  "regressions": [
+    {
+      "case": "base_url",
+      "kind": "html",
+      "input": "<html lang=\"en\" data-content-key=\"x\"><head><base href=\"/new/\"><link rel=canonical href=\"page/\"></head><body></body></html>",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "x",
+          "canonical": {
+            "html": [
+              "https://demo.test/page/page/"
+            ]
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "x",
+          "canonical": {
+            "html": [
+              "https://demo.test/new/page/"
+            ]
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "inert_template",
+      "kind": "html",
+      "input": "<html lang=\"en\" data-content-key=\"x\"><head><template><link rel=canonical href=\"/wrong/\"></template><link rel=canonical href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "x",
+          "canonical": {
+            "html": [
+              "https://demo.test/wrong/",
+              "https://demo.test/page/"
+            ]
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "x",
+          "canonical": {
+            "html": [
+              "https://demo.test/page/"
+            ]
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "nested_identity",
+      "kind": "html",
+      "input": "<html lang=\"en\" data-content-key=\"x\"><head></head><body><article data-content-key=\"unrelated\"></article></body></html>",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "unrelated",
+          "canonical": {
+            "html": []
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": null,
+          "canonical": {
+            "html": []
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": [],
+          "diagnostics": [
+            [
+              "CONTENT_MARKER_CONFLICT",
+              "unrelated|x"
+            ]
+          ]
+        },
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "data_icon",
+      "kind": "html",
+      "input": "<html lang=\"en\" data-content-key=\"x\"><head><link rel=icon href=\"data:image/png;base64,AA==\"></head><body></body></html>",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "exception": "ValueError: Unsupported publication URL: 'data:image/png;base64,AA=='",
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": {
+          "status": 200,
+          "lang": "en",
+          "key": "x",
+          "canonical": {
+            "html": []
+          },
+          "alternates": {
+            "html": []
+          },
+          "links": []
+        },
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "anchor",
+      "kind": "header",
+      "input": "<../fr/>; rel=alternate; hreflang=fr; anchor=\"/other/\"",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": [
+          [
+            [
+              "fr",
+              "https://demo.test/fr/"
+            ]
+          ],
+          []
+        ],
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": [
+          [],
+          []
+        ],
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "repeat_hreflang",
+      "kind": "header",
+      "input": "<../en/>; rel=alternate; hreflang=en; hreflang=en-GB",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": [
+          [
+            [
+              "en-gb",
+              "https://demo.test/en/"
+            ]
+          ],
+          []
+        ],
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": [
+          [
+            [
+              "en",
+              "https://demo.test/en/"
+            ],
+            [
+              "en-gb",
+              "https://demo.test/en/"
+            ]
+          ],
+          []
+        ],
+        "matches_literal_expectation": true
+      }
+    },
+    {
+      "case": "repeat_rel",
+      "kind": "header",
+      "input": "<../fr/>; rel=alternate; rel=canonical; hreflang=fr",
+      "response_url": "https://demo.test/page/",
+      "legacy": {
+        "output": [
+          [],
+          [
+            "https://demo.test/fr/"
+          ]
+        ],
+        "matches_literal_expectation": false
+      },
+      "current": {
+        "output": [
+          [
+            [
+              "fr",
+              "https://demo.test/fr/"
+            ]
+          ],
+          []
+        ],
+        "matches_literal_expectation": true
+      }
+    }
+  ],
+  "serialization_variants": [
+    {
+      "html": "<link rel=\"alternate\" hreflang=\"FR\" href=\"https://demo.test/fr/?a=1&amp;b=2\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link\n  rel=\"alternate\"\n  hreflang=\"FR\"\n  href=\"https://demo.test/fr/?a=1&amp;b=2\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link rel='alternate' hreflang='FR' href='https://demo.test/fr/?a=1&amp;b=2'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link\n  rel='alternate'\n  hreflang='FR'\n  href='https://demo.test/fr/?a=1&amp;b=2'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK REL=\"alternate\" HREFLANG=\"FR\" HREF=\"https://demo.test/fr/?a=1&amp;b=2\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK\n  REL=\"alternate\"\n  HREFLANG=\"FR\"\n  HREF=\"https://demo.test/fr/?a=1&amp;b=2\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK REL='alternate' HREFLANG='FR' HREF='https://demo.test/fr/?a=1&amp;b=2'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK\n  REL='alternate'\n  HREFLANG='FR'\n  HREF='https://demo.test/fr/?a=1&amp;b=2'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link href=\"https://demo.test/fr/?a=1&amp;b=2\" hreflang=\"FR\" rel=\"alternate\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link\n  href=\"https://demo.test/fr/?a=1&amp;b=2\"\n  hreflang=\"FR\"\n  rel=\"alternate\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link href='https://demo.test/fr/?a=1&amp;b=2' hreflang='FR' rel='alternate'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<link\n  href='https://demo.test/fr/?a=1&amp;b=2'\n  hreflang='FR'\n  rel='alternate'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK HREF=\"https://demo.test/fr/?a=1&amp;b=2\" HREFLANG=\"FR\" REL=\"alternate\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK\n  HREF=\"https://demo.test/fr/?a=1&amp;b=2\"\n  HREFLANG=\"FR\"\n  REL=\"alternate\">",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK HREF='https://demo.test/fr/?a=1&amp;b=2' HREFLANG='FR' REL='alternate'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    },
+    {
+      "html": "<LINK\n  HREF='https://demo.test/fr/?a=1&amp;b=2'\n  HREFLANG='FR'\n  REL='alternate'>",
+      "expected_alternates": [
+        [
+          "fr",
+          "https://demo.test/fr/?a=1&b=2"
+        ]
+      ],
+      "matches": true
+    }
+  ],
+  "counts": {
+    "legacy_failures": 7,
+    "current_passes": 7,
+    "serialization_checks": 16
+  },
+  "scope": "Literal same-team regression facts; archived LocaleMesh parser; no external oracle or browser-conformance certification."
+}

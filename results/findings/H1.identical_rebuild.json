@@ -1,0 +1,13 @@
+{
+  "site": "H1",
+  "case": "identical_rebuild",
+  "label": "clean",
+  "full": [],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

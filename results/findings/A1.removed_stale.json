@@ -1,0 +1,68 @@
+{
+  "site": "A1",
+  "case": "removed_stale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/de/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://a1.test/de/item-0011/",
+      "https://a1.test/de/item-0000/"
+    ],
+    [
+      "https://a1.test/item-0000/",
+      "https://a1.test/de/item-0000/"
+    ]
+  ],
+  "html": [
+    [
+      "https://a1.test/item-0000/",
+      "target"
+    ]
+  ],
+  "joint": [
+    [
+      "https://a1.test/de/item-0011/",
+      "html",
+      "link"
+    ],
+    [
+      "https://a1.test/item-0000/",
+      "html",
+      "target"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://a1.test/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://a1.test/de/item-0011/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    }
+  ]
+}

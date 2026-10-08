@@ -1,0 +1,312 @@
+{
+  "cases": [
+    {
+      "case": "canoncal_required",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "canoncal_required": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "canoncal_required": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown page policy field(s): canoncal_required"
+      }
+    },
+    {
+      "case": "sitemp",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "sitemp": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "sitemp": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown page policy field(s): sitemp"
+      }
+    },
+    {
+      "case": "discovry",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "discovry": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "discovry": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown page policy field(s): discovry"
+      }
+    },
+    {
+      "case": "fallback",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "fallback": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "fallback": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown page policy field(s): fallback"
+      }
+    },
+    {
+      "case": "require",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "discovery": {
+          "html": {
+            "require": [
+              "de"
+            ]
+          }
+        }
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "discovery": {
+            "html": {
+              "require": [
+                "de"
+              ]
+            }
+          }
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown discovery policy field(s): require"
+      }
+    },
+    {
+      "case": "recipocal",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "discovery": {
+          "html": {
+            "recipocal": [
+              "de"
+            ]
+          }
+        }
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "discovery": {
+            "html": {
+              "recipocal": [
+                "de"
+              ]
+            }
+          }
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown discovery policy field(s): recipocal"
+      }
+    },
+    {
+      "case": "check_link",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "check_link": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "check_link": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown configuration field(s): check_link"
+      }
+    },
+    {
+      "case": "complete_manifst",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "complete_manifst": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "complete_manifst": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Unknown configuration field(s): complete_manifst"
+      }
+    },
+    {
+      "case": "targetless_redirect",
+      "method": "normalize_spec",
+      "input": {
+        "key": "x",
+        "locale": "en",
+        "state": "redirect"
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "key": "x",
+          "locale": "en",
+          "state": "redirect"
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "Redirect state requires redirect_to or a nonempty redirect_allowed"
+      }
+    },
+    {
+      "case": "locale_type_str",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "locales": "en"
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "locales": "en"
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "locales must be a list of nonempty strings"
+      }
+    },
+    {
+      "case": "locale_type_bool",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "locales": true
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "locales": true
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "locales must be a list of nonempty strings"
+      }
+    },
+    {
+      "case": "locale_type_dict",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "locales": {}
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "locales": {}
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "locales must be a list of nonempty strings"
+      }
+    },
+    {
+      "case": "locale_type_list",
+      "method": "normalize_config",
+      "input": {
+        "origins": {},
+        "locales": [
+          null
+        ]
+      },
+      "expected": "reject",
+      "legacy": {
+        "accepted": true,
+        "output": {
+          "origins": {},
+          "locales": [
+            null
+          ]
+        }
+      },
+      "current": {
+        "accepted": false,
+        "reason": "locales must be a list of nonempty strings"
+      }
+    }
+  ],
+  "counts": {
+    "legacy_accepted_invalid": 13,
+    "strict_rejected": 13,
+    "atomic_rollback_checks": 2
+  },
+  "scope": "Explicit schema cases from same research process. Archived LocaleMesh boundary code, not an upstream framework bug. Nonsemantic metadata remains permitted only in extensions at strict policy boundaries."
+}

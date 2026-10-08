@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "fixture_id": "PJ",
+  "origin_kind": "public-source-adapted-jekyll-frontmatter",
+  "config": {
+    "origins": {
+      "https://polyglot-public.localemesh.test": "."
+    },
+    "aliases": {},
+    "locales": [
+      "en",
+      "de",
+      "es",
+      "fr"
+    ],
+    "complete_manifest": true,
+    "check_links": true
+  },
+  "pages": {
+    "https://polyglot-public.localemesh.test/about/": {
+      "key": "about",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/about/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/de/about/": {
+      "key": "about",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/de/about/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/es/about/": {
+      "key": "about",
+      "locale": "es",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/es/about/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/fr/about/": {
+      "key": "about",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/fr/about/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/a-really-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/a-really-long/permalink/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/de/eine-wirklich-lange/permalink/": {
+      "key": "complex-permalink",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/de/eine-wirklich-lange/permalink/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/es/una-muy-larga/permalink/": {
+      "key": "complex-permalink",
+      "locale": "es",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/es/una-muy-larga/permalink/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    },
+    "https://polyglot-public.localemesh.test/fr/un-tres-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "fr",
+      "state": "published",
+      "canonical_allowed": [
+        "https://polyglot-public.localemesh.test/fr/un-tres-long/permalink/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": false,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [],
+      "fallbacks": {}
+    }
+  },
+  "source_provenance": {
+    "repository": "untra/polyglot",
+    "commit": "b8b944e21a2477bf0f5430565dfb4192f0283d22",
+    "retained_facts": "front-matter path, object SHA, locale, title, permalink, and page identity only",
+    "native_build_executed": false
+  }
+}

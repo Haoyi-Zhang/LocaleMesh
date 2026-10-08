@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link rel="canonical" href="https://pandoc.localemesh.test/about/">
+<link rel="alternate" hreflang="en" href="https://pandoc.localemesh.test/about/">
+<link rel="alternate" hreflang="de" href="https://pandoc.localemesh.test/de/eine-wirklich-lange/permalink/">
+<link rel="alternate" hreflang="es" href="https://pandoc.localemesh.test/es/una-muy-larga/permalink/">
+<link rel="alternate" hreflang="fr" href="https://pandoc.localemesh.test/fr/un-tres-long/permalink/">
+<link rel="alternate" hreflang="x-default" href="https://pandoc.localemesh.test/about/">
+</head>
+<body data-content-key="about">
+<p class="message">
+<b>Polyglot</b> is an open source internationalization plugin for
+<a href="https://jekyllrb.com">Jekyll</a> blogs. Polyglot is easy to
+setup and use with any project, and it scales to the languages you want
+to support. With fallback support for missing content, automatic url
+relativization, and <a href="{{site.baseurl}}/seo/">powerful SEO
+recipes</a>, Polyglot allows any multi-language blog to focus on content
+without the cruftwork.
+</p>
+<p><em><code>jekyll-polyglot</code> is not yet supported natively in
+github-actions</em></p>
+<h3 id="install">Install</h3>
+<p>{% highlight bash %} gem install jekyll-polyglot {% endhighlight
+%}</p>
+<h3 id="managing-supported-languages">Managing Supported Languages</h3>
+<p>in <code>_config.yml</code>, the following properties manage what
+languages are supported by your website. You can provide support for a
+new language by adding it these values (see below). Languages are
+identified by their official <a
+href="https://developer.chrome.com/webstore/i18n">locale codes</a>.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode yml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">languages</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">&quot;en&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;es&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;fr&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;de&quot;</span><span class="kw">]</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">default_lang</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;en&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">exclude_from_localization</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="st">&quot;images&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;fonts&quot;</span><span class="kw">,</span><span class="at"> </span><span class="st">&quot;sitemap&quot;</span><span class="kw">]</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">url</span><span class="kw">:</span><span class="at"> https://polyglot.untra.io</span></span></code></pre></div>
+<ul>
+<li><code>languages:</code> an array of locale codes identifying the
+languages supported by the website.</li>
+<li><code>default_lang:</code> default language for the website.</li>
+<li><code>exclude_from_localization:</code> folders and directories that
+are part of the built website, but don’t need to be localized. This is
+primarily to cut back on build times, and because asset files like
+images and fonts are big parts of the website, ensures they are not
+needlessly “translated” or duplicated in the output.</li>
+<li><code>url</code> the url of your production static website.</li>
+</ul>
+<h3 id="adding-a-new-language">Adding a new language</h3>
+<p>Assuming you already have a functional single-language website,
+adding a new language won’t be trivial. <em>To truly make a multilingual
+website, you should expect to have to remake all of your content in the
+new language.</em> This may seem like a big undertaking, but consider
+the translation in parts. Content is king; it’s more important new pages
+and posts get updated words in translation. Making a multi-language
+website is only hard if you require that it be perfectly translated from
+the start.</p>
+<p>Firstly, you (and your team, and your managers too if you have a few
+of those lying around) should discuss and choose what content you need
+translated over into the new website. You must choose your preferred
+asic content to translate over. Consider analytics, popular pages and
+blogposts, and the flow of current and future users to your website.
+When in doubt, prioritize pages over legacy blogposts. If it means
+getting to launch a new language sooner, legacy posts may be more effort
+than they are worth translating.</p>
+<p>Secondly, you must (or strongly ought to) provide 100% coverage of
+rich content through your site. These are small strings embeded in more
+complex ways. There are multiple ways to iterate over rich content.
+Remember, you must support all language small strings in your rich
+content.</p>
+<h4 id="multilingual-content">Multilingual Content</h4>
+<p>Website Content comes in two flavors: <strong>basic</strong> and
+<strong>rich</strong>.</p>
+<p>Basic content is the flat text of blogposts, pages, and
+non-interactive content. Think pages and posts. Basic content is the
+fuel for your websites clicks. Polyglot gives basic content fallback
+support.</p>
+<p>Rich content is interactive, flashy, and composed of shorter strings.
+Think navbars and dropdowns. Rich content is more technical, and keeps
+your visitors on the site. <em>There is no fallback support for missing
+rich content.</em></p>
+<h4 id="liquid-tools">Liquid Tools</h4>
+<p>The following liquid tools are available for use with
+jekyll-polyglot:</p>
+<ul>
+<li><strong>site.languages</strong></li>
+</ul>
+<p>{% highlight html %} {% raw %} {% for lang in site.languages %}
+{{lang}} {% endfor %} {% endraw %} {% endhighlight %}</p>
+<p><code>site.languages</code> points directly to the
+<code>languages</code> array in _config.yml . It can be accessed through
+liquid.</p>
+<ul>
+<li><strong>site.default_lang</strong> {% highlight html %} {% raw %}
+{{site.default_lang}} {% endraw %} {% endhighlight %}</li>
+</ul>
+<p><code>site.default_lang</code> points directly to the
+<code>default_lang</code> string in _config.yml . It can be accessed
+through liquid.</p>
+<ul>
+<li><strong>site.active_lang</strong> {% highlight html %} {% raw %} {%
+if site.active_lang == “es” %}
+<h1>
+Hola! Como estas?
+</h1>
+{% endif %} {% endraw %} {% endhighlight %}</li>
+</ul>
+<p><code>site.active_lang</code> is the locale code the page is being
+built for. This is <code>"de"</code> for the german version of a page,
+<code>"es"</code> for the spanish version, and so on. It can be accessed
+through liquid.</p>
+<p>Using these tools, you can specify how to attach the correct rich
+content.</p>
+<ul>
+<li><strong>page.rendered_lang</strong> {% highlight html %} {% raw %}
+{% if page.rendered_lang == site.active_lang %}
+<p>
+Welcome to our {{ site.active_lang }} webpage!
+</p>
+{% else %}
+<p>
+webpage available in {{ page.rendered_lang }} only.
+</p>
+{% endif %} {% endraw %} {% endhighlight %}</li>
+</ul>
+<p>The <code>page.rendered_lang</code> variable that indicates the
+actual language of a page’s content, Allowing templates to detect when a
+page is being served as fallback content.</p>
+<h3 id="github-pages-support">Github Pages Support</h3>
+<p>By default github prevents <a
+href="https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides">jekyll
+blogs from using plugins</a>. This is done intentionally to prevent
+malicious code from being executed on github servers. Although this
+makes using Polyglot (and other jekyll plugins) harder to use, it’s
+still doable.</p>
+<h4 id="building-_site-to-gh-pages">Building <code>_site/</code> to
+gh-pages</h4>
+<p>Instead of hosting your Jekyll blogging engine on github, you can
+develop your jekyll website on a separate branch, and then push the
+built <code>_site/</code> contents to your <code>gh-pages</code> branch.
+This allows you to manage and source-control your website development
+with github <em>without having to rely on github to build your
+website!</em></p>
+<p>You can do this by maintaining your Jekyll content on a separate
+branch, and only committing the <code>_site/</code> folder to your
+gh-pages branch. Because these are just static html pages in folders,
+github will host them like any other <a
+href="https://pages.github.com/">gh-pages</a> content.</p>
+<h4 id="automate-it">Automate it!</h4>
+<p>This process is helped tremendously with a simple script that will
+build your website and commit the <code>_site/</code> folder to your
+gh-pages. A lot of people have one. <a
+href="https://www.jokecamp.com/blog/Simple-jekyll-deployment-with-a-shell-script-and-github/">Here’s
+one</a>. <a href="https://gist.github.com/cobyism/4730490">Here’s
+another</a>. Here is <a
+href="https://github.com/untra/polyglot/blob/main/publi.sh">my publish
+script</a>:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#! /bin/sh</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># change the branch names appropriately</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> site/_site/</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> site <span class="kw">&amp;&amp;</span> <span class="ex">bundle</span> exec jekyll build <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> ..</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add site/_site/ <span class="kw">&amp;&amp;</span> <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;</span><span class="va">$(</span><span class="fu">date</span><span class="va">)</span><span class="st">&quot;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> subtree push <span class="at">--prefix</span> site/_site origin gh-pages</span></code></pre></div>
+</body>
+</html>

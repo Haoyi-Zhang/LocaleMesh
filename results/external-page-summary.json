@@ -1,0 +1,47 @@
+{
+  "scope": "Executed unchanged upstream checkPage functions via dependency-pruned module; no CLI/sitemap/native-builder evidence",
+  "version": "1.0.0",
+  "commit": "ffa29b71872755977068ad3246000f88450dec22",
+  "node": "v22.16.0",
+  "releases": 174,
+  "page_invocations": 26634,
+  "local_response_requests": 72848,
+  "external_network_requests": 0,
+  "shared_reachability_releases": 15,
+  "shared_upstream_detected": 15,
+  "shared_localemesh_detected": 15,
+  "contrasts": {
+    "coherent_identity_swap": {
+      "releases": 6,
+      "upstream_errors": 0,
+      "localemesh_errors": 6
+    },
+    "cross_locale_canonical_allowed": {
+      "releases": 6,
+      "upstream_errors": 5,
+      "localemesh_errors": 0
+    },
+    "partial_coverage": {
+      "releases": 6,
+      "upstream_errors": 0,
+      "localemesh_errors": 0
+    },
+    "missing_translation_allowed": {
+      "releases": 6,
+      "upstream_errors": 0,
+      "localemesh_errors": 0
+    },
+    "optional_xdefault": {
+      "releases": 6,
+      "upstream_errors": 0,
+      "localemesh_errors": 0
+    },
+    "no_optional_channels": {
+      "releases": 6,
+      "upstream_errors": 0,
+      "localemesh_errors": 0
+    }
+  },
+  "warning_threshold": "Only upstream severity=error counts; warnings retained verbatim",
+  "wall_s": 39.98385171500013
+}

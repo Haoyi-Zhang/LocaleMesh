@@ -1,0 +1,182 @@
+{
+  "execution": {
+    "complete": true,
+    "single_command_full_run_verified": true,
+    "stages": 43,
+    "all_stage_return_codes_zero": true,
+    "wall_s": 1193.21,
+    "scope": "retained source execution, not a fresh browser execution with the current edits"
+  },
+  "counts": {
+    "release_snapshots_compared": 321,
+    "primary_named_releases": 174,
+    "primary_label_counts": {
+      "clean": 60,
+      "ambiguity": 18,
+      "defect": 96
+    },
+    "separate_emitter_or_adaptation_releases": 40,
+    "separate_emitter_or_adaptation_label_counts": {
+      "clean": 12,
+      "defect": 20,
+      "ambiguity": 8
+    },
+    "composition_regressions": 96,
+    "bounded_state_space_states": 5120,
+    "bounded_state_space_transitions": 5119,
+    "record_scale_updates": 144,
+    "fanout_updates": 144,
+    "field_projection_updates": 216,
+    "coalesced_updates": 216,
+    "obligation_sliced_updates": 216,
+    "pandoc_releases": 11,
+    "pandoc_native_writer_invocations": 53,
+    "external_page_invocations": 26634,
+    "external_response_requests": 72848,
+    "browser_differential_counts": {
+      "edge_cases": 30,
+      "same_selected_facts": 25,
+      "undiagnosed_differences": 0,
+      "native_gate_releases": 11,
+      "native_gate_agreement": 11,
+      "literal_expectations": 18,
+      "compiled_outputs": 53,
+      "compiled_agreement": 53,
+      "network_requests": 0
+    },
+    "contract_boundary_counts": {
+      "legacy_accepted_invalid": 13,
+      "strict_rejected": 13,
+      "atomic_rollback_checks": 2
+    },
+    "ingestion_regression_cases": 7,
+    "unit_test_methods": 73,
+    "unit_coverage_percent": 86.29764065335753,
+    "sliced_unit_coverage_percent": 94.80286738351255,
+    "native_integration_builds": 0,
+    "bibliography_entries": 70,
+    "doi_entries": 28,
+    "scope": "Retained executed counts; current regression tests and retained-tree reanalysis are reported separately."
+  },
+  "headline_10000_route_measurements": {
+    "local_canonical": {
+      "full_ms_median": 249.004,
+      "route_wide_transaction_ms_median": 0.097,
+      "obligation_sliced_transaction_ms_median": 0.066,
+      "snapshot_diff_ms_median": 85.579,
+      "diff_plus_sliced_ms_median": 85.641,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 2.82,
+      "full_over_diff_plus_sliced_ratio_of_medians": 2.91
+    },
+    "deleted_page": {
+      "full_ms_median": 220.066,
+      "route_wide_transaction_ms_median": 0.246,
+      "obligation_sliced_transaction_ms_median": 0.197,
+      "snapshot_diff_ms_median": 81.979,
+      "diff_plus_sliced_ms_median": 82.126,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 2.69,
+      "full_over_diff_plus_sliced_ratio_of_medians": 2.68
+    },
+    "unused_alias": {
+      "full_ms_median": 253.868,
+      "route_wide_transaction_ms_median": 37.282,
+      "obligation_sliced_transaction_ms_median": 60.454,
+      "snapshot_diff_ms_median": 70.92,
+      "diff_plus_sliced_ms_median": 132.775,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 1.89,
+      "full_over_diff_plus_sliced_ratio_of_medians": 1.91
+    },
+    "global_link_policy": {
+      "full_ms_median": 244.042,
+      "route_wide_transaction_ms_median": 873.854,
+      "obligation_sliced_transaction_ms_median": 312.632,
+      "snapshot_diff_ms_median": 81.101,
+      "diff_plus_sliced_ms_median": 400.652,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 0.63,
+      "full_over_diff_plus_sliced_ratio_of_medians": 0.61
+    },
+    "hub_canonical": {
+      "full_ms_median": 214.921,
+      "route_wide_transaction_ms_median": 0.102,
+      "obligation_sliced_transaction_ms_median": 0.068,
+      "snapshot_diff_ms_median": 87.299,
+      "diff_plus_sliced_ms_median": 87.448,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 2.45,
+      "full_over_diff_plus_sliced_ratio_of_medians": 2.46
+    },
+    "hub_status": {
+      "full_ms_median": 218.673,
+      "route_wide_transaction_ms_median": 761.252,
+      "obligation_sliced_transaction_ms_median": 225.395,
+      "snapshot_diff_ms_median": 66.64,
+      "diff_plus_sliced_ms_median": 292.55,
+      "complete_issue_set_agreement": true,
+      "full_over_diff_plus_sliced_median_paired_ratio": 0.79,
+      "full_over_diff_plus_sliced_ratio_of_medians": 0.75
+    }
+  },
+  "retained_cache_measurement": {
+    "route_wide_mib": 83.95,
+    "obligation_sliced_mib": 142.34,
+    "measurement": "recursive sys.getsizeof over cache-owned roots with identity deduplication"
+  },
+  "references": {
+    "bibliography_entries": 70,
+    "in_text_citations": 70,
+    "doi_entries": 28,
+    "metadata_records": 70,
+    "all_entries_cited_once_or_more": true,
+    "duplicate_keys": 0,
+    "duplicate_fields": 0,
+    "scope": "Local structural audit; publisher/source verification is documented separately and is not inferred from this script."
+  },
+  "paper": {
+    "anonymous_review": {
+      "pages": 10,
+      "references_start_page": 9,
+      "main_pages": 8,
+      "words_per_page": [
+        903,
+        1024,
+        993,
+        1019,
+        943,
+        906,
+        804,
+        737,
+        1295,
+        438
+      ],
+      "anonymous": true,
+      "no_overfull_hboxes": true,
+      "no_unresolved_references": true
+    },
+    "identified_author_copy": {
+      "pages": 10,
+      "references_start_page": 9,
+      "main_pages": 8,
+      "words_per_page": [
+        738,
+        904,
+        850,
+        906,
+        836,
+        815,
+        669,
+        724,
+        1179,
+        326
+      ],
+      "anonymous": false,
+      "no_overfull_hboxes": true,
+      "no_unresolved_references": true
+    },
+    "visual_inspection": "Not established by this script; rendered pages are inspected separately."
+  },
+  "scope": "Executed offline laboratory evidence. No organizational deployment, field duration, operator study, or successful native Astro/Hugo/Next.js/Jekyll build is claimed."
+}

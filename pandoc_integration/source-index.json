@@ -1,0 +1,65 @@
+{
+  "source_repository": "untra/polyglot",
+  "source_commit": "b8b944e21a2477bf0f5430565dfb4192f0283d22",
+  "source_origin": "https://polyglot.untra.io",
+  "adapted_origin": "https://polyglot-public.localemesh.test",
+  "license": {
+    "spdx": "MIT",
+    "path": "LICENSE",
+    "sha": "d75e2c5cbb60830ad8b19a61fdd1bca91344630e"
+  },
+  "config": {
+    "path": "site/_config.yml",
+    "sha": "a274075e8b30f072ea35a8c936e5469def1bdc2f",
+    "selected_locales": [
+      "en",
+      "de",
+      "es",
+      "fr"
+    ],
+    "upstream_default_locale": "en"
+  },
+  "records": [
+    {
+      "key": "about",
+      "locale": "en",
+      "title": "About",
+      "permalink": "about/",
+      "path": "site/about.en.md",
+      "sha": "fec0b37766ec9e33839bfc2b6b24aa0a3f0289f0"
+    },
+    {
+      "key": "complex-permalink",
+      "locale": "en",
+      "title": "A really long permalink",
+      "permalink": "a-really-long/permalink/",
+      "path": "site/complex-permalink.en.md",
+      "sha": "b77ba601206d32175b08bbb11264cdc36720945e"
+    },
+    {
+      "key": "complex-permalink",
+      "locale": "de",
+      "title": "Eine wirklich lange permalink",
+      "permalink": "eine-wirklich-lange/permalink/",
+      "path": "site/complex-permalink.de.md",
+      "sha": "a3b6ee951e31e171c628052dd5936a7d4c9c2cf2"
+    },
+    {
+      "key": "complex-permalink",
+      "locale": "es",
+      "title": "Un muy largo permalink",
+      "permalink": "una-muy-larga/permalink/",
+      "path": "site/complex-permalink.es.md",
+      "sha": "39978f51dfbcf380732f348c139b1da976543df7"
+    },
+    {
+      "key": "complex-permalink",
+      "locale": "fr",
+      "title": "Un tr\u00e8s long permalink",
+      "permalink": "un-tres-long/permalink/",
+      "path": "site/complex-permalink.fr.md",
+      "sha": "e1f418325bb29278e8943be91cb137fcfc2ec4a9"
+    }
+  ],
+  "scope": "Five complete byte-verified public Markdown files: one English About page and four localized permalink pages. Same upstream as PJ, not a new independent site. Authored Pandoc pipeline, not native Jekyll."
+}

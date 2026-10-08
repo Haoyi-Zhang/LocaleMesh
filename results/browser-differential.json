@@ -1,0 +1,2254 @@
+{
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/144.0.7559.96",
+    "revision": "@d7b80622cfab91c265741194e7942eefd2d21811",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/144.0.0.0 Safari/537.36",
+    "jsVersion": "14.4.258.22"
+  },
+  "cases": [
+    {
+      "case": "plain",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "first_base",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><base href=\"/new/\"><link rel=\"canonical\" href=\"relative/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [
+          "/new/"
+        ],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "relative/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><base href=\"/new/\"><link rel=\"canonical\" href=\"relative/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/new/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/new/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "late_base",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"relative/\"><base href=\"/new/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [
+          "/new/"
+        ],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "relative/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"relative/\"><base href=\"/new/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/new/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/new/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "two_bases",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><base href=\"/a/\"><base href=\"/b/\"><link rel=\"canonical\" href=\"relative/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [
+          "/a/",
+          "/b/"
+        ],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "relative/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><base href=\"/a/\"><base href=\"/b/\"><link rel=\"canonical\" href=\"relative/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/a/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/a/relative/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "template",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><template><link rel=\"canonical\" href=\"/wrong/\"></template><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><template><link rel=\"canonical\" href=\"/wrong/\"></template><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "nested_template",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><template><template><link rel=\"canonical\" href=\"/page/\"></template></template><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><template><template><link rel=\"canonical\" href=\"/page/\"></template></template><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "template_body",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><template><a href=\"/wrong/\">x</a><article data-content-key=y></article></template></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "script",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><script>globalThis.__localemeshInputExecuted=true;\"<link rel=canonical href=/wrong/>\"</script><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><script>globalThis.__localemeshInputExecuted=true;\"<link rel=canonical href=/wrong/>\"</script><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "style",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><style>/* <link rel=canonical href=/wrong/> */</style><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><style>/* <link rel=canonical href=/wrong/> */</style><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "comment",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><!-- <link rel=\"canonical\" href=\"/wrong/\"> --><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><!-- <link rel=\"canonical\" href=\"/wrong/\"> --><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "title",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><title>&lt;link rel=canonical href=/wrong/&gt;</title><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><title>&lt;link rel=canonical href=/wrong/&gt;</title><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "textarea",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><textarea><a href=/wrong/>x</a></textarea></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "duplicate_attribute",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=canonical href=\"/page/\" href=\"/wrong/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "duplicate_rel",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=canonical rel=alternate href=\"/page/\" hreflang=de></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/",
+            "hreflang": "de"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\" hreflang=\"de\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "entities",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=alternate hreflang=de href=\"/de/?a=1&amp;b=2\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "alternate",
+            "hreflang": "de",
+            "href": "/de/?a=1&b=2"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"alternate\" hreflang=\"de\" href=\"/de/?a=1&amp;b=2\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": [
+            [
+              "de",
+              "https://dom.localemesh.test/de/?a=1&b=2"
+            ]
+          ]
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": [
+            [
+              "de",
+              "https://dom.localemesh.test/de/?a=1&b=2"
+            ]
+          ]
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "icon",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=icon href=\"data:image/png;base64,AA==\"><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "icon",
+            "href": "data:image/png;base64,AA=="
+          },
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"icon\" href=\"data:image/png;base64,AA==\"><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "alternate_stylesheet",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"alternate stylesheet\" hreflang=de href=\"/style.css\"><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "alternate stylesheet",
+            "hreflang": "de",
+            "href": "/style.css"
+          },
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"alternate stylesheet\" hreflang=\"de\" href=\"/style.css\"><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "anchors",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><a href=\"#local\">local</a><a href=\"mailto:x@y.test\">email</a><a href=\"../de/\">de</a></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [
+          "#local",
+          "mailto:x@y.test",
+          "../de/"
+        ],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [
+          "https://dom.localemesh.test/de/"
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [
+          "https://dom.localemesh.test/de/"
+        ]
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "refresh",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><meta http-equiv=refresh content=\"0; url=/target/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [],
+        "anchors": [],
+        "refresh": [
+          {
+            "http-equiv": "refresh",
+            "content": "0; url=/target/"
+          }
+        ],
+        "has_noscript": false,
+        "head": "<head><meta http-equiv=\"refresh\" content=\"0; url=/target/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "redirect": "https://dom.localemesh.test/target/",
+        "redirect_transport": "html-refresh"
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "redirect": "https://dom.localemesh.test/target/",
+        "redirect_transport": "html-refresh"
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "conflict_markers",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><article data-content-key=y></article></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x",
+          "y"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": null,
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "CONTENT_MARKER_CONFLICT",
+            "x|y"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": null,
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "CONTENT_MARKER_CONFLICT",
+            "x|y"
+          ]
+        ]
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": true,
+      "browser_diagnosed": true
+    },
+    {
+      "case": "omitted_head",
+      "html": "<!doctype html><html lang=en data-content-key=x><link rel=\"canonical\" href=\"/page/\"><body>Body</body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Explicit head start tag required"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": false,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "omitted_head_end",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"><body>Body</body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Explicit head end tag required"
+          ],
+          [
+            "HTML_PROFILE",
+            "Non-metadata element inside explicit head"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "body_metadata",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><link rel=canonical href=\"/wrong/\"></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "foreign_content",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><svg><foreignObject><a href=\"/other/\">other</a></foreignObject></svg></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [
+          "/other/"
+        ],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Foreign content or plaintext requires another extractor"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [
+          "https://dom.localemesh.test/other/"
+        ]
+      },
+      "same_selected_facts": false,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "plaintext",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><plaintext><a href=\"/wrong/\">literal</body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Foreign content or plaintext requires another extractor"
+          ],
+          [
+            "HTML_PROFILE",
+            "Unclosed head or inactive element"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "noscript",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><noscript><link rel=\"canonical\" href=\"/fallback/\"></noscript><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": true,
+        "head": "<head><noscript><link rel=\"canonical\" href=\"/fallback/\"></noscript><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "noscript requires an explicit scripting-mode contract"
+          ]
+        ]
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": true
+    },
+    {
+      "case": "head_text",
+      "html": "<!doctype html><html lang=en data-content-key=x><head>text<link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Non-whitespace text inside explicit head"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": false,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "nested_raw_title",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><title><title>literal</title><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><title>&lt;title&gt;literal</title><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Unclosed head or inactive element"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": false,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "select_anchor",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><link rel=\"canonical\" href=\"/page/\"></head><body><select><a href=\"/wrong/\">ignored</a><option>x</option></select></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [
+          {
+            "rel": "canonical",
+            "href": "/page/"
+          }
+        ],
+        "anchors": [
+          "/wrong/"
+        ],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head><link rel=\"canonical\" href=\"/page/\"></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [
+          "https://dom.localemesh.test/wrong/"
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [
+          "https://dom.localemesh.test/wrong/"
+        ]
+      },
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "case": "head_image",
+      "html": "<!doctype html><html lang=en data-content-key=x><head><img src=\"https://no-fetch.test/image.png\"><link rel=\"canonical\" href=\"/page/\"></head><body></body></html>",
+      "response_url": "https://dom.localemesh.test/page/",
+      "browser_tree": {
+        "lang": "en",
+        "markers": [
+          "x"
+        ],
+        "bases": [],
+        "links": [],
+        "anchors": [],
+        "refresh": [],
+        "has_noscript": false,
+        "head": "<head></head>",
+        "input_script_executed": false
+      },
+      "static": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": [
+            "https://dom.localemesh.test/page/"
+          ]
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": [],
+        "diagnostics": [
+          [
+            "HTML_PROFILE",
+            "Non-metadata element inside explicit head"
+          ]
+        ]
+      },
+      "browser": {
+        "status": 200,
+        "lang": "en",
+        "key": "x",
+        "canonical": {
+          "html": []
+        },
+        "alternates": {
+          "html": []
+        },
+        "links": []
+      },
+      "same_selected_facts": false,
+      "static_diagnosed": true,
+      "browser_diagnosed": false
+    }
+  ],
+  "compiled_output_checks": [
+    {
+      "path": "pandoc_integration/builds/clean/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/clean/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/clean/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/clean/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/clean/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/coherent_cluster_swap/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/coherent_cluster_swap/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/coherent_cluster_swap/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/coherent_cluster_swap/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/coherent_cluster_swap/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/cross_locale_canonical_allowed/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/cross_locale_canonical_allowed/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/cross_locale_canonical_allowed/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/cross_locale_canonical_allowed/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/cross_locale_canonical_allowed/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/declaration_conflict/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/declaration_conflict/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/declaration_conflict/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/declaration_conflict/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/declaration_conflict/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/missing_required/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/missing_required/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/missing_required/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/missing_required/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/missing_required/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/no_xdefault/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/no_xdefault/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/no_xdefault/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/no_xdefault/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/no_xdefault/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/omit_source/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/omit_source/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/omit_source/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/omit_source/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/partial_translation/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/partial_translation/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/partial_translation/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/partial_translation/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/rename_stale_contract/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/rename_stale_contract/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/rename_stale_contract/build/main/de/eine-wirklich-lange/permalink/renamed/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/rename_stale_contract/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/rename_stale_contract/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_canonical/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_canonical/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_canonical/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_canonical/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_canonical/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_language/build/main/a-really-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_language/build/main/about/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_language/build/main/de/eine-wirklich-lange/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_language/build/main/es/una-muy-larga/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    },
+    {
+      "path": "pandoc_integration/builds/wrong_language/build/main/fr/un-tres-long/permalink/index.html",
+      "same_selected_facts": true,
+      "static_diagnosed": false,
+      "browser_diagnosed": false
+    }
+  ],
+  "native_gate_checks": [
+    {
+      "release": "clean",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 0
+    },
+    {
+      "release": "coherent_cluster_swap",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 9
+    },
+    {
+      "release": "cross_locale_canonical_allowed",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 0
+    },
+    {
+      "release": "declaration_conflict",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 4
+    },
+    {
+      "release": "missing_required",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 2
+    },
+    {
+      "release": "no_xdefault",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 0
+    },
+    {
+      "release": "omit_source",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 4
+    },
+    {
+      "release": "partial_translation",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 0
+    },
+    {
+      "release": "rename_stale_contract",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 4
+    },
+    {
+      "release": "wrong_canonical",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 1
+    },
+    {
+      "release": "wrong_language",
+      "same_issue_set": true,
+      "same_normalized_snapshot": true,
+      "findings": 1
+    }
+  ],
+  "literal_expectations": [
+    {
+      "case": "plain",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "first_base",
+      "expected_canonical": [
+        "https://dom.localemesh.test/new/relative/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "late_base",
+      "expected_canonical": [
+        "https://dom.localemesh.test/new/relative/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "two_bases",
+      "expected_canonical": [
+        "https://dom.localemesh.test/a/relative/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "template",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "nested_template",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "template_body",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "script",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "style",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "comment",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "title",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "textarea",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "duplicate_attribute",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "duplicate_rel",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "icon",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "alternate_stylesheet",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "omitted_head",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    },
+    {
+      "case": "omitted_head_end",
+      "expected_canonical": [
+        "https://dom.localemesh.test/page/"
+      ],
+      "matches": true
+    }
+  ],
+  "network_requests": [],
+  "counts": {
+    "edge_cases": 30,
+    "same_selected_facts": 25,
+    "undiagnosed_differences": 0,
+    "native_gate_releases": 11,
+    "native_gate_agreement": 11,
+    "literal_expectations": 18,
+    "compiled_outputs": 53,
+    "compiled_agreement": 53,
+    "network_requests": 0
+  },
+  "wall_s": 0.45869281300019793,
+  "scope": "Native Chromium inert tree parser; authored selectors and same URL normalizer. Constructed edge cases, retained Pandoc output. Not browser conformance, native i18n build, human oracle, or production crawl."
+}

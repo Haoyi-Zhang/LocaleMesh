@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-10-02T15:57:59Z",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "logical_cpus": 5,
+  "affinity_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "cpu_max": "400000 100000",
+  "memory_max_bytes": "4294967296",
+  "disk_free_bytes": 32028639232,
+  "node --version": {
+    "returncode": 0,
+    "stdout": "v22.16.0\n",
+    "stderr": ""
+  },
+  "npm --version": {
+    "returncode": 0,
+    "stdout": "10.9.2\n",
+    "stderr": ""
+  },
+  "hugo version": {
+    "error": "[Errno 2] No such file or directory: 'hugo'"
+  },
+  "curl -I --max-time 5 https://registry.npmjs.org/astro": {
+    "returncode": 6,
+    "stdout": "",
+    "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: registry.npmjs.org\n"
+  },
+  "curl -I --max-time 5 https://github.com/gohugoio/hugo": {
+    "returncode": 28,
+    "stdout": "",
+    "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\ncurl: (28) Resolving timed out after 5001 milliseconds\n"
+  }
+}

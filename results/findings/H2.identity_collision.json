@@ -1,0 +1,77 @@
+{
+  "site": "H2",
+  "case": "identity_collision",
+  "label": "ambiguity",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "IDENTITY_COLLISION",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "",
+      "detail": "item-0000:en"
+    },
+    {
+      "category": "ambiguity",
+      "code": "IDENTITY_COLLISION",
+      "owner": "https://en.h2.test/en/item-0000/duplicate/",
+      "channel": "",
+      "detail": "item-0000:en"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://en.h2.test/en/item-0000/duplicate/",
+      "http",
+      "reciprocity"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/duplicate/",
+      "http",
+      "self"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/duplicate/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/duplicate/",
+      "sitemap",
+      "self"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

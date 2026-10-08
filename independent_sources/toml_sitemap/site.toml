@@ -1,0 +1,4 @@
+[site]
+origin = 'https://toml.localemesh.test'
+default_locale = 'en'
+locales = ['en', 'fr', 'de']

@@ -1,0 +1,40 @@
+{
+  "site": "A1",
+  "case": "draft_published",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_PUBLICATION",
+      "owner": "https://a1.test/item-0000/",
+      "channel": "html",
+      "detail": "https://a1.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "SITEMAP_PUBLICATION",
+      "owner": "https://a1.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": ""
+    },
+    {
+      "category": "release",
+      "code": "UNEXPECTED_PUBLICATION",
+      "owner": "https://a1.test/de/item-0000/",
+      "channel": "",
+      "detail": ""
+    }
+  ],
+  "manifest": [
+    [
+      "https://a1.test/de/item-0000/",
+      "unexpected"
+    ]
+  ],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

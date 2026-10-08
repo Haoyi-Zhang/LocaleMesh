@@ -1,0 +1,35 @@
+{
+  "site": "A2",
+  "case": "declaration_conflict",
+  "label": "ambiguity",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "DECLARATION_CONFLICT",
+      "owner": "https://a2.test/en/item-0000/",
+      "channel": "",
+      "detail": ""
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "html",
+      "detail": "https://a2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://a2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://a2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

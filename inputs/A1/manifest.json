@@ -1,0 +1,619 @@
+{
+  "schema": 1,
+  "fixture_id": "A1",
+  "origin_kind": "authored-fixture",
+  "config": {
+    "origins": {
+      "https://a1.test": "main"
+    },
+    "aliases": {},
+    "locales": [
+      "en",
+      "de"
+    ],
+    "complete_manifest": true,
+    "check_links": true
+  },
+  "pages": {
+    "https://a1.test/item-0000/": {
+      "key": "item-0000",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0000/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0000/": {
+      "key": "item-0000",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0000/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0001/": {
+      "key": "item-0001",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0001/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0001/": {
+      "key": "item-0001",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0001/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0002/": {
+      "key": "item-0002",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0002/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0002/": {
+      "key": "item-0002",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0002/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0003/": {
+      "key": "item-0003",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0003/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0003/": {
+      "key": "item-0003",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0003/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0004/": {
+      "key": "item-0004",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0004/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0004/": {
+      "key": "item-0004",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0004/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0005/": {
+      "key": "item-0005",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0005/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0005/": {
+      "key": "item-0005",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0005/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0006/": {
+      "key": "item-0006",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0006/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0006/": {
+      "key": "item-0006",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0006/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0007/": {
+      "key": "item-0007",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0007/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0007/": {
+      "key": "item-0007",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0007/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0008/": {
+      "key": "item-0008",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0008/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0008/": {
+      "key": "item-0008",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0008/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0009/": {
+      "key": "item-0009",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0009/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0009/": {
+      "key": "item-0009",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0009/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0010/": {
+      "key": "item-0010",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0010/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0010/": {
+      "key": "item-0010",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0010/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/item-0011/": {
+      "key": "item-0011",
+      "locale": "en",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/item-0011/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    },
+    "https://a1.test/de/item-0011/": {
+      "key": "item-0011",
+      "locale": "de",
+      "state": "published",
+      "canonical_allowed": [
+        "https://a1.test/de/item-0011/"
+      ],
+      "canonical_channels": [
+        "html"
+      ],
+      "sitemap": true,
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de"
+          ],
+          "reciprocal": true
+        }
+      },
+      "agree_channels": [
+        "html"
+      ],
+      "fallbacks": {}
+    }
+  }
+}

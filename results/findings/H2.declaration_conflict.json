@@ -1,0 +1,49 @@
+{
+  "site": "H2",
+  "case": "declaration_conflict",
+  "label": "ambiguity",
+  "full": [
+    {
+      "category": "ambiguity",
+      "code": "DECLARATION_CONFLICT",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "",
+      "detail": ""
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://de.h2.test/de/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "ambiguity",
+      "code": "TARGET_IDENTITY_UNKNOWN",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

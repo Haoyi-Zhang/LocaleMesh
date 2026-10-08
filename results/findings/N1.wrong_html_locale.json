@@ -1,0 +1,102 @@
+{
+  "site": "N1",
+  "case": "wrong_html_locale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "LANGUAGE",
+      "owner": "https://n1.test/en/item-0000/",
+      "channel": "html",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [
+    [
+      "https://n1.test/en/item-0000/",
+      "locale"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "reciprocity"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "locale"
+    ],
+    [
+      "https://n1.test/ja/item-0000/",
+      "locale"
+    ]
+  ],
+  "joint": [
+    [
+      "https://n1.test/en/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "html",
+      "reciprocity"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "html",
+      "self"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "http",
+      "reciprocity"
+    ],
+    [
+      "https://n1.test/en/item-0000/",
+      "http",
+      "self"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://n1.test/ja/item-0000/",
+      "html",
+      "label"
+    ],
+    [
+      "https://n1.test/ja/item-0000/",
+      "http",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://n1.test/en/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://n1.test/fr/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://n1.test/ja/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

@@ -1,0 +1,85 @@
+{
+  "site": "H2",
+  "case": "wrong_html_locale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "LANGUAGE",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "html",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://de.h2.test/de/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://de.h2.test/de/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "http",
+      "reciprocity"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "http",
+      "self"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "sitemap",
+      "label"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "sitemap",
+      "self"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "sitemap",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://de.h2.test/de/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

@@ -1,0 +1,60 @@
+{
+  "site": "N2",
+  "case": "wrong_html_locale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "LANGUAGE",
+      "owner": "https://en.n2.test/item-0000/",
+      "channel": "html",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "http",
+      "label"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "http",
+      "reciprocity"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "http",
+      "self"
+    ],
+    [
+      "https://ja.n2.test/ja/item-0000/",
+      "http",
+      "label"
+    ]
+  ],
+  "blind": [
+    [
+      "https://de.n2.test/de/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://en.n2.test/item-0000/",
+      "fallback"
+    ],
+    [
+      "https://ja.n2.test/ja/item-0000/",
+      "fallback"
+    ]
+  ],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

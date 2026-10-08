@@ -1,0 +1,21 @@
+{
+  "site": "N1",
+  "case": "redirect_wrong_live_target",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "REDIRECT_POLICY",
+      "owner": "https://n1.test/en/item-0000/old/",
+      "channel": "",
+      "detail": ""
+    }
+  ],
+  "manifest": [],
+  "deadlink": [],
+  "html": [],
+  "joint": [],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": []
+}

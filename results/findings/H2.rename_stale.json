@@ -1,0 +1,172 @@
+{
+  "site": "H2",
+  "case": "rename_stale",
+  "label": "defect",
+  "full": [
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://en.h2.test/en/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "http",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "DISCOVERY_TARGET",
+      "owner": "https://fr.h2.test/fr/item-0000/",
+      "channel": "sitemap",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://de.h2.test/de/item-0049/",
+      "channel": "html",
+      "detail": "https://de.h2.test/de/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "http",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "http",
+      "detail": "https://fr.h2.test/fr/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://en.h2.test/en/item-0000/"
+    },
+    {
+      "category": "release",
+      "code": "RECIPROCITY",
+      "owner": "https://de.h2.test/de/item-0000-renamed/",
+      "channel": "sitemap",
+      "detail": "https://fr.h2.test/fr/item-0000/"
+    }
+  ],
+  "manifest": [],
+  "deadlink": [
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "https://de.h2.test/de/item-0000/"
+    ],
+    [
+      "https://de.h2.test/de/item-0049/",
+      "https://de.h2.test/de/item-0000/"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "https://de.h2.test/de/item-0000/"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "https://de.h2.test/de/item-0000/"
+    ]
+  ],
+  "html": [],
+  "joint": [
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "http",
+      "reciprocity"
+    ],
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "http",
+      "self"
+    ],
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "http",
+      "target"
+    ],
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "sitemap",
+      "reciprocity"
+    ],
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "sitemap",
+      "self"
+    ],
+    [
+      "https://de.h2.test/de/item-0000-renamed/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://de.h2.test/de/item-0049/",
+      "html",
+      "link"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://en.h2.test/en/item-0000/",
+      "sitemap",
+      "target"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "http",
+      "target"
+    ],
+    [
+      "https://fr.h2.test/fr/item-0000/",
+      "sitemap",
+      "target"
+    ]
+  ],
+  "blind": [],
+  "incremental_difference": [],
+  "drop_old_difference": [
+    {
+      "category": "release",
+      "code": "LINK_TARGET",
+      "owner": "https://de.h2.test/de/item-0049/",
+      "channel": "html",
+      "detail": "https://de.h2.test/de/item-0000/"
+    }
+  ]
+}
