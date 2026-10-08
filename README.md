@@ -12,7 +12,7 @@ python -m pip install -e .
 python -m unittest discover -s tests -v
 ```
 
-The current suite contains 74 tests. `inputs/`, `integrations/`,
+The current suite contains 75 tests. `inputs/`, `integrations/`,
 `independent_sources/`, and `results/` retain the study inputs and measurements.
 `RESULTS-SUMMARY.json` gives the paired timing calculation and measurement
 scope. Combined-cost medians are computed from paired samples, not by adding
