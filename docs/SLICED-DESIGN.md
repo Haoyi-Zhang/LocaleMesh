@@ -48,10 +48,14 @@ These checks are stronger than implementation agreement alone because the full e
 
 ## Cost model and trade-off
 
-Let `J` be the exact old observations attached to changed facts, `A` the invalidated slices, and `D'_a` each refreshed slice's new read set. Ignoring the size of copied values, an update costs
+Let `H` count submitted facts, `J` count old-observation and reverse-reader visits, `A` be invalidated slices that are refreshed, and `N` newly enabled slices. Let `R` contain reconciled owners and `K` all affected, enabled, and removed readers. Write `D_a` and `I_a` for a reader's old trace and cached findings, and `D'_a` for its new trace. Under unit-cost projections and identifier comparisons, expected constant-time hashing, and excluding value-size-dependent copying, the ordered update core costs
 
 ```
-O(|J| + sum(a in A) (check(a) + |D_a| + |D'_a|)).
+O(H + J + |R| log(2 + |R|) + |K| log(2 + |K|)
+  + sum(a in K) (|D_a| + |I_a|)
+  + sum(a in A union N) (check(a) + |D'_a|)).
 ```
 
-Slicing reduces repeated rule work when a broad fact affects one obligation per route rather than an entire route predicate. It adds reader records, reverse memberships, and issue-reference bookkeeping. A configuration change that alters no observed projection can still require traversal of many distinct footprints, and full snapshot differencing remains a separate linear cost. The delivered benchmark therefore reports route-wide and sliced transactions, full checking, differencing, retained-object memory, adverse changes, and scale separately.
+Missing old traces or findings are empty. Newly enabled slices can scan the new retained link list even when no old reader existed. Removing or disabling a slice also retires its old issue references; that work is charged by `|I_a|`, not just the trace size. The ordering terms cover reconciliation and reader sorting, while `J` includes visiting reverse memberships as well as comparing old projections. Whole-snapshot differencing, normalization, result materialization, parsing, and builder execution are separate costs.
+
+Slicing reduces repeated rule work when a broad fact affects one obligation per route rather than an entire route predicate. It adds reader records, reverse memberships, and issue-reference bookkeeping. A configuration change that alters no observed projection can still require traversal of many distinct footprints. The delivered benchmark therefore reports route-wide and sliced transactions, full checking, differencing, retained-object memory, adverse changes, and scale separately.
