@@ -13,7 +13,10 @@ python scripts/evaluate_native_hugo.py --hugo /path/to/hugo --output results/nat
 
 The output directory must not exist and must be inside this artifact. The script
 never deletes or overwrites a previous experiment. Dependency acquisition is
-separate; see `.deps/README.md`. No Python package installation is needed. The
+separate: obtain the matching standard executable and checksum file from
+[Hugo's official 0.147.9 release](https://github.com/gohugoio/hugo/releases/tag/v0.147.9),
+verify the release checksum, and keep the binary with its bundled license in a
+local ignored runtime directory. No Python package installation is needed. The
 retained run used Python 3.12.14 on Windows amd64, `PYTHONHASHSEED=118`, and
 `GOMAXPROCS=1` for Hugo. The downloaded native executable stays in ignored local
 `.deps/`, with its bundled Apache-2.0 license. This old measurement pin is not a
