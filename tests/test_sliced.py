@@ -28,6 +28,52 @@ class SlicedIncrementalTests(unittest.TestCase):
         counted = set(engine.issue_counts)
         self.assertEqual(counted, engine.issues())
         self.assertTrue(all(value > 0 for value in engine.issue_counts.values()))
+        from collections import Counter
+        self.assertEqual(engine.issue_counts, Counter(
+            issue for issues in engine.cache.values() for issue in issues))
+
+    def test_refresh_retains_equal_memberships_not_equal_results(self):
+        clean = to_facts(make_site("A1", 3))
+        hub = next(key[1] for key in clean if key[0] == "m")
+        for key, observation in clean.items():
+            if key[0] == "o":
+                observation["links"] = [hub]
+        engine = SlicedIncremental(clean)
+        old_reads = {reader: dict(records) for reader, records in engine.reads.items()}
+        old_sets = {(fact, fp): readers for fact, groups in engine.reverse.items()
+                    for fp, readers in groups.items()}
+        changed = copy.deepcopy(clean)
+        changed[("o", hub)]["status"] = 404
+        engine.update(delta(clean, changed))
+        self.assertEqual(engine.issues(), evaluate(changed))
+        self.assertNotEqual(engine.issues(), evaluate(clean))
+        for reader, records in engine.reads.items():
+            for fact, fp in records:
+                if old_reads[reader].get(fact) == fp:
+                    self.assertIs(fp, old_reads[reader][fact])
+                    self.assertIs(engine.reverse[fact][fp], old_sets[(fact, fp)])
+        self.check_invariants(engine)
+        engine.update(delta(changed, clean))
+        self.assertEqual(engine.issues(), evaluate(clean))
+        self.check_invariants(engine)
+
+    def test_changed_trace_with_equal_findings_is_installed(self):
+        clean = to_facts(make_site("A1", 3))
+        owner = next(key[1] for key in clean if key[0] == "m")
+        changed = copy.deepcopy(clean)
+        target = next(key[1] for key in clean if key[0] == "m" and key[1] != owner)
+        changed[("o", owner)]["links"] = [target]
+        engine = SlicedIncremental(clean)
+        engine.update(delta(clean, changed))
+        self.assertEqual(engine.issues(), set())
+        reader = (owner, "links")
+        self.assertIn(("o", target), dict(engine.reads[reader]))
+        unavailable = copy.deepcopy(changed)
+        unavailable[("o", target)]["status"] = 404
+        engine.update(delta(changed, unavailable))
+        self.assertIn(Issue("release", "LINK_TARGET", owner, "html", target), engine.issues())
+        self.assertEqual(engine.issues(), evaluate(unavailable))
+        self.check_invariants(engine)
 
     def test_all_named_transitions_all_configurations(self):
         for site, *_ in SITES:

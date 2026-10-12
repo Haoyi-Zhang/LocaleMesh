@@ -1,0 +1,15 @@
+{
+  "historical_populations": {
+    "primary": 174,
+    "compositions": 96,
+    "secondary": 40,
+    "pandoc": 11
+  },
+  "total": 321,
+  "native_retained_candidates": 92,
+  "native_builds_executed": 0,
+  "all_issue_sets_equal": true,
+  "all_repaired_traces_equal_pre_repair": true,
+  "all_reference_counts_consistent": true,
+  "scope": "Replay after maintenance repair, not new independent releases, a fresh holdout, native builds or scientific closure. Primary/composition inputs reconstructed from recorded operators; full tuple matching where retained tuples exist. Composition checks also match stored release-finding counts, not an independent complete tuple oracle. Secondary inputs remutated from retained clean emissions."
+}

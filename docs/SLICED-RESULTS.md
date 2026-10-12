@@ -1,5 +1,9 @@
 # Obligation-sliced incremental evaluation
 
+These retained scale measurements use the all-membership-replacement refresh.
+The subsequent retaining-refresh comparison and its adverse cases are separate
+in `MAINTENANCE-RESULTS.md`; the table below is not relabeled as a new run.
+
 Complete normalized snapshot difference plus validated transaction and complete issue materialization. HTML parsing, framework builds and event acquisition are excluded.
 
 | Change | Full ms | C txn ms | S txn ms | Diff + S ms | Full / combined | S slices |

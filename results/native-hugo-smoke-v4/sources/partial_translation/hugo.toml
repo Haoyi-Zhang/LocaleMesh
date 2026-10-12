@@ -1,0 +1,21 @@
+baseURL = 'https://native-hugo.localemesh.test/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+disableAliases = true
+disableDefaultLanguageRedirect = true
+disableKinds = ['home', 'section', 'taxonomy', 'term', 'RSS', 'sitemap', 'robotsTXT', '404']
+enableGitInfo = false
+[languages.en]
+weight = 1
+[languages.de]
+weight = 2
+[languages.es]
+weight = 3
+[languages.fr]
+weight = 4
+[markup.goldmark.renderer]
+unsafe = true
+[security.exec]
+allow = ['^$']
+[security.http]
+urls = ['^$']

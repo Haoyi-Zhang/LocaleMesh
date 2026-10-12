@@ -12,7 +12,9 @@ python -m pip install -e .
 python -m unittest discover -s tests -v
 ```
 
-The current suite contains 75 offline tests. The retained executed count of 73
+The current suite contains 84 offline tests, including seven batch-join tests
+and two differential-maintenance regressions.
+The retained executed count of 73
 and its coverage figures in `RESULTS-SUMMARY.json` describe an earlier run.
 `inputs/`, `integrations/`,
 `independent_sources/`, and `results/` retain the study inputs and measurements.
@@ -33,3 +35,24 @@ Browser reconstruction, Pandoc compilation, and full timing experiments have
 additional dependencies documented with their scripts. The portable CI tests
 the checker; it does not silently substitute model checks for those experiments.
 Third-party sources retain their licenses and `THIRD-PARTY-NOTICES.md`.
+
+## Native generator and equal-information comparison
+
+`native_hugo/README.md` describes the executed Hugo 0.147.9 adaptation over the
+five supplied public Markdown sources. Run `scripts/evaluate_native_hugo.py`
+with a local Hugo binary and a new artifact-local output directory. The retained
+12-pair result is `results/native-hugo-12/results.json`: 92 successful native
+builds, 84 measured updates and exact agreement among the same-information batch
+join, full scan and two validated caches. Whole costs include generation,
+extraction, issue export, cached differencing and cold setup. Caching has no
+material whole-workflow benefit on this small input. These are controlled changes
+on the same upstream used by Pandoc, not field incidents or adoption.
+
+## Cache membership maintenance
+
+The sliced engine now retains equal dependency memberships and finding references
+after mandatory rule reevaluation. `docs/MAINTENANCE-RESULTS.md` gives the paired
+comparison with the previous refresh routine, including slower small cases,
+unchanged retained memory and checking-only replay of native outputs. The older
+scale and native whole-workflow numbers remain measurements of the previous
+refresh routine; they were not overwritten or silently relabeled.

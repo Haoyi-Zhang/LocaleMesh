@@ -327,10 +327,35 @@ class SlicedIncremental:
             return value
 
         issues = check_shard(owner, shard, read)
-        if reader in self.reads:
-            self._forget_reader(reader)
+        # Reevaluation is mandatory; rebuilding equal reverse memberships is not.
+        # Retain canonical footprint objects and their reference counts when the
+        # *trace*, not merely the findings, is unchanged. Missing reads are part
+        # of this exact comparison and new execution paths replace old ones.
+        previous = dict(self.reads.get(reader, ()))
+        replacements = {fact: frozenset(observations) for fact, observations in trace.items()}
+        for fact, footprint in previous.items():
+            if replacements.get(fact) == footprint:
+                continue
+            self.edge_count -= 1
+            self.projection_edges -= len(footprint)
+            groups = self.reverse[fact]
+            readers = groups[footprint]
+            readers.remove(reader)
+            if not readers:
+                del groups[footprint]
+                self.reverse_groups -= 1
+                if not groups:
+                    del self.reverse[fact]
+            entry = self._pool[footprint]
+            entry[1] -= 1
+            if not entry[1]:
+                del self._pool[footprint]
         footprints: list[tuple[tuple[str, ...], frozenset]] = []
-        for fact, observations in trace.items():
+        for fact, observations in replacements.items():
+            old = previous.get(fact)
+            if old == observations:
+                footprints.append((fact, old))
+                continue
             footprint = self._intern(observations)
             footprints.append((fact, footprint))
             groups = self.reverse.setdefault(fact, {})
@@ -339,12 +364,21 @@ class SlicedIncremental:
                 self.reverse_groups += 1
             groups[footprint].add(reader)
             self.projection_edges += len(footprint)
-        self.edge_count += len(footprints)
+            self.edge_count += 1
         self.reads[reader] = tuple(footprints)
+        # Keep shared findings supported by other slices. Only this reader's
+        # removed/added issue references change; equal references stay intact.
+        old_issues = self.cache.get(reader, set())
+        for issue in old_issues - issues:
+            self.issue_counts[issue] -= 1
+            if self.issue_counts[issue] <= 0:
+                del self.issue_counts[issue]
+        for issue in issues - old_issues:
+            self.issue_counts[issue] += 1
         if issues:
             self.cache[reader] = issues
-            for issue in issues:
-                self.issue_counts[issue] += 1
+        else:
+            self.cache.pop(reader, None)
 
     def _add_owner(self, owner: str) -> None:
         for shard in self._desired_shards(owner):

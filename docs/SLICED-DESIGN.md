@@ -1,6 +1,6 @@
 # Obligation-sliced incremental evaluation
 
-`localemesh.sliced.SlicedIncremental` is the production-oriented incremental path used by the current paper. It preserves the same release obligations as the independent full evaluator while changing the cached unit from an entire route predicate to six semantic slices.
+`localemesh.sliced.SlicedIncremental` is the incremental path used by the current paper. It preserves the same release obligations as the independent full evaluator while changing the cached unit from an entire route predicate to six semantic slices.
 
 ## Cached slices
 
@@ -21,6 +21,13 @@ A read is represented by a primary fact, a nested mapping path, and an observati
 Before a transaction is installed, the engine compares every old footprint attached to a changed fact against the prospective value. A slice is invalidated exactly when at least one observation in its old footprint changes. This retains dependencies that disappear in the new state, including removed targets and previously absent records. It does not use hashes, approximate summaries, diagnostic equality, or the new graph as a substitute for old reads.
 
 The result set is reference-counted because two slices can report the same structured issue. Removing one slice must not remove a still-supported issue from another slice. Interned footprints are also reference-counted and reclaimed when their last reader disappears.
+
+Refresh retains equal old/new `(fact, footprint)` memberships and changes only
+added/removed finding references. Every invalidated slice still runs. Equal
+findings never justify retaining a different old trace. The replacement compares
+exact footprints, including missing reads; changed memberships and disabled
+readers still release their references. The worst-case bound below is unchanged.
+See `MAINTENANCE-RESULTS.md` for the before/after cost and adverse cases.
 
 ## Preservation conditions
 

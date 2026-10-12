@@ -13,8 +13,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import copy
+import argparse
 import json
-import resource
+try:
+    import resource
+except ImportError:  # Windows has no getrusage; do not substitute an RSS value.
+    resource = None
 import statistics
 import time
 from collections import Counter
@@ -132,6 +136,14 @@ def sliced_union(engine, owner):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, help="New artifact-local result file; keeps the retained run")
+    args = parser.parse_args()
+    output = (args.output or ROOT / "results/state-space.json").resolve()
+    if not output.is_relative_to((ROOT / "results").resolve()):
+        raise ValueError("Output must remain inside artifact/results")
+    if args.output and output.exists():
+        raise FileExistsError(output)
     started = time.perf_counter()
     names = list(DIMENSIONS)
     radices = [len(DIMENSIONS[name]) for name in names]
@@ -226,7 +238,7 @@ def main():
             "max": max(sliced_readers),
         },
         "wall_s": time.perf_counter() - started,
-        "maxrss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "maxrss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss if resource else None,
         "scope": (
             "Bounded two-locale state-space exploration over explicit manifest, observation, "
             "canonical, discovery, sitemap, reciprocity and link-policy dimensions. It checks "
@@ -234,7 +246,8 @@ def main():
             "or all possible Web states."
         ),
     }
-    (ROOT / "results" / "state-space.json").write_text(json.dumps(result, indent=2) + "\n")
+    with output.open("x" if args.output else "w", encoding="utf-8") as stream:
+        stream.write(json.dumps(result, indent=2) + "\n")
     print(json.dumps(result, indent=2))
 
 

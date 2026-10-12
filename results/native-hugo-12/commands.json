@@ -1,0 +1,1658 @@
+[
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\initial-clean",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70108000,
+    "case": "clean",
+    "tag": "initial-clean"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-body_edit",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69209200,
+    "case": "body_edit",
+    "tag": "warm-body_edit"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 71437800,
+    "case": "body_edit",
+    "tag": "body_edit-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70272500,
+    "case": "clean",
+    "tag": "body_edit-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68686000,
+    "case": "body_edit",
+    "tag": "body_edit-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69725600,
+    "case": "clean",
+    "tag": "body_edit-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69458000,
+    "case": "body_edit",
+    "tag": "body_edit-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 72300800,
+    "case": "clean",
+    "tag": "body_edit-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 72428100,
+    "case": "body_edit",
+    "tag": "body_edit-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69513300,
+    "case": "clean",
+    "tag": "body_edit-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69342600,
+    "case": "body_edit",
+    "tag": "body_edit-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 71425200,
+    "case": "clean",
+    "tag": "body_edit-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\body_edit",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69513100,
+    "case": "body_edit",
+    "tag": "body_edit-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\body_edit-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69827600,
+    "case": "clean",
+    "tag": "body_edit-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-wrong_canonical",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70941200,
+    "case": "wrong_canonical",
+    "tag": "warm-wrong_canonical"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69640000,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69321700,
+    "case": "clean",
+    "tag": "wrong_canonical-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 32 ms\n",
+    "stderr": "",
+    "native_ns": 105418500,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 26 ms\n",
+    "stderr": "",
+    "native_ns": 101459100,
+    "case": "clean",
+    "tag": "wrong_canonical-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 77002900,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 71742100,
+    "case": "clean",
+    "tag": "wrong_canonical-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 71623500,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 71927600,
+    "case": "clean",
+    "tag": "wrong_canonical-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70257800,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70120500,
+    "case": "clean",
+    "tag": "wrong_canonical-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\wrong_canonical",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70054900,
+    "case": "wrong_canonical",
+    "tag": "wrong_canonical-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\wrong_canonical-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 70750800,
+    "case": "clean",
+    "tag": "wrong_canonical-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-missing_alternate",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 26 ms\n",
+    "stderr": "",
+    "native_ns": 101499600,
+    "case": "missing_alternate",
+    "tag": "warm-missing_alternate"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 24 ms\n",
+    "stderr": "",
+    "native_ns": 86474900,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 77438100,
+    "case": "clean",
+    "tag": "missing_alternate-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 23 ms\n",
+    "stderr": "",
+    "native_ns": 76611300,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 76395100,
+    "case": "clean",
+    "tag": "missing_alternate-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 72971500,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 75063600,
+    "case": "clean",
+    "tag": "missing_alternate-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 81058700,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 73849200,
+    "case": "clean",
+    "tag": "missing_alternate-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 69625900,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 73821800,
+    "case": "clean",
+    "tag": "missing_alternate-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\missing_alternate",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70655400,
+    "case": "missing_alternate",
+    "tag": "missing_alternate-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\missing_alternate-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70242500,
+    "case": "clean",
+    "tag": "missing_alternate-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-omitted_source",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68364000,
+    "case": "omitted_source",
+    "tag": "warm-omitted_source"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68454000,
+    "case": "omitted_source",
+    "tag": "omitted_source-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69187900,
+    "case": "clean",
+    "tag": "omitted_source-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68480200,
+    "case": "omitted_source",
+    "tag": "omitted_source-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69644300,
+    "case": "clean",
+    "tag": "omitted_source-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 69523300,
+    "case": "omitted_source",
+    "tag": "omitted_source-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 71157500,
+    "case": "clean",
+    "tag": "omitted_source-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 76908500,
+    "case": "omitted_source",
+    "tag": "omitted_source-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 71587200,
+    "case": "clean",
+    "tag": "omitted_source-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 72481300,
+    "case": "omitted_source",
+    "tag": "omitted_source-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 73131900,
+    "case": "clean",
+    "tag": "omitted_source-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\omitted_source",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70553900,
+    "case": "omitted_source",
+    "tag": "omitted_source-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\omitted_source-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 72172300,
+    "case": "clean",
+    "tag": "omitted_source-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-identity_swap",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68812800,
+    "case": "identity_swap",
+    "tag": "warm-identity_swap"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69080900,
+    "case": "identity_swap",
+    "tag": "identity_swap-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 69854700,
+    "case": "clean",
+    "tag": "identity_swap-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68534500,
+    "case": "identity_swap",
+    "tag": "identity_swap-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 25 ms\n",
+    "stderr": "",
+    "native_ns": 75856000,
+    "case": "clean",
+    "tag": "identity_swap-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 72397600,
+    "case": "identity_swap",
+    "tag": "identity_swap-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 71391800,
+    "case": "clean",
+    "tag": "identity_swap-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 69277100,
+    "case": "identity_swap",
+    "tag": "identity_swap-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 71499600,
+    "case": "clean",
+    "tag": "identity_swap-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 69657700,
+    "case": "identity_swap",
+    "tag": "identity_swap-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69089100,
+    "case": "clean",
+    "tag": "identity_swap-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\identity_swap",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68746000,
+    "case": "identity_swap",
+    "tag": "identity_swap-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\identity_swap-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70897400,
+    "case": "clean",
+    "tag": "identity_swap-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-partial_translation",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70181400,
+    "case": "partial_translation",
+    "tag": "warm-partial_translation"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70518000,
+    "case": "partial_translation",
+    "tag": "partial_translation-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68414600,
+    "case": "clean",
+    "tag": "partial_translation-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69450000,
+    "case": "partial_translation",
+    "tag": "partial_translation-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 70615400,
+    "case": "clean",
+    "tag": "partial_translation-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 69369800,
+    "case": "partial_translation",
+    "tag": "partial_translation-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69930800,
+    "case": "clean",
+    "tag": "partial_translation-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68499900,
+    "case": "partial_translation",
+    "tag": "partial_translation-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69679800,
+    "case": "clean",
+    "tag": "partial_translation-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68557400,
+    "case": "partial_translation",
+    "tag": "partial_translation-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68572600,
+    "case": "clean",
+    "tag": "partial_translation-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\partial_translation",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  0 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 19 ms\n",
+    "stderr": "",
+    "native_ns": 68790300,
+    "case": "partial_translation",
+    "tag": "partial_translation-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\partial_translation-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69169400,
+    "case": "clean",
+    "tag": "partial_translation-11-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\warm-canonical_exception",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 70569100,
+    "case": "canonical_exception",
+    "tag": "warm-canonical_exception"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-00-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69158700,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-00-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-01-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 22 ms\n",
+    "stderr": "",
+    "native_ns": 69852900,
+    "case": "clean",
+    "tag": "canonical_exception-01-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-02-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 69482900,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-02-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-03-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 73721700,
+    "case": "clean",
+    "tag": "canonical_exception-03-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-04-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 71709300,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-04-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-05-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 24 ms\n",
+    "stderr": "",
+    "native_ns": 75272900,
+    "case": "clean",
+    "tag": "canonical_exception-05-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-06-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 70281900,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-06-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-07-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69225600,
+    "case": "clean",
+    "tag": "canonical_exception-07-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-08-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68780200,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-08-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-09-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 21 ms\n",
+    "stderr": "",
+    "native_ns": 69468700,
+    "case": "clean",
+    "tag": "canonical_exception-09-reverse"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\canonical_exception",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-10-forward",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68670900,
+    "case": "canonical_exception",
+    "tag": "canonical_exception-10-forward"
+  },
+  {
+    "command": [
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\.deps\\hugo-0.147.9\\hugo.exe",
+      "--source",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\sources\\clean",
+      "--destination",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\builds\\canonical_exception-11-reverse",
+      "--cacheDir",
+      "D:\\CodexProjects\\reviewer-repair-industry-20261011\\P118\\artifact\\results\\native-hugo-12\\hugo-cache",
+      "--noBuildLock"
+    ],
+    "returncode": 0,
+    "stdout": "Start building sites … \nhugo v0.147.9-29bdbde19c288d190e889294a862103c6efb70bf windows/amd64 BuildDate=2025-06-23T08:22:20Z VendorInfo=gohugoio\n\n\n              │ EN │ DE │ ES │ FR \n──────────────┼────┼────┼────┼────\n Pages        │  2 │  1 │  1 │  1 \n Paginator    │  0 │  0 │  0 │  0 \n pages        │    │    │    │    \n Non-page     │  0 │  0 │  0 │  0 \n files        │    │    │    │    \n Static files │  0 │  0 │  0 │  0 \n Processed    │  0 │  0 │  0 │  0 \n images       │    │    │    │    \n Aliases      │  0 │  0 │  0 │  0 \n Cleaned      │  0 │  0 │  0 │  0 \n\nTotal in 20 ms\n",
+    "stderr": "",
+    "native_ns": 68871900,
+    "case": "clean",
+    "tag": "canonical_exception-11-reverse"
+  }
+]

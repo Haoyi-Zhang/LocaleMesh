@@ -1,0 +1,5 @@
+<!doctype html><html lang="{{ .Params.language_override | default .Language.Lang }}"><head><meta charset="utf-8">
+<title>{{ .Title }}</title><link rel="canonical" href="{{ .Params.canonical_override | default .Permalink }}">
+{{ $omit := .Params.omit_label | default "" }}
+{{ range .AllTranslations }}{{ if ne .Language.Lang $omit }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}{{ end }}
+</head><body><main data-content-key="{{ .Params.content_key }}"><h1>{{ .Title }}</h1>{{ .Content }}</main></body></html>

@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "source_kind": "public-markdown-hugo-adaptation",
+  "config": {
+    "origins": {
+      "https://native-hugo.localemesh.test": "."
+    },
+    "locales": [
+      "en",
+      "de",
+      "es",
+      "fr"
+    ],
+    "aliases": {},
+    "complete_manifest": false,
+    "check_links": false
+  },
+  "pages": {
+    "https://native-hugo.localemesh.test/about/": {
+      "key": "about",
+      "locale": "en",
+      "state": "published",
+      "canonical_channels": [
+        "html"
+      ],
+      "canonical_allowed": [
+        "https://native-hugo.localemesh.test/about/"
+      ],
+      "discovery": {
+        "html": {
+          "required": [
+            "en"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://native-hugo.localemesh.test/a-really-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "en",
+      "state": "published",
+      "canonical_channels": [
+        "html"
+      ],
+      "canonical_allowed": [
+        "https://native-hugo.localemesh.test/a-really-long/permalink/"
+      ],
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://native-hugo.localemesh.test/de/eine-wirklich-lange/permalink/": {
+      "key": "complex-permalink",
+      "locale": "de",
+      "state": "published",
+      "canonical_channels": [
+        "html"
+      ],
+      "canonical_allowed": [
+        "https://native-hugo.localemesh.test/de/eine-wirklich-lange/permalink/"
+      ],
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://native-hugo.localemesh.test/es/una-muy-larga/permalink/": {
+      "key": "complex-permalink",
+      "locale": "es",
+      "state": "published",
+      "canonical_channels": [
+        "html"
+      ],
+      "canonical_allowed": [
+        "https://native-hugo.localemesh.test/es/una-muy-larga/permalink/"
+      ],
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    },
+    "https://native-hugo.localemesh.test/fr/un-tres-long/permalink/": {
+      "key": "complex-permalink",
+      "locale": "fr",
+      "state": "published",
+      "canonical_channels": [
+        "html"
+      ],
+      "canonical_allowed": [
+        "https://native-hugo.localemesh.test/fr/un-tres-long/permalink/"
+      ],
+      "discovery": {
+        "html": {
+          "required": [
+            "en",
+            "de",
+            "es",
+            "fr"
+          ],
+          "reciprocal": true
+        }
+      }
+    }
+  }
+}
