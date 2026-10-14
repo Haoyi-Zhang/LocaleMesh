@@ -12,8 +12,8 @@ python -m pip install -e .
 python -m unittest discover -s tests -v
 ```
 
-The current suite contains 84 offline tests, including seven batch-join tests
-and two differential-maintenance regressions.
+The offline suite includes batch-join, differential-maintenance, and plot-font
+regressions. The command above reports its actual test and skip counts.
 The retained executed count of 73
 and its coverage figures in `RESULTS-SUMMARY.json` describe an earlier run.
 `inputs/`, `integrations/`,
