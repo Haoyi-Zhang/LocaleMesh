@@ -46,6 +46,79 @@ def table(columns, headings, rows):
     return "\n".join(lines)
 
 
+def validated_plot_font(font_file):
+    """Require an embeddable Linux Libertine TrueType outline, never CFF."""
+    if font_file is None:
+        raise ValueError("--font-file must specify an existing Linux Libertine TTF")
+    from fontTools.ttLib import TTFont
+    from matplotlib import font_manager
+    font_file = Path(font_file).resolve()
+    with TTFont(font_file) as font:
+        if not {"glyf", "loca"}.issubset(font.keys()) or "CFF " in font or "CFF2" in font:
+            raise ValueError("CFF/OpenType outlines cannot be embedded as PDF type 42; use a glyf+loca TTF")
+        family = font["name"].getDebugName(1)
+        if family not in {"Linux Libertine O", "Linux Libertine"}:
+            raise ValueError("Plot font must belong to the Linux Libertine family")
+        if font["OS/2"].fsType & (0x0002 | 0x0100 | 0x0200):
+            raise ValueError("Plot font license flags do not allow this outline subsetting")
+    return font_manager.FontProperties(fname=str(font_file))
+
+
+def bind_plot_font(fig, font):
+    """Pin every Text to the verified file without changing its point size."""
+    from matplotlib.text import Text
+    fig.canvas.draw()  # Materialize log ticks before binding all text.
+    for text in fig.findobj(match=Text):
+        properties = text.get_fontproperties().copy()
+        properties.set_file(font.get_file())
+        text.set_fontproperties(properties)
+    fig.tight_layout(pad=0.65)
+
+
+def plot_sliced(summaries, paper, font_file):
+    """Export only the two plots from retained matched rows; no result writes."""
+    import matplotlib
+    matplotlib.use("Agg")
+    font = validated_plot_font(font_file)
+    matplotlib.rcParams["pdf.fonttype"] = 42
+    matplotlib.rcParams["pdf.use14corefonts"] = False
+    import matplotlib.pyplot as plt
+
+    for kind, filename in (("global_link_policy", "sliced-policy"), ("hub_status", "sliced-status")):
+        rows = [next(item for item in summaries if item["routes"] == routes and item["kind"] == kind)
+                for routes in (100, 1000, 10000)]
+        fig, ax = plt.subplots(figsize=(3.30, 2.58))
+        series = [
+            ("full_ms", "Full scan", "o", "-"),
+            ("safe_coalesced_ms", "Route-wide txn", "s", "--"),
+            ("safe_sliced_ms", "Sliced txn", "^", "-."),
+            ("combined_sliced_ms", "Difference + sliced", "D", ":"),
+        ]
+        for metric, label, marker, linestyle in series:
+            y = [row[metric]["median"] for row in rows]
+            low = [row[metric]["median"] - row[metric]["q1"] for row in rows]
+            high = [row[metric]["q3"] - row[metric]["median"] for row in rows]
+            ax.errorbar(
+                [100, 1000, 10000], y, yerr=[low, high], marker=marker,
+                linestyle=linestyle, markersize=4, linewidth=1, capsize=2, label=label,
+            )
+        ax.set_xscale("log")
+        ax.set_yscale("log")
+        ax.set_xticks([100, 1000, 10000], labels=["100", "1,000", "10,000"])
+        ax.set_xlabel("Emitted routes", fontsize=9)
+        ax.set_ylabel("Time (ms), median and IQR", fontsize=9)
+        ax.tick_params(labelsize=8)
+        ax.grid(axis="y", which="major", linewidth=0.35, alpha=0.4)
+        ax.legend(
+            fontsize=7.1, loc="lower center", bbox_to_anchor=(0.5, 1.01),
+            ncol=2, frameon=False, columnspacing=1.0, handlelength=2.4,
+        )
+        bind_plot_font(fig, font)
+        fig.savefig(paper / "figures" / f"{filename}.pdf", bbox_inches="tight")
+        fig.savefig(paper / "figures" / f"{filename}.png", dpi=600, bbox_inches="tight")
+        plt.close(fig)
+
+
 def main():
     global PAPER
     parser = argparse.ArgumentParser()
@@ -226,52 +299,7 @@ def main():
     (ROOT / "docs" / "SLICED-RESULTS.md").write_text("\n".join(lines) + "\n")
 
     if args.plots:
-        import matplotlib
-        matplotlib.use("Agg")
-        from matplotlib import font_manager
-        if args.font_file is not None:
-            font_manager.fontManager.addfont(str(args.font_file))
-            matplotlib.rcParams['font.family'] = font_manager.FontProperties(fname=str(args.font_file)).get_name()
-        else:
-            matplotlib.rcParams['font.family'] = 'serif'
-            matplotlib.rcParams['font.serif'] = ['Linux Libertine O', 'Liberation Serif', 'DejaVu Serif']
-        matplotlib.rcParams['pdf.fonttype'] = 42
-        import matplotlib.pyplot as plt
-
-        for kind, filename in (("global_link_policy", "sliced-policy"), ("hub_status", "sliced-status")):
-            rows = [next(item for item in summaries if item["routes"] == routes and item["kind"] == kind)
-                    for routes in (100, 1000, 10000)]
-            fig, ax = plt.subplots(figsize=(3.30, 2.58))
-            series = [
-                ("full_ms", "Full scan", "o", "-"),
-                ("safe_coalesced_ms", "Route-wide txn", "s", "--"),
-                ("safe_sliced_ms", "Sliced txn", "^", "-."),
-                ("combined_sliced_ms", "Difference + sliced", "D", ":"),
-            ]
-            for metric, label, marker, linestyle in series:
-                y = [row[metric]["median"] for row in rows]
-                low = [row[metric]["median"] - row[metric]["q1"] for row in rows]
-                high = [row[metric]["q3"] - row[metric]["median"] for row in rows]
-                ax.errorbar(
-                    [100, 1000, 10000], y, yerr=[low, high], marker=marker,
-                    linestyle=linestyle, markersize=4, linewidth=1, capsize=2, label=label,
-                )
-            ax.set_xscale("log")
-            ax.set_yscale("log")
-            ax.set_xticks([100, 1000, 10000], labels=["100", "1,000", "10,000"])
-            ax.set_xlabel("Emitted routes", fontsize=9)
-            ax.set_ylabel("Time (ms), median and IQR", fontsize=9)
-            ax.tick_params(labelsize=8)
-            ax.grid(axis="y", which="major", linewidth=0.35, alpha=0.4)
-            ax.legend(
-                fontsize=7.1, loc="lower center", bbox_to_anchor=(0.5, 1.01),
-                ncol=2, frameon=False, columnspacing=1.0, handlelength=2.4,
-            )
-            fig.tight_layout(pad=0.65)
-            fig.savefig(PAPER / "figures" / f"{filename}.pdf", bbox_inches="tight")
-            fig.savefig(PAPER / "figures" / f"{filename}.png", dpi=220, bbox_inches="tight")
-            plt.close(fig)
-
+        plot_sliced(summaries, PAPER, args.font_file)
     print(json.dumps(numbers, indent=2))
 
 

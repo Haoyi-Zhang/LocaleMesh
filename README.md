@@ -56,3 +56,24 @@ comparison with the previous refresh routine, including slower small cases,
 unchanged retained memory and checking-only replay of native outputs. The older
 scale and native whole-workflow numbers remain measurements of the previous
 refresh routine; they were not overwritten or silently relabeled.
+
+## Re-export the statistical plots
+
+The two published cost plots use the retained paired medians and inclusive IQRs.
+With Matplotlib and fontTools installed, pass an existing embeddable Linux
+Libertine TrueType font containing glyf/loca outlines:
+
+```sh
+python scripts/analyze_sliced.py --plots --font-file /path/to/LinLibertine_R.ttf
+```
+
+This command also regenerates the sliced tables and summaries from the retained
+raw records. PDF text is bound to that font file, rather than resolved through a
+same-family name; CFF/OpenType outlines are rejected for type-42 PDF output.
+The PDFs are vector graphics, and PNG exports use 600 dpi. The font itself is an
+external dependency, not a bundled project asset.
+
+The optional font tests use existing TTF/CFF fixtures selected by
+`P118_TEST_TTF` and `P118_TEST_CFF`. The missing-font contract test runs without
+plotting dependencies. Rebuilding the paper from the delivered vector figures
+does not require those external font fixtures.
