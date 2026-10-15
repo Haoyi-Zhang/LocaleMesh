@@ -20,6 +20,16 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 RESULTS.mkdir(exist_ok=True)
 PYTHON = sys.executable
+
+
+def plot_font_arguments():
+    """Require the explicit plot font before starting the full campaign."""
+    value = os.environ.get("LOCALEMESH_PLOT_FONT")
+    if not value or not Path(value).is_file():
+        raise ValueError("Set LOCALEMESH_PLOT_FONT to an existing Linux Libertine TTF before a full run")
+    return ["--font-file", str(Path(value).resolve())]
+
+
 os.environ.update(
     PYTHONHASHSEED="0",
     OPENBLAS_NUM_THREADS="1",
@@ -59,7 +69,7 @@ stages.extend([
     ("analysis", [PYTHON, "scripts/analyze.py", "--plots"]),
     ("field-analysis", [PYTHON, "scripts/analyze_revision.py", "--plots"]),
     ("coalesced-analysis", [PYTHON, "scripts/analyze_coalesced.py", "--plots"]),
-    ("sliced-analysis", [PYTHON, "scripts/analyze_sliced.py", "--plots"]),
+    ("sliced-analysis", [PYTHON, "scripts/analyze_sliced.py", "--plots", *plot_font_arguments()]),
     ("reference-audit", [PYTHON, "scripts/audit_references.py"]),
     ("result-audit", [PYTHON, "scripts/audit_results.py"]),
     ("paper-build", [PYTHON, "../paper/build.py"]),
@@ -76,11 +86,22 @@ def read_text(path: str):
         return None
 
 
+def current_cpu_affinity():
+    """Report an available OS observation, not an invented Windows affinity."""
+    query = getattr(os, "sched_getaffinity", None)
+    if query is None:
+        return None
+    try:
+        return sorted(query(0))
+    except (OSError, NotImplementedError):
+        return None
+
+
 report = {
     "started_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
     "python": platform.python_version(),
     "platform": platform.platform(),
-    "cpu_affinity": sorted(os.sched_getaffinity(0)),
+    "cpu_affinity": current_cpu_affinity(),
     "cpu_quota": read_text("/sys/fs/cgroup/cpu.max"),
     "memory_limit": read_text("/sys/fs/cgroup/memory.max"),
     "disk_free_bytes": shutil.disk_usage(ROOT).free,

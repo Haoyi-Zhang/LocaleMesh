@@ -7,10 +7,26 @@ translation identity from text similarity.
 
 ## Run
 
+Run from this `artifact/` directory with Python 3.11 or newer:
+
 ```sh
 python -m pip install -e .
 python -m unittest discover -s tests -v
 ```
+
+For optional `--browser` extraction, install `python -m pip install -e '.[browser]'`
+and set `LOCALEMESH_CHROMIUM` to the local executable (`export
+LOCALEMESH_CHROMIUM=/path/to/chromium` on POSIX, or
+`$env:LOCALEMESH_CHROMIUM = 'C:/path/to/chrome.exe'` in PowerShell).
+`docs/BROWSER-EXTRACTION.md` describes the extraction boundary. The full measurement/plot driver additionally uses
+`requirements-analysis.txt`, `coverage` and `fonttools`; these are not dependencies
+of the base checker. Its full-run scripts execute the retained experiment
+families, so they are not lightweight smoke commands. On systems without the
+POSIX CPU-affinity API, the execution record reports that field as unavailable.
+Before a full run, set `LOCALEMESH_PLOT_FONT` to the existing Linux Libertine TTF
+described in the plot section below. The driver forwards it to sliced plotting
+and rejects an absent file before launching the experiment stages; the plotter
+still checks the actual font's family, outline type and embedding permission.
 
 The offline suite includes batch-join, differential-maintenance, and plot-font
 regressions. The command above reports its actual test and skip counts.
