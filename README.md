@@ -48,6 +48,27 @@ extraction, issue export, cached differencing and cold setup. Caching has no
 material whole-workflow benefit on this small input. These are controlled changes
 on the same upstream used by Pandoc, not field incidents or adoption.
 
+`scripts/evaluate_alias_report.py` separately runs the original minimal site
+attached to [Hugo issue14365](https://github.com/gohugoio/hugo/issues/14365).
+Acquire the public `hugo-alias-test.zip` linked in that report; the runner checks
+its inspected input identity and member set before local extraction. It invokes
+only Hugo, without a server, external modules or downloaded scripts:
+
+```sh
+python scripts/evaluate_alias_report.py --hugo /path/to/hugo-0.147.9 --source-archive /path/to/hugo-alias-test.zip --output results/native-alias-new
+```
+
+The retained `results/native-alias-case/summary.json` describes four native builds
+over two paired French-language toggles of one independently supplied minimal
+site. Every target is reachable. The two multilingual outputs redirect the fixed
+English alias to French; the two English-only outputs satisfy that alias policy.
+Full, validated sliced and ordinary same-information target comparisons agree.
+This is report-led native mechanism evidence, not a complete Docsy rebuild,
+four independent faults, a performance study or a uniquely superior detector.
+The upstream attachment is acquired separately; this repository's MIT license
+does not grant a license over that external source. Its version marker names
+the reported0.154.5; the local study explicitly records the executed0.147.9.
+
 ## Cache membership maintenance
 
 The sliced engine now retains equal dependency memberships and finding references

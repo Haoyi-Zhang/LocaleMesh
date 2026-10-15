@@ -13,3 +13,10 @@ The native Hugo experiment reuses those same five Markdown sources. Adapted fron
 External framework and Pandoc/Chromium/Node/Python/TeX binaries are not redistributed. websocket-client is an optional installed dependency, not bundled source. The framework source kits reference dependencies but do not include native framework source or installed packages. Full third-party research papers, documentation bodies and externally generated figures are not redistributed. Numerical figures derive from local recorded measurements.
 
 No standalone font files are included in either archive. Fonts embedded in the manuscript PDF are part of that document.
+
+The additional alias study uses Patrice Chalin's public issue14365 attachment
+from the Hugo repository. The original input archive is acquired separately and
+is not relicensed or redistributed here. The retained study records derived
+observations and attributes their source; its four native builds do not imply
+a full Docsy deployment or maintainer endorsement. The runner and independent
+target comparison are original project code.
