@@ -41,8 +41,13 @@ cases. The current offline browser-tree projection records 26/30 under
 `results/local-validation/`; it is not a new Chromium run and does not reanalyze
 the 53 compiled-output checks or 11 native-gate checks.
 
-The complete runner uses `python ../paper/build.py` to produce the anonymous
-`paper/main.pdf`. PDF preflight checks that output without requiring a retained
+The complete runner requires the full project bundle, with this directory at
+`artifact/` beside `paper/`; the standalone artifact-root repository does not
+contain the manuscript builder and is not sufficient for this full-run command.
+It uses `python ../paper/build.py` to produce the anonymous `paper/main.pdf`.
+Use the base checker and offline tests above in the standalone repository; the
+full runner does not skip the missing manuscript stages or certify a partial
+run as complete. PDF preflight checks that output without requiring a retained
 TeX log or an identified-author copy. The builder checks its temporary log before
 installing the PDF; preflight alone does not verify those build diagnostics or
 visual layout. See `docs/METHODOLOGY.md` for the full-run boundaries.
