@@ -101,6 +101,14 @@ refresh routine; they were not overwritten or silently relabeled.
 
 ## Re-export the statistical plots
 
+The workflow schematic is generated directly with Matplotlib, with embedded
+fonts and no TeX rendering. In the full project bundle, `paper/build.py`
+regenerates it before compiling. From this artifact root:
+
+```sh
+python plots/draw_architecture.py --output-dir ../paper/figures
+```
+
 The two published cost plots use the retained paired medians and inclusive IQRs.
 With Matplotlib and fontTools installed, pass an existing embeddable Linux
 Libertine TrueType font containing glyf/loca outlines:
